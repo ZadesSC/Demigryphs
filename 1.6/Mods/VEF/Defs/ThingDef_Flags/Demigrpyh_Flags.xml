@@ -33,7 +33,7 @@
 	<DamageDef ParentName="BluntBase">
 		<defName>pphhyy_Demigryph_PushBack</defName>
 		<label>blunt</label>
-		<workerClass>VFECore.DamageWorker_PushBackAttackMelee</workerClass>
+		<workerClass>VEF.Weapons.DamageWorker_PushBackAttackMelee</workerClass>
 		<externalViolence>true</externalViolence>
 		<deathMessage>{0} has been beaten to death.</deathMessage>
 		<hediff>Crush</hediff>
