@@ -3,7 +3,7 @@
     
     <Operation Class="PatchOperationFindMod">
 		<mods>
-			<li>Giddy-up! Core</li>
+			<li>Giddy-Up 2 Forked</li>
 		</mods>
 		<match Class="PatchOperationSequence">
 			<operations>
@@ -11,12 +11,12 @@
 				<li Class="PatchOperationAddModExtension">
                     <xpath>/Defs/ThingDef[ defName = "pphhyy_Demigryph"]</xpath>
                     <value>
-                        <li Class="GiddyUpCore.DrawingOffsetPatch">
+                        <li Class="GiddyUp.DrawingOffset">
                             <!--Offsets can be configured for each view (north, south, west, east) separately using comma separated floating point values-->
-                            <northOffsetCSV>0,0,-0.6</northOffsetCSV><!--x,y,z coordinates. Mind that x: horizontal axis, y: drawing priority, z: vertical axis -->    
-                            <southOffsetCSV>0,0,-0.2</southOffsetCSV>
-                            <eastOffsetCSV>-0.0,0,-0.0</eastOffsetCSV>
-                            <westOffsetCSV>0.0,0,-0.0</westOffsetCSV>
+                            <northOffset>0,0,-0.6</northOffset><!--x,y,z coordinates. Mind that x: horizontal axis, y: drawing priority, z: vertical axis -->    
+                            <southOffset>0,0,-0.2</southOffset>
+                            <eastOffset>-0.0,0,-0.0</eastOffset>
+                            <westOffset>0.0,0,-0.0</westOffset>
                         </li>
                     </value>
                 </li>
@@ -25,7 +25,7 @@
 					<xpath>/Defs/ThingDef[defName = "pphhyy_Demigryph"]/comps</xpath>
 					<!-- Note that the Caribou always has comps. some animals don't have comps by default though. Make sure to take this into account when patching. -->
 					<value>
-						<li Class="GiddyUpCore.CompProperties_Overlay">
+						<li Class="GiddyUp.CompProperties_Overlay">
 							<overlayFront>
 								<!--Different overlays can be provided for different viewpoints, possibilities are: overlayFront, overlaySide, and overlayBack -->
 								<graphicDataDefault>
@@ -56,12 +56,12 @@
 				<li Class="PatchOperationAddModExtension">
                     <xpath>/Defs/ThingDef[ defName = "pphhyy_CheetahDemigryph"]</xpath>
                     <value>
-                        <li Class="GiddyUpCore.DrawingOffsetPatch">
+                        <li Class="GiddyUp.DrawingOffset">
                             <!--Offsets can be configured for each view (north, south, west, east) separately using comma separated floating point values-->
-                            <northOffsetCSV>0,0,-0.6</northOffsetCSV><!--x,y,z coordinates. Mind that x: horizontal axis, y: drawing priority, z: vertical axis -->    
-                            <southOffsetCSV>0,0,-0.2</southOffsetCSV>    
-                            <eastOffsetCSV>-0.0,0,-0.0</eastOffsetCSV>    
-                            <westOffsetCSV>0.0,0,-0.0</westOffsetCSV>    
+                            <northOffset>0,0,-0.6</northOffset><!--x,y,z coordinates. Mind that x: horizontal axis, y: drawing priority, z: vertical axis -->    
+                            <southOffset>0,0,-0.2</southOffset>    
+                            <eastOffset>-0.0,0,-0.0</eastOffset>    
+                            <westOffset>0.0,0,-0.0</westOffset>    
                         </li>
                     </value>
                 </li>
@@ -70,7 +70,7 @@
 					<xpath>/Defs/ThingDef[defName = "pphhyy_CheetahDemigryph"]/comps</xpath>
 					<!-- Note that the Caribou always has comps. some animals don't have comps by default though. Make sure to take this into account when patching. -->
 					<value>
-						<li Class="GiddyUpCore.CompProperties_Overlay">
+						<li Class="GiddyUp.CompProperties_Overlay">
 							<overlayFront>
 								<!--Different overlays can be provided for different viewpoints, possibilities are: overlayFront, overlaySide, and overlayBack -->
 								<graphicDataDefault>
@@ -101,12 +101,12 @@
 				<li Class="PatchOperationAddModExtension">
                     <xpath>/Defs/ThingDef[ defName = "pphhyy_CrimsonDemigryph"]</xpath>
                     <value>
-                        <li Class="GiddyUpCore.DrawingOffsetPatch">
+                        <li Class="GiddyUp.DrawingOffset">
                             <!--Offsets can be configured for each view (north, south, west, east) separately using comma separated floating point values-->
-                            <northOffsetCSV>0,0,-0.6</northOffsetCSV><!--x,y,z coordinates. Mind that x: horizontal axis, y: drawing priority, z: vertical axis -->    
-                            <southOffsetCSV>0,0,-0.2</southOffsetCSV>    
-                            <eastOffsetCSV>-0.0,0,-0.0</eastOffsetCSV>    
-                            <westOffsetCSV>0.0,0,-0.0</westOffsetCSV>    
+                            <northOffset>0,0,-0.6</northOffset><!--x,y,z coordinates. Mind that x: horizontal axis, y: drawing priority, z: vertical axis -->    
+                            <southOffset>0,0,-0.2</southOffset>    
+                            <eastOffset>-0.0,0,-0.0</eastOffset>    
+                            <westOffset>0.0,0,-0.0</westOffset>    
                         </li>
                     </value>
                 </li>
@@ -115,7 +115,7 @@
 					<xpath>/Defs/ThingDef[defName = "pphhyy_CrimsonDemigryph"]/comps</xpath>
 					<!-- Note that the Caribou always has comps. some animals don't have comps by default though. Make sure to take this into account when patching. -->
 					<value>
-						<li Class="GiddyUpCore.CompProperties_Overlay">
+						<li Class="GiddyUp.CompProperties_Overlay">
 							<overlayFront>
 								<!--Different overlays can be provided for different viewpoints, possibilities are: overlayFront, overlaySide, and overlayBack -->
 								<graphicDataDefault>
@@ -146,12 +146,12 @@
 				<li Class="PatchOperationAddModExtension">
                     <xpath>/Defs/ThingDef[ defName = "pphhyy_VultureDemigryph"]</xpath>
                     <value>
-                        <li Class="GiddyUpCore.DrawingOffsetPatch">
+                        <li Class="GiddyUp.DrawingOffset">
                             <!--Offsets can be configured for each view (north, south, west, east) separately using comma separated floating point values-->
-                            <northOffsetCSV>0,0,-0.6</northOffsetCSV><!--x,y,z coordinates. Mind that x: horizontal axis, y: drawing priority, z: vertical axis -->    
-                            <southOffsetCSV>0,0,-0.2</southOffsetCSV>    
-                            <eastOffsetCSV>-0.0,0,-0.0</eastOffsetCSV>    
-                            <westOffsetCSV>0.0,0,-0.0</westOffsetCSV>    
+                            <northOffset>0,0,-0.6</northOffset><!--x,y,z coordinates. Mind that x: horizontal axis, y: drawing priority, z: vertical axis -->    
+                            <southOffset>0,0,-0.2</southOffset>    
+                            <eastOffset>-0.0,0,-0.0</eastOffset>    
+                            <westOffset>0.0,0,-0.0</westOffset>    
                         </li>
                     </value>
                 </li>
@@ -160,7 +160,7 @@
 					<xpath>/Defs/ThingDef[defName = "pphhyy_VultureDemigryph"]/comps</xpath>
 					<!-- Note that the Caribou always has comps. some animals don't have comps by default though. Make sure to take this into account when patching. -->
 					<value>
-						<li Class="GiddyUpCore.CompProperties_Overlay">
+						<li Class="GiddyUp.CompProperties_Overlay">
 							<overlayFront>
 								<!--Different overlays can be provided for different viewpoints, possibilities are: overlayFront, overlaySide, and overlayBack -->
 								<graphicDataDefault>
@@ -191,12 +191,12 @@
 				<li Class="PatchOperationAddModExtension">
                     <xpath>/Defs/ThingDef[ defName = "pphhyy_LeopardDemigryph"]</xpath>
                     <value>
-                        <li Class="GiddyUpCore.DrawingOffsetPatch">
+                        <li Class="GiddyUp.DrawingOffset">
                             <!--Offsets can be configured for each view (north, south, west, east) separately using comma separated floating point values-->
-                            <northOffsetCSV>0,0,-0.6</northOffsetCSV><!--x,y,z coordinates. Mind that x: horizontal axis, y: drawing priority, z: vertical axis -->    
-                            <southOffsetCSV>0,0,-0.2</southOffsetCSV>    
-                            <eastOffsetCSV>-0.0,0,-0.0</eastOffsetCSV>    
-                            <westOffsetCSV>0.0,0,-0.0</westOffsetCSV>    
+                            <northOffset>0,0,-0.6</northOffset><!--x,y,z coordinates. Mind that x: horizontal axis, y: drawing priority, z: vertical axis -->    
+                            <southOffset>0,0,-0.2</southOffset>    
+                            <eastOffset>-0.0,0,-0.0</eastOffset>    
+                            <westOffset>0.0,0,-0.0</westOffset>    
                         </li>
                     </value>
                 </li>
@@ -205,7 +205,7 @@
 					<xpath>/Defs/ThingDef[defName = "pphhyy_LeopardDemigryph"]/comps</xpath>
 					<!-- Note that the Caribou always has comps. some animals don't have comps by default though. Make sure to take this into account when patching. -->
 					<value>
-						<li Class="GiddyUpCore.CompProperties_Overlay">
+						<li Class="GiddyUp.CompProperties_Overlay">
 							<overlayFront>
 								<!--Different overlays can be provided for different viewpoints, possibilities are: overlayFront, overlaySide, and overlayBack -->
 								<graphicDataDefault>
@@ -236,12 +236,12 @@
 				<li Class="PatchOperationAddModExtension">
                     <xpath>/Defs/ThingDef[ defName = "pphhyy_PantherDemigryph"]</xpath>
                     <value>
-                        <li Class="GiddyUpCore.DrawingOffsetPatch">
+                        <li Class="GiddyUp.DrawingOffset">
                             <!--Offsets can be configured for each view (north, south, west, east) separately using comma separated floating point values-->
-                            <northOffsetCSV>0,0,-0.6</northOffsetCSV><!--x,y,z coordinates. Mind that x: horizontal axis, y: drawing priority, z: vertical axis -->    
-                            <southOffsetCSV>0,0,-0.2</southOffsetCSV>    
-                            <eastOffsetCSV>-0.0,0,-0.0</eastOffsetCSV>    
-                            <westOffsetCSV>0.0,0,-0.0</westOffsetCSV>    
+                            <northOffset>0,0,-0.6</northOffset><!--x,y,z coordinates. Mind that x: horizontal axis, y: drawing priority, z: vertical axis -->    
+                            <southOffset>0,0,-0.2</southOffset>    
+                            <eastOffset>-0.0,0,-0.0</eastOffset>    
+                            <westOffset>0.0,0,-0.0</westOffset>    
                         </li>
                     </value>
                 </li>
@@ -250,7 +250,7 @@
 					<xpath>/Defs/ThingDef[defName = "pphhyy_PantherDemigryph"]/comps</xpath>
 					<!-- Note that the Caribou always has comps. some animals don't have comps by default though. Make sure to take this into account when patching. -->
 					<value>
-						<li Class="GiddyUpCore.CompProperties_Overlay">
+						<li Class="GiddyUp.CompProperties_Overlay">
 							<overlayFront>
 								<!--Different overlays can be provided for different viewpoints, possibilities are: overlayFront, overlaySide, and overlayBack -->
 								<graphicDataDefault>
@@ -305,12 +305,12 @@
 				<li Class="PatchOperationAddModExtension">
                     <xpath>/Defs/ThingDef[ defName = "pphhyy_TigerDemigryph"]</xpath>
                     <value>
-                        <li Class="GiddyUpCore.DrawingOffsetPatch">
+                        <li Class="GiddyUp.DrawingOffset">
                             <!--Offsets can be configured for each view (north, south, west, east) separately using comma separated floating point values-->
-                            <northOffsetCSV>0,0,-0.6</northOffsetCSV><!--x,y,z coordinates. Mind that x: horizontal axis, y: drawing priority, z: vertical axis -->    
-                            <southOffsetCSV>0,0,-0.2</southOffsetCSV> 
-                            <eastOffsetCSV>-0.0,0,-0.0</eastOffsetCSV>  
-                            <westOffsetCSV>0.0,0,-0.0</westOffsetCSV>
+                            <northOffset>0,0,-0.6</northOffset><!--x,y,z coordinates. Mind that x: horizontal axis, y: drawing priority, z: vertical axis -->    
+                            <southOffset>0,0,-0.2</southOffset> 
+                            <eastOffset>-0.0,0,-0.0</eastOffset>  
+                            <westOffset>0.0,0,-0.0</westOffset>
                         </li>
                     </value>
                 </li>
@@ -319,7 +319,7 @@
 					<xpath>/Defs/ThingDef[defName = "pphhyy_TigerDemigryph"]/comps</xpath>
 					<!-- Note that the Caribou always has comps. some animals don't have comps by default though. Make sure to take this into account when patching. -->
 					<value>
-						<li Class="GiddyUpCore.CompProperties_Overlay">
+						<li Class="GiddyUp.CompProperties_Overlay">
 							<overlayFront>
 								<!--Different overlays can be provided for different viewpoints, possibilities are: overlayFront, overlaySide, and overlayBack -->
 								<graphicDataDefault>
@@ -365,12 +365,12 @@
 				<li Class="PatchOperationAddModExtension">
                     <xpath>/Defs/ThingDef[ defName = "pphhyy_Daermigryph"]</xpath>
                     <value>
-                        <li Class="GiddyUpCore.DrawingOffsetPatch">
+                        <li Class="GiddyUp.DrawingOffset">
                             <!--Offsets can be configured for each view (north, south, west, east) separately using comma separated floating point values-->
-                            <northOffsetCSV>0,0,-0.6</northOffsetCSV><!--x,y,z coordinates. Mind that x: horizontal axis, y: drawing priority, z: vertical axis -->    
-                            <southOffsetCSV>0,0,-0.2</southOffsetCSV>    
-                            <eastOffsetCSV>-0.0,0,-0.0</eastOffsetCSV>    
-                            <westOffsetCSV>0.0,0,-0.0</westOffsetCSV>    
+                            <northOffset>0,0,-0.6</northOffset><!--x,y,z coordinates. Mind that x: horizontal axis, y: drawing priority, z: vertical axis -->    
+                            <southOffset>0,0,-0.2</southOffset>    
+                            <eastOffset>-0.0,0,-0.0</eastOffset>    
+                            <westOffset>0.0,0,-0.0</westOffset>    
                         </li>
                     </value>
                 </li>
@@ -379,7 +379,7 @@
 					<xpath>/Defs/ThingDef[defName = "pphhyy_Daermigryph"]/comps</xpath>
 					<!-- Note that the Caribou always has comps. some animals don't have comps by default though. Make sure to take this into account when patching. -->
 					<value>
-						<li Class="GiddyUpCore.CompProperties_Overlay">
+						<li Class="GiddyUp.CompProperties_Overlay">
 							<overlayFront>
 								<!--Different overlays can be provided for different viewpoints, possibilities are: overlayFront, overlaySide, and overlayBack -->
 								<graphicDataDefault>
@@ -409,12 +409,12 @@
 				<li Class="PatchOperationAddModExtension">
                     <xpath>/Defs/ThingDef[ defName = "pphhyy_JadeDemigryph"]</xpath>
                     <value>
-                        <li Class="GiddyUpCore.DrawingOffsetPatch">
+                        <li Class="GiddyUp.DrawingOffset">
                             <!--Offsets can be configured for each view (north, south, west, east) separately using comma separated floating point values-->
-                            <northOffsetCSV>0,0,-0.6</northOffsetCSV><!--x,y,z coordinates. Mind that x: horizontal axis, y: drawing priority, z: vertical axis -->    
-                            <southOffsetCSV>0,0,-0.2</southOffsetCSV>    
-                            <eastOffsetCSV>-0.0,0,-0.0</eastOffsetCSV>    
-                            <westOffsetCSV>0.0,0,-0.0</westOffsetCSV>    
+                            <northOffset>0,0,-0.6</northOffset><!--x,y,z coordinates. Mind that x: horizontal axis, y: drawing priority, z: vertical axis -->    
+                            <southOffset>0,0,-0.2</southOffset>    
+                            <eastOffset>-0.0,0,-0.0</eastOffset>    
+                            <westOffset>0.0,0,-0.0</westOffset>    
                         </li>
                     </value>
                 </li>
@@ -423,7 +423,7 @@
 					<xpath>/Defs/ThingDef[defName = "pphhyy_JadeDemigryph"]/comps</xpath>
 					<!-- Note that the Caribou always has comps. some animals don't have comps by default though. Make sure to take this into account when patching. -->
 					<value>
-						<li Class="GiddyUpCore.CompProperties_Overlay">
+						<li Class="GiddyUp.CompProperties_Overlay">
 							<overlayFront>
 								<!--Different overlays can be provided for different viewpoints, possibilities are: overlayFront, overlaySide, and overlayBack -->
 								<graphicDataDefault>
@@ -451,7 +451,7 @@
 	<li Class="PatchOperationAdd">
 		<xpath>/Defs/ThingDef[defName = "pphhyy_Demigryph"]/comps</xpath>
 		<value>
-			<li Class="GiddyUpCore.CompProperties_Overlay">
+			<li Class="GiddyUp.CompProperties_Overlay">
 				<overlayFront>
 					<graphicDataDefault> 
 					  <graphicClass>Graphic_Single</graphicClass> 
