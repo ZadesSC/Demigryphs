@@ -14,7 +14,7 @@
 			<ShootingAccuracyPawn>-0.5</ShootingAccuracyPawn>
 			<MoveSpeed>-0.6</MoveSpeed>
 		</equippedStatOffsets>
-		<thingClass>VFECore.Apparel_Shield</thingClass>
+		<thingClass>VEF.Apparels.Apparel_Shield</thingClass>
 		<equipmentType>None</equipmentType>
 		<stuffCategories>
 			<li>Metallic</li>
