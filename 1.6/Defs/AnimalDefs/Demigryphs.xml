@@ -71,7 +71,7 @@
 
   <!-- DemigryphFeathers -->
 
-  <ThingDef ParentName="OrganicProductBase">
+  <ThingDef ParentName="ResourceBase">
 		<defName>pphhyy_AnimalProduct_DemigryphFeathers</defName>
 		<label>Demigryph Feather</label>
 		<description>Demigryph Feathers taken as trophies from slain demigrphs.</description>
@@ -87,7 +87,7 @@
 		</statBases>
     <stackLimit>10</stackLimit>
 		<thingCategories>
-		  <li>AnimalProductRaw</li>
+		  <li>ResourcesRaw</li>
 		</thingCategories>
 		<tradeTags>
 			<li>ExoticMisc</li>
@@ -96,7 +96,7 @@
 
   <!-- DemigryphClaw -->
 
-  <ThingDef ParentName="OrganicProductBase">
+  <ThingDef ParentName="ResourceBase">
 		<defName>pphhyy_AnimalProduct_DemigryphClaw</defName>
 		<label>Demigryph Claw</label>
 		<description>Demigryph Claws taken as trophies from slain demigrphs.</description>
@@ -112,7 +112,7 @@
 		</statBases>
     <stackLimit>10</stackLimit>
 		<thingCategories>
-		  <li>AnimalProductRaw</li>
+		  <li>ResourcesRaw</li>
 		</thingCategories>
 		<tradeTags>
 			<li>ExoticMisc</li>
