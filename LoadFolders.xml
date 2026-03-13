@@ -3,7 +3,8 @@
 	<v1.6>
 		<li>Common</li>
 		<li>1.6</li>
-		<li IfModActive="ingendum.animalapparelframework">1.6/Mods/Animal Armor Framework</li>
+		<li IfModActive="ingendum.animalapparelframework" IfModNotActive="Dylan.AnimalGear">1.6/Mods/Animal Armor Framework</li>
+		<li IfModActive="Dylan.AnimalGear" IfModNotActive="ingendum.animalapparelframework">1.6/Mods/Animal Gear</li>
 		<li IfModActive="oskarpotocki.vanillafactionsexpanded.core_steam,oskarpotocki.vanillafactionsexpanded.core">1.6/Mods/VEF</li>
 	</v1.6>
 </loadFolders>
