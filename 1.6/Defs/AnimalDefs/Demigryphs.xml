@@ -169,6 +169,16 @@
                 <ExtremeDesert>0.01</ExtremeDesert> -->
       </wildBiomes>
       <lifeExpectancy>50</lifeExpectancy>
+      <canCrossBreedWith>
+        <li>pphhyy_CrimsonDemigryph</li>
+        <li>pphhyy_CheetahDemigryph</li>
+        <li>pphhyy_VultureDemigryph</li>
+        <li>pphhyy_LeopardDemigryph</li>
+        <li>pphhyy_PantherDemigryph</li>
+        <li>pphhyy_TigerDemigryph</li>
+        <li>pphhyy_Daermigryph</li>
+        <li>pphhyy_JadeDemigryph</li>
+      </canCrossBreedWith>
       <lifeStageAges>
         <li>
           <def>AnimalBaby</def>
@@ -395,6 +405,16 @@
                 <ExtremeDesert>0.01</ExtremeDesert> -->
       </wildBiomes>
       <lifeExpectancy>50</lifeExpectancy>
+      <canCrossBreedWith>
+        <li>pphhyy_Demigryph</li>
+        <li>pphhyy_CheetahDemigryph</li>
+        <li>pphhyy_VultureDemigryph</li>
+        <li>pphhyy_LeopardDemigryph</li>
+        <li>pphhyy_PantherDemigryph</li>
+        <li>pphhyy_TigerDemigryph</li>
+        <li>pphhyy_Daermigryph</li>
+        <li>pphhyy_JadeDemigryph</li>
+      </canCrossBreedWith>
       <lifeStageAges>
         <li>
           <def>AnimalBaby</def>
@@ -620,6 +640,16 @@
                 <ExtremeDesert>0.03</ExtremeDesert>
       </wildBiomes>
       <lifeExpectancy>50</lifeExpectancy>
+      <canCrossBreedWith>
+        <li>pphhyy_Demigryph</li>
+        <li>pphhyy_CrimsonDemigryph</li>
+        <li>pphhyy_VultureDemigryph</li>
+        <li>pphhyy_LeopardDemigryph</li>
+        <li>pphhyy_PantherDemigryph</li>
+        <li>pphhyy_TigerDemigryph</li>
+        <li>pphhyy_Daermigryph</li>
+        <li>pphhyy_JadeDemigryph</li>
+      </canCrossBreedWith>
       <lifeStageAges>
         <li>
           <def>AnimalBaby</def>
@@ -844,6 +874,16 @@
                 <ExtremeDesert>0.06</ExtremeDesert>
       </wildBiomes>
       <lifeExpectancy>50</lifeExpectancy>
+      <canCrossBreedWith>
+        <li>pphhyy_Demigryph</li>
+        <li>pphhyy_CrimsonDemigryph</li>
+        <li>pphhyy_CheetahDemigryph</li>
+        <li>pphhyy_LeopardDemigryph</li>
+        <li>pphhyy_PantherDemigryph</li>
+        <li>pphhyy_TigerDemigryph</li>
+        <li>pphhyy_Daermigryph</li>
+        <li>pphhyy_JadeDemigryph</li>
+      </canCrossBreedWith>
       <lifeStageAges>
         <li>
           <def>AnimalBaby</def>
@@ -1070,6 +1110,16 @@
                 <DankPyon_DarkForest MayRequire="DankPyon.Medieval.Overhaul">0.03</DankPyon_DarkForest>
       </wildBiomes>
       <lifeExpectancy>50</lifeExpectancy>
+      <canCrossBreedWith>
+        <li>pphhyy_Demigryph</li>
+        <li>pphhyy_CrimsonDemigryph</li>
+        <li>pphhyy_CheetahDemigryph</li>
+        <li>pphhyy_VultureDemigryph</li>
+        <li>pphhyy_PantherDemigryph</li>
+        <li>pphhyy_TigerDemigryph</li>
+        <li>pphhyy_Daermigryph</li>
+        <li>pphhyy_JadeDemigryph</li>
+      </canCrossBreedWith>
       <lifeStageAges>
         <li>
           <def>AnimalBaby</def>
@@ -1296,6 +1346,16 @@
                 <DankPyon_DarkForest MayRequire="DankPyon.Medieval.Overhaul">0.01</DankPyon_DarkForest>
       </wildBiomes>
       <lifeExpectancy>50</lifeExpectancy>
+      <canCrossBreedWith>
+        <li>pphhyy_Demigryph</li>
+        <li>pphhyy_CrimsonDemigryph</li>
+        <li>pphhyy_CheetahDemigryph</li>
+        <li>pphhyy_VultureDemigryph</li>
+        <li>pphhyy_LeopardDemigryph</li>
+        <li>pphhyy_TigerDemigryph</li>
+        <li>pphhyy_Daermigryph</li>
+        <li>pphhyy_JadeDemigryph</li>
+      </canCrossBreedWith>
       <lifeStageAges>
         <li>
           <def>AnimalBaby</def>
@@ -1523,6 +1583,16 @@
                 <DankPyon_DarkForest MayRequire="DankPyon.Medieval.Overhaul">0.07</DankPyon_DarkForest>
       </wildBiomes>
       <lifeExpectancy>50</lifeExpectancy>
+      <canCrossBreedWith>
+        <li>pphhyy_Demigryph</li>
+        <li>pphhyy_CrimsonDemigryph</li>
+        <li>pphhyy_CheetahDemigryph</li>
+        <li>pphhyy_VultureDemigryph</li>
+        <li>pphhyy_LeopardDemigryph</li>
+        <li>pphhyy_PantherDemigryph</li>
+        <li>pphhyy_Daermigryph</li>
+        <li>pphhyy_JadeDemigryph</li>
+      </canCrossBreedWith>
       <lifeStageAges>
         <li>
           <def>AnimalBaby</def>
@@ -1749,6 +1819,16 @@
                 <DankPyon_DarkForest MayRequire="DankPyon.Medieval.Overhaul">0.03</DankPyon_DarkForest>
       </wildBiomes>
       <lifeExpectancy>50</lifeExpectancy>
+      <canCrossBreedWith>
+        <li>pphhyy_Demigryph</li>
+        <li>pphhyy_CrimsonDemigryph</li>
+        <li>pphhyy_CheetahDemigryph</li>
+        <li>pphhyy_VultureDemigryph</li>
+        <li>pphhyy_LeopardDemigryph</li>
+        <li>pphhyy_PantherDemigryph</li>
+        <li>pphhyy_TigerDemigryph</li>
+        <li>pphhyy_JadeDemigryph</li>
+      </canCrossBreedWith>
       <lifeStageAges>
         <li>
           <def>AnimalBaby</def>
@@ -1975,6 +2055,16 @@
                 <ExtremeDesert>0.01</ExtremeDesert>
       </wildBiomes>
       <lifeExpectancy>50</lifeExpectancy>
+      <canCrossBreedWith>
+        <li>pphhyy_Demigryph</li>
+        <li>pphhyy_CrimsonDemigryph</li>
+        <li>pphhyy_CheetahDemigryph</li>
+        <li>pphhyy_VultureDemigryph</li>
+        <li>pphhyy_LeopardDemigryph</li>
+        <li>pphhyy_PantherDemigryph</li>
+        <li>pphhyy_TigerDemigryph</li>
+        <li>pphhyy_Daermigryph</li>
+      </canCrossBreedWith>
       <lifeStageAges>
         <li>
           <def>AnimalBaby</def>

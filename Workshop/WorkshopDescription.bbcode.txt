@@ -20,6 +20,7 @@ A powerful and majestic creature, the Demigryph was rumoured to be genetically c
 [b]Current features[/b]
 - 9 demigryph variants
 - Demigryph eggs and breeding
+- Crossbreeding between all demigryph variants
 - Demigryph leather, feathers, and claws
 - Human demigryph-themed helms
 - Demigryph banners
@@ -50,6 +51,7 @@ A powerful and majestic creature, the Demigryph was rumoured to be genetically c
 
 [b]What has been fixed and updated in the continued 1.6 version[/b]
 - Updated and maintained for RimWorld 1.6
+- Added crossbreeding support between all demigryph variants
 - Added proper demigryph shield implementation from the existing art assets
 - Fixed banner and shield storage/equip categorization issues
 - Fixed trophy item categorization for demigryph feathers and claws
