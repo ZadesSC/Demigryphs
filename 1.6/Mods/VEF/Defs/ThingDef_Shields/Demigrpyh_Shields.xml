@@ -3,13 +3,19 @@
 
 	<ThingDef Name="pphhyy_Demigryph_ShieldBase" ParentName="BaseMeleeWeapon_Blunt_Quality" Abstract="True">
 		<techLevel>Medieval</techLevel>
-		<!--thingCategories Inherit="False">
-			<li>DankPyon_Shields</li>
-		</thingCategories-->
+		<thingCategories Inherit="False">
+			<li>VFEC_Shields</li>
+		</thingCategories>
 		<graphicData>
 			<graphicClass>Graphic_Single</graphicClass>
 			<!-- <shaderType>CutoutComplex</shaderType> -->
 		</graphicData>
+		<statBases>
+			<Flammability>0.0</Flammability>
+			<ArmorRating_Sharp>0.75</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.55</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.9</ArmorRating_Heat>
+		</statBases>
 		<equippedStatOffsets>
 			<ShootingAccuracyPawn>-0.5</ShootingAccuracyPawn>
 			<MoveSpeed>-0.6</MoveSpeed>
