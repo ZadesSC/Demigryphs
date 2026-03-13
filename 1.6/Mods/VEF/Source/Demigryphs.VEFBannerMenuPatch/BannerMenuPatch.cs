@@ -21,7 +21,7 @@ namespace Demigryphs.VEFBannerMenuPatch
     {
         public static void Postfix(ref FloatMenuOption __result, Thing clickedThing)
         {
-            if (__result != null && BannerUtility.IsBannerShield(clickedThing))
+            if (__result != null && DemigryphShieldUtility.IsDemigryphShieldItem(clickedThing))
             {
                 __result = null;
             }
@@ -36,7 +36,7 @@ namespace Demigryphs.VEFBannerMenuPatch
             List<FloatMenuOption> options = __result.ToList();
             foreach (Thing item in __instance.HeldItems)
             {
-                if (!BannerUtility.IsBannerShield(item))
+                if (!DemigryphShieldUtility.IsDemigryphShieldItem(item))
                 {
                     continue;
                 }
@@ -49,9 +49,9 @@ namespace Demigryphs.VEFBannerMenuPatch
         }
     }
 
-    internal static class BannerUtility
+    internal static class DemigryphShieldUtility
     {
-        internal static bool IsBannerShield(Thing thing)
+        internal static bool IsDemigryphShieldItem(Thing thing)
         {
             if (thing is not Apparel_Shield shield)
             {
@@ -61,7 +61,7 @@ namespace Demigryphs.VEFBannerMenuPatch
             string defName = shield.def?.defName;
             return defName != null
                 && defName.StartsWith("pphhyy_Human_Demigyryph")
-                && defName.EndsWith("Banner");
+                && (defName.EndsWith("Banner") || defName.EndsWith("Shield"));
         }
     }
 }
