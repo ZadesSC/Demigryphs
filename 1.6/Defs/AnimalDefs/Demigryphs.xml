@@ -352,9 +352,9 @@
 
   <ThingDef ParentName="AnimalThingBase">
     <defName>pphhyy_CrimsonDemigryph</defName>
-    <label>CrimsonDemigryph</label>
+    <label>Crimson Demigryph</label>
     <devNote>cow-1</devNote>
-    <description>A powerful and noble creature the Demigryph was rumored to be made by empire nobles with too much money and time on their hands. Eagle and Lion mixed into a rimworlds deadliest predator, Empire and medieval noble seek them as mounts or trophies while the tribals worship or live in fear of them. This breed of Demigryph lives in prides, hunting as a pack and are the most numerous of the demi breeds. CrimsonDemigryph are the most territorial and blood thirsty of the demi breeds, hitting harder and requiring more food.</description>
+    <description>A powerful and noble creature the Demigryph was rumored to be made by empire nobles with too much money and time on their hands. Eagle and Lion mixed into a rimworlds deadliest predator, Empire and medieval noble seek them as mounts or trophies while the tribals worship or live in fear of them. This breed of Demigryph lives in prides, hunting as a pack and are the most numerous of the demi breeds. Crimson Demigryphs are the most territorial and blood thirsty of the demi breeds, hitting harder and requiring more food.</description>
     <statBases>
       <MoveSpeed>6</MoveSpeed>
       <MarketValue>1500</MarketValue>
@@ -506,9 +506,9 @@
 
   <PawnKindDef Name="pphhyy_CrimsonDemigryph" ParentName="AnimalKindBase">
     <defName>pphhyy_CrimsonDemigryph</defName>
-    <label>CrimsonDemigryph</label>
-    <labelMale>CrimsonDemigryph</labelMale>
-    <labelFemale>CrimsonDemigryph</labelFemale>
+    <label>Crimson Demigryph</label>
+    <labelMale>Crimson Demigryph</labelMale>
+    <labelFemale>Crimson Demigryph</labelFemale>
     <race>pphhyy_CrimsonDemigryph</race>
     <combatPower>250</combatPower>
     <ecoSystemWeight>1.1</ecoSystemWeight>
@@ -577,7 +577,7 @@
   
   <ThingDef ParentName="AnimalThingBase">
     <defName>pphhyy_CheetahDemigryph</defName>
-    <label>CheetahDemigryph</label>
+    <label>Cheetah Demigryph</label>
     <devNote>cow-1</devNote>
     <description>A powerful and noble creature the Demigryph was rumored to be made by empire nobles with too much money and time on their hands. Eagle and Cheetah mixed into a rimworlds deadliest predator, Empire and medieval noble seek them as mounts or trophies while the tribals worship or live in fear of them. This breed of Demigryph lives in solitude, hunting with speed and surprise to take down prey. Slightly smaller and weaker but no less dangerous then normal Demigryphs thanks to their greater speed.</description>
     <statBases>
@@ -731,9 +731,9 @@
 
   <PawnKindDef Name="pphhyy_CheetahDemigryph" ParentName="AnimalKindBase">
     <defName>pphhyy_CheetahDemigryph</defName>
-    <label>CheetahDemigryph</label>
-    <labelMale>CheetahDemigryph</labelMale>
-    <labelFemale>CheetahDemigryph</labelFemale>
+    <label>Cheetah Demigryph</label>
+    <labelMale>Cheetah Demigryph</labelMale>
+    <labelFemale>Cheetah Demigryph</labelFemale>
     <race>pphhyy_CheetahDemigryph</race>
     <combatPower>200</combatPower>
     <ecoSystemWeight>1.1</ecoSystemWeight>
@@ -801,7 +801,7 @@
 
   <ThingDef ParentName="AnimalThingBase">
     <defName>pphhyy_VultureDemigryph</defName>
-    <label>VultureDemigryph</label>
+    <label>Vulture Demigryph</label>
     <devNote>cow-1</devNote>
     <description>A powerful and noble creature the Demigryph was rumored to be made by empire nobles with too much money and time on their hands. Eagle and Cheetah mixed into a rimworlds deadliest predator, Empire and medieval noble seek them as mounts or trophies while the tribals worship or live in fear of them. This breed of Demigryph lives in solitude, relies mostly on scavenging in the harsh deserts it call home. Slightly smaller and weaker but no less dangerous then normal Demigryphs thanks to their greater speed.</description>
     <statBases>
@@ -955,9 +955,9 @@
 
   <PawnKindDef Name="pphhyy_VultureDemigryph" ParentName="AnimalKindBase">
     <defName>pphhyy_VultureDemigryph</defName>
-    <label>VultureDemigryph</label>
-    <labelMale>VultureDemigryph</labelMale>
-    <labelFemale>VultureDemigryph</labelFemale>
+    <label>Vulture Demigryph</label>
+    <labelMale>Vulture Demigryph</labelMale>
+    <labelFemale>Vulture Demigryph</labelFemale>
     <race>pphhyy_VultureDemigryph</race>
     <combatPower>200</combatPower>
     <ecoSystemWeight>1.1</ecoSystemWeight>
@@ -1026,7 +1026,7 @@
 
   <ThingDef ParentName="AnimalThingBase">
     <defName>pphhyy_LeopardDemigryph</defName>
-    <label>LeopardDemigryph</label>
+    <label>Leopard Demigryph</label>
     <devNote>cow-1</devNote>
     <description>A powerful and noble creature the Demigryph was rumored to be made by empire nobles with too much money and time on their hands. Eagle and Leopard mixed into a rimworlds deadliest predator, Empire and medieval noble seek them as mounts or trophies while the tribals worship or live in fear of them. This breed of Demigryph lives in solitude, thriving in cold enviroments.</description>
     <statBases>
@@ -1181,9 +1181,9 @@
 
   <PawnKindDef Name="pphhyy_LeopardDemigryph" ParentName="AnimalKindBase">
     <defName>pphhyy_LeopardDemigryph</defName>
-    <label>LeopardDemigryph</label>
-    <labelMale>LeopardDemigryph</labelMale>
-    <labelFemale>LeopardDemigryph</labelFemale>
+    <label>Leopard Demigryph</label>
+    <labelMale>Leopard Demigryph</labelMale>
+    <labelFemale>Leopard Demigryph</labelFemale>
     <race>pphhyy_LeopardDemigryph</race>
     <combatPower>200</combatPower>
     <ecoSystemWeight>1.1</ecoSystemWeight>
@@ -1252,7 +1252,7 @@
 
   <ThingDef ParentName="AnimalThingBase">
     <defName>pphhyy_PantherDemigryph</defName>
-    <label>PantherDemigryph</label>
+    <label>Panther Demigryph</label>
     <devNote>cow-1</devNote>
     <description>A powerful and noble creature the Demigryph was rumored to be made by empire nobles with too much money and time on their hands. Eagle and Panther mixed into a rimworlds deadliest predator, Empire and medieval noble seek them as mounts or trophies while the tribals worship or live in fear of them. This breed of Demigryph lives in solitude, thriving in Wet enviroments.</description>
     <statBases>
@@ -1407,9 +1407,9 @@
 
   <PawnKindDef Name="pphhyy_PantherDemigryph" ParentName="AnimalKindBase">
     <defName>pphhyy_PantherDemigryph</defName>
-    <label>PantherDemigryph</label>
-    <labelMale>PantherDemigryph</labelMale>
-    <labelFemale>PantherDemigryph</labelFemale>
+    <label>Panther Demigryph</label>
+    <labelMale>Panther Demigryph</labelMale>
+    <labelFemale>Panther Demigryph</labelFemale>
     <race>pphhyy_PantherDemigryph</race>
     <combatPower>200</combatPower>
     <ecoSystemWeight>1.1</ecoSystemWeight>
@@ -1479,7 +1479,7 @@
 
   <ThingDef ParentName="AnimalThingBase">
     <defName>pphhyy_TigerDemigryph</defName>
-    <label>TigerDemigryph</label>
+    <label>Tiger Demigryph</label>
     <devNote>cow-1</devNote>
     <description>A powerful and noble creature the Demigryph was rumored to be made by empire nobles with too much money and time on their hands. Eagle and Tiger mixed into a rimworlds deadliest predator, Empire and medieval noble seek them as mounts or trophies while the tribals worship or live in fear of them. This breed of Demigryph lives in solitude, thriving in Warm enviroments. Larger then the other Demigryphs with a a greater claw length, it often only needs to use its size to hold down most prey before devouring them</description>
     <statBases>
@@ -1634,9 +1634,9 @@
 
   <PawnKindDef Name="pphhyy_TigerDemigryph" ParentName="AnimalKindBase">
     <defName>pphhyy_TigerDemigryph</defName>
-    <label>TigerDemigryph</label>
-    <labelMale>TigerDemigryph</labelMale>
-    <labelFemale>TigerDemigryph</labelFemale>
+    <label>Tiger Demigryph</label>
+    <labelMale>Tiger Demigryph</labelMale>
+    <labelFemale>Tiger Demigryph</labelFemale>
     <race>pphhyy_TigerDemigryph</race>
     <combatPower>200</combatPower>
     <ecoSystemWeight>1.1</ecoSystemWeight>
@@ -1932,7 +1932,7 @@
 
 <ThingDef ParentName="AnimalThingBase">
     <defName>pphhyy_JadeDemigryph</defName>
-    <label>JadeDemigryph</label>
+    <label>Jade Demigryph</label>
     <devNote>cow-1</devNote>
     <description>A powerful and noble creature the Demigryph was rumored to be made by empire nobles with too much money and time on their hands. Eagle and Panther mixed into a rimworlds deadliest predator, Empire and medieval noble seek them as mounts or trophies while the tribals worship or live in fear of them. This breed of Demigryph lives in solitude, thriving in Wet enviroments.</description>
     <statBases>
@@ -2086,9 +2086,9 @@
 
   <PawnKindDef Name="pphhyy_JadeDemigryph" ParentName="AnimalKindBase">
     <defName>pphhyy_JadeDemigryph</defName>
-    <label>JadeDemigryph</label>
-    <labelMale>JadeDemigryph</labelMale>
-    <labelFemale>JadeDemigryph</labelFemale>
+    <label>Jade Demigryph</label>
+    <labelMale>Jade Demigryph</labelMale>
+    <labelFemale>Jade Demigryph</labelFemale>
     <race>pphhyy_JadeDemigryph</race>
     <combatPower>200</combatPower>
     <ecoSystemWeight>1.1</ecoSystemWeight>

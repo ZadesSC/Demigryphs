@@ -50,8 +50,8 @@
 
   <ThingDef ParentName="EggFertBase">
     <defName>EggCheetahDemigryphFertilized</defName>
-    <label>CheetahDemigryph egg (fert.)</label>
-    <description>A fertilized CheetahDemigryph egg. If all goes well, it should hatch into a baby Demigryph. It can be eaten raw, but it's much better cooked.</description>
+    <label>Cheetah Demigryph egg (fert.)</label>
+    <description>A fertilized Cheetah Demigryph egg. If all goes well, it should hatch into a baby Demigryph. It can be eaten raw, but it's much better cooked.</description>
     <graphicData>
 		  <texPath>Animal/DemigryphEgg</texPath>
 		  <drawSize>1</drawSize>
@@ -76,8 +76,8 @@
 
   <ThingDef ParentName="EggFertBase">
     <defName>EggCrimsonDemigryphFertilized</defName>
-    <label>CrimsonDemigryph egg (fert.)</label>
-    <description>A fertilized CrimsonDemigryph egg. If all goes well, it should hatch into a baby Demigryph. It can be eaten raw, but it's much better cooked.</description>
+    <label>Crimson Demigryph egg (fert.)</label>
+    <description>A fertilized Crimson Demigryph egg. If all goes well, it should hatch into a baby Demigryph. It can be eaten raw, but it's much better cooked.</description>
     <graphicData>
 		  <texPath>Animal/DemigryphEgg</texPath>
 		  <drawSize>1</drawSize>
@@ -102,8 +102,8 @@
 
   <ThingDef ParentName="EggFertBase">
     <defName>EggVultureDemigryphFertilized</defName>
-    <label>VultureDemigryph egg (fert.)</label>
-    <description>A fertilized VultureDemigryph egg. If all goes well, it should hatch into a baby Demigryph. It can be eaten raw, but it's much better cooked.</description>
+    <label>Vulture Demigryph egg (fert.)</label>
+    <description>A fertilized Vulture Demigryph egg. If all goes well, it should hatch into a baby Demigryph. It can be eaten raw, but it's much better cooked.</description>
     <graphicData>
 		  <texPath>Animal/DemigryphEgg</texPath>
 		  <drawSize>1</drawSize>
@@ -128,8 +128,8 @@
 
   <ThingDef ParentName="EggFertBase">
     <defName>EggLeopardDemigryphFertilized</defName>
-    <label>LeopardDemigryph egg (fert.)</label>
-    <description>A fertilized LeopardDemigryph egg. If all goes well, it should hatch into a baby Demigryph. It can be eaten raw, but it's much better cooked.</description>
+    <label>Leopard Demigryph egg (fert.)</label>
+    <description>A fertilized Leopard Demigryph egg. If all goes well, it should hatch into a baby Demigryph. It can be eaten raw, but it's much better cooked.</description>
     <graphicData>
 		  <texPath>Animal/DemigryphEgg</texPath>
 		  <drawSize>1</drawSize>
@@ -154,8 +154,8 @@
 
   <ThingDef ParentName="EggFertBase">
     <defName>EggPantherDemigryphFertilized</defName>
-    <label>PantherDemigryph egg (fert.)</label>
-    <description>A fertilized PantherDemigryph egg. If all goes well, it should hatch into a baby Demigryph. It can be eaten raw, but it's much better cooked.</description>
+    <label>Panther Demigryph egg (fert.)</label>
+    <description>A fertilized Panther Demigryph egg. If all goes well, it should hatch into a baby Demigryph. It can be eaten raw, but it's much better cooked.</description>
     <graphicData>
 		  <texPath>Animal/DemigryphEgg</texPath>
 		  <drawSize>1</drawSize>
@@ -180,8 +180,8 @@
 
   <ThingDef ParentName="EggFertBase">
     <defName>EggTigerDemigryphFertilized</defName>
-    <label>TigerDemigryph egg (fert.)</label>
-    <description>A fertilized TigerDemigryph egg. If all goes well, it should hatch into a baby Demigryph. It can be eaten raw, but it's much better cooked.</description>
+    <label>Tiger Demigryph egg (fert.)</label>
+    <description>A fertilized Tiger Demigryph egg. If all goes well, it should hatch into a baby Demigryph. It can be eaten raw, but it's much better cooked.</description>
     <graphicData>
 		  <texPath>Animal/DemigryphEgg</texPath>
 		  <drawSize>1</drawSize>
@@ -232,8 +232,8 @@
 
   <ThingDef ParentName="EggFertBase">
     <defName>EggJadeDemigryphFertilized</defName>
-    <label>JadeDemigryph egg (fert.)</label>
-    <description>A fertilized JadeDemigryph egg. If all goes well, it should hatch into a baby Demigryph. It can be eaten raw, but it's much better cooked.</description>
+    <label>Jade Demigryph egg (fert.)</label>
+    <description>A fertilized Jade Demigryph egg. If all goes well, it should hatch into a baby Demigryph. It can be eaten raw, but it's much better cooked.</description>
     <graphicData>
 		  <texPath>Animal/DemigryphEgg</texPath>
 		  <drawSize>1</drawSize>
