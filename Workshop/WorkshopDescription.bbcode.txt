@@ -1,0 +1,100 @@
+[h1]pphhyy's Demigryphs Continued[/h1]
+
+Original mod by pphhyy:
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2825762491]https://steamcommunity.com/sharedfiles/filedetails/?id=2825762491[/url]
+
+This continuation keeps the mod alive for RimWorld 1.6.
+
+[b]Important:[/b]
+- Only RimWorld 1.6 is supported.
+- Older version folders are kept for historical reference only.
+
+[img]https://i.imgur.com/MClTdVy.gif[/img]
+
+Adds Demigryph war-mounts and their related equipment.
+
+[img]https://i.imgur.com/wNNiH6Q.png[/img]
+
+A powerful and majestic creature, the Demigryph was rumoured to be genetically created by RimWorld's richest imperial nobles. Eagle and lion spliced together into an apex predator, they are sought as mounts and trophies while tribes either worship them or fear them.
+
+[b]Current features[/b]
+- 9 demigryph variants
+- Demigryph eggs and breeding
+- Demigryph leather, feathers, and claws
+- Human demigryph-themed helms
+- Demigryph banners
+- Demigryph shields
+- Demigryph animal armor
+
+[img]https://i.imgur.com/Kxg2FSc.png[/img]
+[img]https://i.imgur.com/KJf6u2t.png[/img]
+[img]https://i.imgur.com/P6uHyqx.png[/img]
+[img]https://i.imgur.com/LCANxK0.png[/img]
+
+[b]Compatibility[/b]
+- Works with Giddy Up Forked if you want to ride them:
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3246108162]https://steamcommunity.com/sharedfiles/filedetails/?id=3246108162[/url]
+- Works with Animal Apparel: Framework for animal armor:
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3513825850]https://steamcommunity.com/sharedfiles/filedetails/?id=3513825850[/url]
+- Works with Animal Gear for animal armor as an alternative compatibility path:
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=1541438907]https://steamcommunity.com/sharedfiles/filedetails/?id=1541438907[/url]
+- Vanilla Expanded Framework is required for banners and shields.
+- Combat Extended includes its own built-in compatibility patch for this mod.
+
+[b]Notes[/b]
+- Animal Apparel: Framework and Animal Gear are supported as alternatives, not for simultaneous use together.
+- Vanilla Expanded Achievements is no longer included for the 1.6 version.
+- The old scenario was removed due to reported issues with loading and map generation.
+
+[img]https://i.imgur.com/chHUhoM.png[/img]
+
+[b]What has been fixed and updated in the continued 1.6 version[/b]
+- Updated and maintained for RimWorld 1.6
+- Added proper demigryph shield implementation from the existing art assets
+- Fixed banner and shield storage/equip categorization issues
+- Fixed trophy item categorization for demigryph feathers and claws
+- Fixed missing graphic setup for demigryph feathers and claws
+- Fixed several display names and egg labels
+- Added Animal Gear compatibility alongside Animal Apparel: Framework support
+- Cleaned up legacy repo structure and kept active support focused on 1.6
+
+[img]https://i.imgur.com/c7DuGq6.png[/img]
+
+[b]Load order[/b]
+[code]
+Ludeon.RimWorld
+Ludeon.RimWorld.Ideology
+Ludeon.RimWorld.Royalty
+pphhyy.DemigryphsMod
+[/code]
+
+If you are using recommended compatibility mods, load them above [i]pphhyy.DemigryphsMod[/i].
+
+[b]Recommended mods[/b]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3246108162]Giddy Up Forked[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3513825850]Animal Apparel: Framework[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=1541438907]Animal Gear[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=1884025115]Vanilla Expanded Framework[/url]
+
+[b]FAQ[/b]
+[b]Is it compatible with CE?[/b]
+Mostly. Combat Extended currently ships a built-in patch for this mod. However, I have not fully tested it with changes I made for 1.6 and I'm not sure if everything is patched. Normally, I'll just include the CE patch in here, but since CE itself already ships a patch for the previous version it gets complicated.
+
+[b]Can it be added to an existing save?[/b]
+Usually yes.
+
+[b]Can it be removed from a save?[/b]
+Like most content mods, removal is risky if existing pawns, items, or defs from the mod are already present.
+
+[b]Banners and shields?[/b]
+Banners and shields are implemented in the 1.6 continued version through the Vanilla Expanded Framework compatibility path. You MUST have VEF in your mod list to have banners and shield appear in game.
+
+[b]What happened to the scenerio?[/b]
+Removed due to some issues, will add it back later.
+
+[img]https://i.imgur.com/8Dcb6XM.png[/img]
+
+[b]Credits[/b]
+- Original mod by pphhyy
+
+For bug reports, please include a log.
