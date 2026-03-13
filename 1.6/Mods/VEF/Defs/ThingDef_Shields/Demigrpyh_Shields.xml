@@ -3,9 +3,9 @@
 
 	<ThingDef Name="pphhyy_Demigryph_ShieldBase" ParentName="BaseMeleeWeapon_Blunt_Quality" Abstract="True">
 		<techLevel>Medieval</techLevel>
-		<!--thingCategories Inherit="False">
-			<li>DankPyon_Shields</li>
-		</thingCategories-->
+		<thingCategories Inherit="False">
+			<li>ApparelUtility</li>
+		</thingCategories>
 		<graphicData>
 			<graphicClass>Graphic_Single</graphicClass>
 			<!-- <shaderType>CutoutComplex</shaderType> -->

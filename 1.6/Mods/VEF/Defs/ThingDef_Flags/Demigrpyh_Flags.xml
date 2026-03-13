@@ -2,7 +2,6 @@
 <Defs>
 
 	<ThingDef Name="pphhyy_Demigryph_BannerBase" ParentName="pphhyy_Demigryph_ShieldBase" Abstract="True">
-		<thingClass>ThingWithComps</thingClass> 
 		<stuffCategories Inherit="False">
 			<li>Fabric</li>
 			<li>Leathery</li>

@@ -77,6 +77,7 @@
 		<description>Demigryph Feathers taken as trophies from slain demigrphs.</description>
 		<graphicData>
 		  <texPath>Item/DemigryphFeathers/DemigryphFeathers</texPath>
+		  <graphicClass>Graphic_Single</graphicClass>
 		  <drawSize>0.8</drawSize>
 		</graphicData>
 		<statBases>
@@ -87,7 +88,7 @@
 		</statBases>
     <stackLimit>10</stackLimit>
 		<thingCategories>
-		  <li>ResourcesRaw</li>
+		  <li>ItemsMisc</li>
 		</thingCategories>
 		<tradeTags>
 			<li>ExoticMisc</li>
@@ -102,6 +103,7 @@
 		<description>Demigryph Claws taken as trophies from slain demigrphs.</description>
 		<graphicData>
 		  <texPath>Item/DemigryphClaw/DemigryphClaw</texPath>
+		  <graphicClass>Graphic_Single</graphicClass>
 		  <drawSize>0.8</drawSize>
 		</graphicData>
 		<statBases>
@@ -112,7 +114,7 @@
 		</statBases>
     <stackLimit>10</stackLimit>
 		<thingCategories>
-		  <li>ResourcesRaw</li>
+		  <li>ItemsMisc</li>
 		</thingCategories>
 		<tradeTags>
 			<li>ExoticMisc</li>
