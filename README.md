@@ -17,6 +17,16 @@ Older version folders are kept for historical reference and should not be modifi
 
 `LoadFolders.xml` controls which optional compatibility folders are loaded.
 
+## Development Builds
+
+The [Build dev package workflow](https://github.com/ZadesSC/Demigryphs/actions/workflows/dev-build.yml) creates a downloadable artifact for every push to `dev` and pull request targeting `dev`. Artifacts are retained for 30 days and contain an installable ZIP, `SHA256SUMS`, and `BUILD_INFO.json` recording the commit and package/DLL checksums.
+
+Open a completed workflow run and download its `Demigryphs-dev-...` artifact. Extract the artifact, then extract its mod ZIP into RimWorld's `Mods` folder so that `Mods/Demigryphs/About/About.xml` exists. Enable the local mod in the game.
+
+The package includes `About`, `Common`, `LoadFolders.xml`, the license, and this README. Historical versions and Workshop editing files are excluded. The workflow validates XML and shared load mappings and packages the committed VEF patch DLL; it does not recompile that DLL or run RimWorld. In-game testing remains separate.
+
+To create the same package locally with Python 3, run `python3 scripts/package_dev.py`. The output is written to `dist/`.
+
 ## Notes
 
 - Animal Apparel: Framework and Animal Gear are supported as alternative compatibility paths, not as simultaneous active frameworks.
