@@ -75,7 +75,10 @@ def package(root, output, build_id):
     if os.environ.get("GITHUB_RUN_ID"):
         identity["runUrl"] = (f"{os.environ['GITHUB_SERVER_URL']}/{os.environ['GITHUB_REPOSITORY']}"
                               f"/actions/runs/{os.environ['GITHUB_RUN_ID']}")
-    (output / "BUILD_INFO.json").write_text(json.dumps(identity, indent=2) + "\n", encoding="utf-8")
+    internal = root / ".rimworld-ci"
+    internal.mkdir(exist_ok=True)
+    (output / "BUILD_INFO.json").unlink(missing_ok=True)
+    (internal / "build-info.json").write_text(json.dumps(identity, indent=2) + "\n", encoding="utf-8")
     print(f"Packaged {len(files)} files: {archive}\nSHA-256: {checksum}")
     return archive
 
