@@ -1,0 +1,28 @@
+{
+  "assemblies": [
+    "Common/Mods/VEF/Assemblies/Demigryphs.VEFBannerMenuPatch.dll"
+  ],
+  "assemblyMode": "committed",
+  "commands": [],
+  "defaultBranch": "main",
+  "dependencyNotes": [
+    "Requires the VEF reference to rebuild the optional banner patch. CI packages committed DLLs."
+  ],
+  "include": [
+    "About",
+    "Common",
+    "LoadFolders.xml",
+    "LICENSE",
+    "README.md"
+  ],
+  "schemaVersion": 1,
+  "slug": "Demigryphs",
+  "sourceGlobs": [
+    "Common/Mods/VEF/Source/**/*.cs",
+    "Common/Mods/VEF/Source/**/*.csproj"
+  ],
+  "supportedVersions": [
+    "1.6",
+    "1.7"
+  ]
+}

@@ -2,9 +2,9 @@ name: Build dev package
 
 on:
   push:
-    branches: [dev]
+    branches: [main, dev]
   pull_request:
-    branches: [dev]
+    branches: [main, dev]
   workflow_dispatch:
 
 permissions:
@@ -16,21 +16,7 @@ concurrency:
 
 jobs:
   build:
-    runs-on: ubuntu-24.04
-    timeout-minutes: 5
-    steps:
-      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
-        with:
-          persist-credentials: false
-      - name: Validate and package the mod
-        env:
-          BUILD_ID: ${{ github.run_number }}.${{ github.run_attempt }}
-        run: python3 scripts/package_dev.py --build-id "$BUILD_ID"
-      - name: Upload dev package
-        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7
-        with:
-          name: Demigryphs-dev-${{ github.run_number }}-${{ github.run_attempt }}
-          path: dist/*
-          if-no-files-found: error
-          retention-days: 30
-
+    uses: ZadesSC/HighDensityHydroponics/.github/workflows/rimworld-ci.yml@0a30614313d103f0b2fa23da45a8b0b8cd171ccb
+    with:
+      channel: dev
+      tooling-ref: 0a30614313d103f0b2fa23da45a8b0b8cd171ccb

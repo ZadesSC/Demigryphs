@@ -1,3 +1,6 @@
 /dist/
 __pycache__/
 
+
+/.rimworld-ci/
+/release-notes.txt
