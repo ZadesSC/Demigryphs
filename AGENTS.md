@@ -1,4 +1,5 @@
 # Repo Notes
 
-- Modify only the `1.6` version of this mod unless the user explicitly asks otherwise.
+- RimWorld `1.6` and `1.7` share the content in `Common`, with explicit mappings in `LoadFolders.xml`.
+- Keep active content changes in `Common` unless the user explicitly asks otherwise; do not duplicate it into version-specific folders.
 - Versions before `1.6` are kept for historical purposes and reference only.

@@ -442,6 +442,7 @@
     </race>
     <butcherProducts>
 		  <pphhyy_AnimalProduct_DemigryphFeathers>2</pphhyy_AnimalProduct_DemigryphFeathers>
+      <pphhyy_AnimalProduct_DemigryphClaw>1</pphhyy_AnimalProduct_DemigryphClaw>
 		</butcherProducts>
     <comps>
       <li Class="CompProperties_EggLayer">
@@ -677,6 +678,7 @@
     </race>
     <butcherProducts>
 		  <pphhyy_AnimalProduct_DemigryphFeathers>2</pphhyy_AnimalProduct_DemigryphFeathers>
+      <pphhyy_AnimalProduct_DemigryphClaw>1</pphhyy_AnimalProduct_DemigryphClaw>
 		</butcherProducts>
     <comps>
       <li Class="CompProperties_EggLayer">
@@ -911,6 +913,7 @@
     </race>
     <butcherProducts>
 		  <pphhyy_AnimalProduct_DemigryphFeathers>2</pphhyy_AnimalProduct_DemigryphFeathers>
+      <pphhyy_AnimalProduct_DemigryphClaw>1</pphhyy_AnimalProduct_DemigryphClaw>
 		</butcherProducts>
     <comps>
       <li Class="CompProperties_EggLayer">
@@ -1147,6 +1150,7 @@
     </race>
     <butcherProducts>
 		  <pphhyy_AnimalProduct_DemigryphFeathers>2</pphhyy_AnimalProduct_DemigryphFeathers>
+      <pphhyy_AnimalProduct_DemigryphClaw>1</pphhyy_AnimalProduct_DemigryphClaw>
 		</butcherProducts>
     <comps>
       <li Class="CompProperties_EggLayer">
@@ -1383,6 +1387,7 @@
     </race>
     <butcherProducts>
 		  <pphhyy_AnimalProduct_DemigryphFeathers>2</pphhyy_AnimalProduct_DemigryphFeathers>
+      <pphhyy_AnimalProduct_DemigryphClaw>1</pphhyy_AnimalProduct_DemigryphClaw>
 		</butcherProducts>
     <comps>
       <li Class="CompProperties_EggLayer">
@@ -1620,6 +1625,7 @@
     </race>
     <butcherProducts>
 		  <pphhyy_AnimalProduct_DemigryphFeathers>2</pphhyy_AnimalProduct_DemigryphFeathers>
+      <pphhyy_AnimalProduct_DemigryphClaw>1</pphhyy_AnimalProduct_DemigryphClaw>
 		</butcherProducts>
     <comps>
       <li Class="CompProperties_EggLayer">
@@ -1856,6 +1862,7 @@
     </race>
     <butcherProducts>
 		  <pphhyy_AnimalProduct_DemigryphFeathers>2</pphhyy_AnimalProduct_DemigryphFeathers>
+      <pphhyy_AnimalProduct_DemigryphClaw>1</pphhyy_AnimalProduct_DemigryphClaw>
 		</butcherProducts>
     <comps>
       <li Class="CompProperties_EggLayer">
@@ -2092,6 +2099,7 @@
     </race>
     <butcherProducts>
 		  <pphhyy_AnimalProduct_DemigryphFeathers>2</pphhyy_AnimalProduct_DemigryphFeathers>
+      <pphhyy_AnimalProduct_DemigryphClaw>1</pphhyy_AnimalProduct_DemigryphClaw>
 		</butcherProducts>
     <comps>
       <li Class="CompProperties_EggLayer">
