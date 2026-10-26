@@ -1,0 +1,11 @@
+{
+  "assemblies": {
+    "1.6/Mods/VEF/Assemblies/Demigryphs.VEFBannerMenuPatch.dll": "c9a51285bd77567fc2331f44e485f7c1c1c77bdf5c579cd4d74597054d40f23e"
+  },
+  "provenance": "Committed source/assembly baseline; not proof of compilation. Refresh only after rebuilding and validating the assemblies.",
+  "schemaVersion": 1,
+  "sources": {
+    "1.6/Mods/VEF/Source/Demigryphs.VEFBannerMenuPatch/BannerMenuPatch.cs": "1cc74a60d36c9ba085ba6f7c3baf5a19e2207e825eb89cdefa757afe78f162f5",
+    "1.6/Mods/VEF/Source/Demigryphs.VEFBannerMenuPatch/Demigryphs.VEFBannerMenuPatch.csproj": "a384938d76faa197bf4b6c279099ef12bf91dfa0564f6f3f0de1e676d0a7f3a7"
+  }
+}
