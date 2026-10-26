@@ -1,0 +1,545 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Patch>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="pphhyy_Demigryph_leatherArmor"]</xpath>
+    <match Class="PatchOperationSequence">
+      <operations>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[defName="pphhyy_Demigryph_leatherArmor"]/statBases/StuffEffectMultiplierArmor</xpath>
+          <match Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="pphhyy_Demigryph_leatherArmor"]/statBases/StuffEffectMultiplierArmor</xpath>
+            <value>
+              <StuffEffectMultiplierArmor>8</StuffEffectMultiplierArmor>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="pphhyy_Demigryph_leatherArmor"]/statBases</xpath>
+            <value>
+              <StuffEffectMultiplierArmor>8</StuffEffectMultiplierArmor>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[defName="pphhyy_Demigryph_leatherArmor"]/statBases/Bulk</xpath>
+          <match Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="pphhyy_Demigryph_leatherArmor"]/statBases/Bulk</xpath>
+            <value>
+              <Bulk>3</Bulk>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="pphhyy_Demigryph_leatherArmor"]/statBases</xpath>
+            <value>
+              <Bulk>3</Bulk>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[defName="pphhyy_Demigryph_leatherArmor"]/statBases/WornBulk</xpath>
+          <match Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="pphhyy_Demigryph_leatherArmor"]/statBases/WornBulk</xpath>
+            <value>
+              <WornBulk>1</WornBulk>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="pphhyy_Demigryph_leatherArmor"]/statBases</xpath>
+            <value>
+              <WornBulk>1</WornBulk>
+            </value>
+          </nomatch>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="pphhyy_Demigryph_leatherArmorFront"]</xpath>
+    <match Class="PatchOperationSequence">
+      <operations>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[defName="pphhyy_Demigryph_leatherArmorFront"]/statBases/StuffEffectMultiplierArmor</xpath>
+          <match Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="pphhyy_Demigryph_leatherArmorFront"]/statBases/StuffEffectMultiplierArmor</xpath>
+            <value>
+              <StuffEffectMultiplierArmor>8</StuffEffectMultiplierArmor>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="pphhyy_Demigryph_leatherArmorFront"]/statBases</xpath>
+            <value>
+              <StuffEffectMultiplierArmor>8</StuffEffectMultiplierArmor>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[defName="pphhyy_Demigryph_leatherArmorFront"]/statBases/Bulk</xpath>
+          <match Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="pphhyy_Demigryph_leatherArmorFront"]/statBases/Bulk</xpath>
+            <value>
+              <Bulk>3</Bulk>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="pphhyy_Demigryph_leatherArmorFront"]/statBases</xpath>
+            <value>
+              <Bulk>3</Bulk>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[defName="pphhyy_Demigryph_leatherArmorFront"]/statBases/WornBulk</xpath>
+          <match Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="pphhyy_Demigryph_leatherArmorFront"]/statBases/WornBulk</xpath>
+            <value>
+              <WornBulk>1</WornBulk>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="pphhyy_Demigryph_leatherArmorFront"]/statBases</xpath>
+            <value>
+              <WornBulk>1</WornBulk>
+            </value>
+          </nomatch>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="pphhyy_Demigryph_PlateArmor"]</xpath>
+    <match Class="PatchOperationSequence">
+      <operations>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[defName="pphhyy_Demigryph_PlateArmor"]/statBases/StuffEffectMultiplierArmor</xpath>
+          <match Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="pphhyy_Demigryph_PlateArmor"]/statBases/StuffEffectMultiplierArmor</xpath>
+            <value>
+              <StuffEffectMultiplierArmor>4.5</StuffEffectMultiplierArmor>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="pphhyy_Demigryph_PlateArmor"]/statBases</xpath>
+            <value>
+              <StuffEffectMultiplierArmor>4.5</StuffEffectMultiplierArmor>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[defName="pphhyy_Demigryph_PlateArmor"]/statBases/Bulk</xpath>
+          <match Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="pphhyy_Demigryph_PlateArmor"]/statBases/Bulk</xpath>
+            <value>
+              <Bulk>17.5</Bulk>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="pphhyy_Demigryph_PlateArmor"]/statBases</xpath>
+            <value>
+              <Bulk>17.5</Bulk>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[defName="pphhyy_Demigryph_PlateArmor"]/statBases/WornBulk</xpath>
+          <match Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="pphhyy_Demigryph_PlateArmor"]/statBases/WornBulk</xpath>
+            <value>
+              <WornBulk>3.5</WornBulk>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="pphhyy_Demigryph_PlateArmor"]/statBases</xpath>
+            <value>
+              <WornBulk>3.5</WornBulk>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[defName="pphhyy_Demigryph_PlateArmor"]/equippedStatOffsets/MoveSpeed</xpath>
+          <match Class="PatchOperationRemove">
+            <xpath>Defs/ThingDef[defName="pphhyy_Demigryph_PlateArmor"]/equippedStatOffsets/MoveSpeed</xpath>
+          </match>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[defName="pphhyy_Demigryph_PlateArmor"]/equippedStatOffsets/MeleeDodgeChance</xpath>
+          <match Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="pphhyy_Demigryph_PlateArmor"]/equippedStatOffsets/MeleeDodgeChance</xpath>
+            <value>
+              <MeleeDodgeChance>-0.05</MeleeDodgeChance>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="pphhyy_Demigryph_PlateArmor"]/equippedStatOffsets</xpath>
+            <value>
+              <MeleeDodgeChance>-0.05</MeleeDodgeChance>
+            </value>
+          </nomatch>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="pphhyy_Demigryph_PlateArmorFront"]</xpath>
+    <match Class="PatchOperationSequence">
+      <operations>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[defName="pphhyy_Demigryph_PlateArmorFront"]/statBases/StuffEffectMultiplierArmor</xpath>
+          <match Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="pphhyy_Demigryph_PlateArmorFront"]/statBases/StuffEffectMultiplierArmor</xpath>
+            <value>
+              <StuffEffectMultiplierArmor>4.5</StuffEffectMultiplierArmor>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="pphhyy_Demigryph_PlateArmorFront"]/statBases</xpath>
+            <value>
+              <StuffEffectMultiplierArmor>4.5</StuffEffectMultiplierArmor>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[defName="pphhyy_Demigryph_PlateArmorFront"]/statBases/Bulk</xpath>
+          <match Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="pphhyy_Demigryph_PlateArmorFront"]/statBases/Bulk</xpath>
+            <value>
+              <Bulk>17.5</Bulk>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="pphhyy_Demigryph_PlateArmorFront"]/statBases</xpath>
+            <value>
+              <Bulk>17.5</Bulk>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[defName="pphhyy_Demigryph_PlateArmorFront"]/statBases/WornBulk</xpath>
+          <match Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="pphhyy_Demigryph_PlateArmorFront"]/statBases/WornBulk</xpath>
+            <value>
+              <WornBulk>3.5</WornBulk>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="pphhyy_Demigryph_PlateArmorFront"]/statBases</xpath>
+            <value>
+              <WornBulk>3.5</WornBulk>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[defName="pphhyy_Demigryph_PlateArmorFront"]/equippedStatOffsets/MoveSpeed</xpath>
+          <match Class="PatchOperationRemove">
+            <xpath>Defs/ThingDef[defName="pphhyy_Demigryph_PlateArmorFront"]/equippedStatOffsets/MoveSpeed</xpath>
+          </match>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[defName="pphhyy_Demigryph_PlateArmorFront"]/equippedStatOffsets/MeleeDodgeChance</xpath>
+          <match Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="pphhyy_Demigryph_PlateArmorFront"]/equippedStatOffsets/MeleeDodgeChance</xpath>
+            <value>
+              <MeleeDodgeChance>-0.05</MeleeDodgeChance>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="pphhyy_Demigryph_PlateArmorFront"]/equippedStatOffsets</xpath>
+            <value>
+              <MeleeDodgeChance>-0.05</MeleeDodgeChance>
+            </value>
+          </nomatch>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="pphhyy_Demigryph_NoblePlateArmor"]</xpath>
+    <match Class="PatchOperationSequence">
+      <operations>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[defName="pphhyy_Demigryph_NoblePlateArmor"]/statBases/StuffEffectMultiplierArmor</xpath>
+          <match Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="pphhyy_Demigryph_NoblePlateArmor"]/statBases/StuffEffectMultiplierArmor</xpath>
+            <value>
+              <StuffEffectMultiplierArmor>5</StuffEffectMultiplierArmor>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="pphhyy_Demigryph_NoblePlateArmor"]/statBases</xpath>
+            <value>
+              <StuffEffectMultiplierArmor>5</StuffEffectMultiplierArmor>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[defName="pphhyy_Demigryph_NoblePlateArmor"]/statBases/Bulk</xpath>
+          <match Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="pphhyy_Demigryph_NoblePlateArmor"]/statBases/Bulk</xpath>
+            <value>
+              <Bulk>17.5</Bulk>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="pphhyy_Demigryph_NoblePlateArmor"]/statBases</xpath>
+            <value>
+              <Bulk>17.5</Bulk>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[defName="pphhyy_Demigryph_NoblePlateArmor"]/statBases/WornBulk</xpath>
+          <match Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="pphhyy_Demigryph_NoblePlateArmor"]/statBases/WornBulk</xpath>
+            <value>
+              <WornBulk>3.5</WornBulk>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="pphhyy_Demigryph_NoblePlateArmor"]/statBases</xpath>
+            <value>
+              <WornBulk>3.5</WornBulk>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[defName="pphhyy_Demigryph_NoblePlateArmor"]/equippedStatOffsets/MoveSpeed</xpath>
+          <match Class="PatchOperationRemove">
+            <xpath>Defs/ThingDef[defName="pphhyy_Demigryph_NoblePlateArmor"]/equippedStatOffsets/MoveSpeed</xpath>
+          </match>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[defName="pphhyy_Demigryph_NoblePlateArmor"]/equippedStatOffsets/MeleeDodgeChance</xpath>
+          <match Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="pphhyy_Demigryph_NoblePlateArmor"]/equippedStatOffsets/MeleeDodgeChance</xpath>
+            <value>
+              <MeleeDodgeChance>-0.05</MeleeDodgeChance>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="pphhyy_Demigryph_NoblePlateArmor"]/equippedStatOffsets</xpath>
+            <value>
+              <MeleeDodgeChance>-0.05</MeleeDodgeChance>
+            </value>
+          </nomatch>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="pphhyy_Demigryph_NoblePlateArmorFront"]</xpath>
+    <match Class="PatchOperationSequence">
+      <operations>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[defName="pphhyy_Demigryph_NoblePlateArmorFront"]/statBases/StuffEffectMultiplierArmor</xpath>
+          <match Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="pphhyy_Demigryph_NoblePlateArmorFront"]/statBases/StuffEffectMultiplierArmor</xpath>
+            <value>
+              <StuffEffectMultiplierArmor>5</StuffEffectMultiplierArmor>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="pphhyy_Demigryph_NoblePlateArmorFront"]/statBases</xpath>
+            <value>
+              <StuffEffectMultiplierArmor>5</StuffEffectMultiplierArmor>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[defName="pphhyy_Demigryph_NoblePlateArmorFront"]/statBases/Bulk</xpath>
+          <match Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="pphhyy_Demigryph_NoblePlateArmorFront"]/statBases/Bulk</xpath>
+            <value>
+              <Bulk>17.5</Bulk>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="pphhyy_Demigryph_NoblePlateArmorFront"]/statBases</xpath>
+            <value>
+              <Bulk>17.5</Bulk>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[defName="pphhyy_Demigryph_NoblePlateArmorFront"]/statBases/WornBulk</xpath>
+          <match Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="pphhyy_Demigryph_NoblePlateArmorFront"]/statBases/WornBulk</xpath>
+            <value>
+              <WornBulk>3.5</WornBulk>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="pphhyy_Demigryph_NoblePlateArmorFront"]/statBases</xpath>
+            <value>
+              <WornBulk>3.5</WornBulk>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[defName="pphhyy_Demigryph_NoblePlateArmorFront"]/equippedStatOffsets/MoveSpeed</xpath>
+          <match Class="PatchOperationRemove">
+            <xpath>Defs/ThingDef[defName="pphhyy_Demigryph_NoblePlateArmorFront"]/equippedStatOffsets/MoveSpeed</xpath>
+          </match>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[defName="pphhyy_Demigryph_NoblePlateArmorFront"]/equippedStatOffsets/MeleeDodgeChance</xpath>
+          <match Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="pphhyy_Demigryph_NoblePlateArmorFront"]/equippedStatOffsets/MeleeDodgeChance</xpath>
+            <value>
+              <MeleeDodgeChance>-0.05</MeleeDodgeChance>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="pphhyy_Demigryph_NoblePlateArmorFront"]/equippedStatOffsets</xpath>
+            <value>
+              <MeleeDodgeChance>-0.05</MeleeDodgeChance>
+            </value>
+          </nomatch>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="pphhyy_Demigryph_RaiderPlateArmor"]</xpath>
+    <match Class="PatchOperationSequence">
+      <operations>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[defName="pphhyy_Demigryph_RaiderPlateArmor"]/statBases/StuffEffectMultiplierArmor</xpath>
+          <match Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="pphhyy_Demigryph_RaiderPlateArmor"]/statBases/StuffEffectMultiplierArmor</xpath>
+            <value>
+              <StuffEffectMultiplierArmor>5</StuffEffectMultiplierArmor>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="pphhyy_Demigryph_RaiderPlateArmor"]/statBases</xpath>
+            <value>
+              <StuffEffectMultiplierArmor>5</StuffEffectMultiplierArmor>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[defName="pphhyy_Demigryph_RaiderPlateArmor"]/statBases/Bulk</xpath>
+          <match Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="pphhyy_Demigryph_RaiderPlateArmor"]/statBases/Bulk</xpath>
+            <value>
+              <Bulk>17.5</Bulk>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="pphhyy_Demigryph_RaiderPlateArmor"]/statBases</xpath>
+            <value>
+              <Bulk>17.5</Bulk>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[defName="pphhyy_Demigryph_RaiderPlateArmor"]/statBases/WornBulk</xpath>
+          <match Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="pphhyy_Demigryph_RaiderPlateArmor"]/statBases/WornBulk</xpath>
+            <value>
+              <WornBulk>3.5</WornBulk>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="pphhyy_Demigryph_RaiderPlateArmor"]/statBases</xpath>
+            <value>
+              <WornBulk>3.5</WornBulk>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[defName="pphhyy_Demigryph_RaiderPlateArmor"]/equippedStatOffsets/MoveSpeed</xpath>
+          <match Class="PatchOperationRemove">
+            <xpath>Defs/ThingDef[defName="pphhyy_Demigryph_RaiderPlateArmor"]/equippedStatOffsets/MoveSpeed</xpath>
+          </match>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[defName="pphhyy_Demigryph_RaiderPlateArmor"]/equippedStatOffsets/MeleeDodgeChance</xpath>
+          <match Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="pphhyy_Demigryph_RaiderPlateArmor"]/equippedStatOffsets/MeleeDodgeChance</xpath>
+            <value>
+              <MeleeDodgeChance>-0.05</MeleeDodgeChance>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="pphhyy_Demigryph_RaiderPlateArmor"]/equippedStatOffsets</xpath>
+            <value>
+              <MeleeDodgeChance>-0.05</MeleeDodgeChance>
+            </value>
+          </nomatch>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="pphhyy_Demigryph_RaiderPlateArmorFront"]</xpath>
+    <match Class="PatchOperationSequence">
+      <operations>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[defName="pphhyy_Demigryph_RaiderPlateArmorFront"]/statBases/StuffEffectMultiplierArmor</xpath>
+          <match Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="pphhyy_Demigryph_RaiderPlateArmorFront"]/statBases/StuffEffectMultiplierArmor</xpath>
+            <value>
+              <StuffEffectMultiplierArmor>5</StuffEffectMultiplierArmor>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="pphhyy_Demigryph_RaiderPlateArmorFront"]/statBases</xpath>
+            <value>
+              <StuffEffectMultiplierArmor>5</StuffEffectMultiplierArmor>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[defName="pphhyy_Demigryph_RaiderPlateArmorFront"]/statBases/Bulk</xpath>
+          <match Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="pphhyy_Demigryph_RaiderPlateArmorFront"]/statBases/Bulk</xpath>
+            <value>
+              <Bulk>17.5</Bulk>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="pphhyy_Demigryph_RaiderPlateArmorFront"]/statBases</xpath>
+            <value>
+              <Bulk>17.5</Bulk>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[defName="pphhyy_Demigryph_RaiderPlateArmorFront"]/statBases/WornBulk</xpath>
+          <match Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="pphhyy_Demigryph_RaiderPlateArmorFront"]/statBases/WornBulk</xpath>
+            <value>
+              <WornBulk>3.5</WornBulk>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="pphhyy_Demigryph_RaiderPlateArmorFront"]/statBases</xpath>
+            <value>
+              <WornBulk>3.5</WornBulk>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[defName="pphhyy_Demigryph_RaiderPlateArmorFront"]/equippedStatOffsets/MoveSpeed</xpath>
+          <match Class="PatchOperationRemove">
+            <xpath>Defs/ThingDef[defName="pphhyy_Demigryph_RaiderPlateArmorFront"]/equippedStatOffsets/MoveSpeed</xpath>
+          </match>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[defName="pphhyy_Demigryph_RaiderPlateArmorFront"]/equippedStatOffsets/MeleeDodgeChance</xpath>
+          <match Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="pphhyy_Demigryph_RaiderPlateArmorFront"]/equippedStatOffsets/MeleeDodgeChance</xpath>
+            <value>
+              <MeleeDodgeChance>-0.05</MeleeDodgeChance>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="pphhyy_Demigryph_RaiderPlateArmorFront"]/equippedStatOffsets</xpath>
+            <value>
+              <MeleeDodgeChance>-0.05</MeleeDodgeChance>
+            </value>
+          </nomatch>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

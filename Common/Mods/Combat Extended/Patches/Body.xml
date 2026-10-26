@@ -1,0 +1,411 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Patch>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/BodyDef[defName="pphhyy_QuadrupedAnimal_Demigryph"]/corePart/groups</xpath>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/BodyDef[defName="pphhyy_QuadrupedAnimal_Demigryph"]/corePart</xpath>
+      <value>
+        <groups />
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/BodyDef[defName="pphhyy_QuadrupedAnimal_Demigryph"]/corePart/groups/li[.="CoveredByNaturalArmor"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/BodyDef[defName="pphhyy_QuadrupedAnimal_Demigryph"]/corePart/groups/li[.="CoveredByNaturalArmor"]</xpath>
+      <value>
+        <li>CoveredByNaturalArmor</li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/BodyDef[defName="pphhyy_QuadrupedAnimal_Demigryph"]/corePart/groups</xpath>
+      <value>
+        <li>CoveredByNaturalArmor</li>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/BodyDef[defName="pphhyy_QuadrupedAnimal_Demigryph"]/corePart/parts/li[1]/groups</xpath>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/BodyDef[defName="pphhyy_QuadrupedAnimal_Demigryph"]/corePart/parts/li[1]</xpath>
+      <value>
+        <groups />
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/BodyDef[defName="pphhyy_QuadrupedAnimal_Demigryph"]/corePart/parts/li[1]/groups/li[.="CoveredByNaturalArmor"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/BodyDef[defName="pphhyy_QuadrupedAnimal_Demigryph"]/corePart/parts/li[1]/groups/li[.="CoveredByNaturalArmor"]</xpath>
+      <value>
+        <li>CoveredByNaturalArmor</li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/BodyDef[defName="pphhyy_QuadrupedAnimal_Demigryph"]/corePart/parts/li[1]/groups</xpath>
+      <value>
+        <li>CoveredByNaturalArmor</li>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/BodyDef[defName="pphhyy_QuadrupedAnimal_Demigryph"]/corePart/parts/li[10]/groups</xpath>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/BodyDef[defName="pphhyy_QuadrupedAnimal_Demigryph"]/corePart/parts/li[10]</xpath>
+      <value>
+        <groups />
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/BodyDef[defName="pphhyy_QuadrupedAnimal_Demigryph"]/corePart/parts/li[10]/groups/li[.="CoveredByNaturalArmor"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/BodyDef[defName="pphhyy_QuadrupedAnimal_Demigryph"]/corePart/parts/li[10]/groups/li[.="CoveredByNaturalArmor"]</xpath>
+      <value>
+        <li>CoveredByNaturalArmor</li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/BodyDef[defName="pphhyy_QuadrupedAnimal_Demigryph"]/corePart/parts/li[10]/groups</xpath>
+      <value>
+        <li>CoveredByNaturalArmor</li>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/BodyDef[defName="pphhyy_QuadrupedAnimal_Demigryph"]/corePart/parts/li[10]/parts/li[1]/groups</xpath>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/BodyDef[defName="pphhyy_QuadrupedAnimal_Demigryph"]/corePart/parts/li[10]/parts/li[1]</xpath>
+      <value>
+        <groups />
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/BodyDef[defName="pphhyy_QuadrupedAnimal_Demigryph"]/corePart/parts/li[10]/parts/li[1]/groups/li[.="CoveredByNaturalArmor"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/BodyDef[defName="pphhyy_QuadrupedAnimal_Demigryph"]/corePart/parts/li[10]/parts/li[1]/groups/li[.="CoveredByNaturalArmor"]</xpath>
+      <value>
+        <li>CoveredByNaturalArmor</li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/BodyDef[defName="pphhyy_QuadrupedAnimal_Demigryph"]/corePart/parts/li[10]/parts/li[1]/groups</xpath>
+      <value>
+        <li>CoveredByNaturalArmor</li>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/BodyDef[defName="pphhyy_QuadrupedAnimal_Demigryph"]/corePart/parts/li[10]/parts/li[1]/parts/li[2]/groups</xpath>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/BodyDef[defName="pphhyy_QuadrupedAnimal_Demigryph"]/corePart/parts/li[10]/parts/li[1]/parts/li[2]</xpath>
+      <value>
+        <groups />
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/BodyDef[defName="pphhyy_QuadrupedAnimal_Demigryph"]/corePart/parts/li[10]/parts/li[1]/parts/li[2]/groups/li[.="CoveredByNaturalArmor"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/BodyDef[defName="pphhyy_QuadrupedAnimal_Demigryph"]/corePart/parts/li[10]/parts/li[1]/parts/li[2]/groups/li[.="CoveredByNaturalArmor"]</xpath>
+      <value>
+        <li>CoveredByNaturalArmor</li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/BodyDef[defName="pphhyy_QuadrupedAnimal_Demigryph"]/corePart/parts/li[10]/parts/li[1]/parts/li[2]/groups</xpath>
+      <value>
+        <li>CoveredByNaturalArmor</li>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/BodyDef[defName="pphhyy_QuadrupedAnimal_Demigryph"]/corePart/parts/li[10]/parts/li[1]/parts/li[3]/groups</xpath>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/BodyDef[defName="pphhyy_QuadrupedAnimal_Demigryph"]/corePart/parts/li[10]/parts/li[1]/parts/li[3]</xpath>
+      <value>
+        <groups />
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/BodyDef[defName="pphhyy_QuadrupedAnimal_Demigryph"]/corePart/parts/li[10]/parts/li[1]/parts/li[3]/groups/li[.="CoveredByNaturalArmor"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/BodyDef[defName="pphhyy_QuadrupedAnimal_Demigryph"]/corePart/parts/li[10]/parts/li[1]/parts/li[3]/groups/li[.="CoveredByNaturalArmor"]</xpath>
+      <value>
+        <li>CoveredByNaturalArmor</li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/BodyDef[defName="pphhyy_QuadrupedAnimal_Demigryph"]/corePart/parts/li[10]/parts/li[1]/parts/li[3]/groups</xpath>
+      <value>
+        <li>CoveredByNaturalArmor</li>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/BodyDef[defName="pphhyy_QuadrupedAnimal_Demigryph"]/corePart/parts/li[10]/parts/li[1]/parts/li[4]/groups</xpath>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/BodyDef[defName="pphhyy_QuadrupedAnimal_Demigryph"]/corePart/parts/li[10]/parts/li[1]/parts/li[4]</xpath>
+      <value>
+        <groups />
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/BodyDef[defName="pphhyy_QuadrupedAnimal_Demigryph"]/corePart/parts/li[10]/parts/li[1]/parts/li[4]/groups/li[.="CoveredByNaturalArmor"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/BodyDef[defName="pphhyy_QuadrupedAnimal_Demigryph"]/corePart/parts/li[10]/parts/li[1]/parts/li[4]/groups/li[.="CoveredByNaturalArmor"]</xpath>
+      <value>
+        <li>CoveredByNaturalArmor</li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/BodyDef[defName="pphhyy_QuadrupedAnimal_Demigryph"]/corePart/parts/li[10]/parts/li[1]/parts/li[4]/groups</xpath>
+      <value>
+        <li>CoveredByNaturalArmor</li>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/BodyDef[defName="pphhyy_QuadrupedAnimal_Demigryph"]/corePart/parts/li[10]/parts/li[1]/parts/li[5]/groups</xpath>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/BodyDef[defName="pphhyy_QuadrupedAnimal_Demigryph"]/corePart/parts/li[10]/parts/li[1]/parts/li[5]</xpath>
+      <value>
+        <groups />
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/BodyDef[defName="pphhyy_QuadrupedAnimal_Demigryph"]/corePart/parts/li[10]/parts/li[1]/parts/li[5]/groups/li[.="CoveredByNaturalArmor"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/BodyDef[defName="pphhyy_QuadrupedAnimal_Demigryph"]/corePart/parts/li[10]/parts/li[1]/parts/li[5]/groups/li[.="CoveredByNaturalArmor"]</xpath>
+      <value>
+        <li>CoveredByNaturalArmor</li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/BodyDef[defName="pphhyy_QuadrupedAnimal_Demigryph"]/corePart/parts/li[10]/parts/li[1]/parts/li[5]/groups</xpath>
+      <value>
+        <li>CoveredByNaturalArmor</li>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/BodyDef[defName="pphhyy_QuadrupedAnimal_Demigryph"]/corePart/parts/li[10]/parts/li[1]/parts/li[6]/groups</xpath>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/BodyDef[defName="pphhyy_QuadrupedAnimal_Demigryph"]/corePart/parts/li[10]/parts/li[1]/parts/li[6]</xpath>
+      <value>
+        <groups />
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/BodyDef[defName="pphhyy_QuadrupedAnimal_Demigryph"]/corePart/parts/li[10]/parts/li[1]/parts/li[6]/groups/li[.="CoveredByNaturalArmor"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/BodyDef[defName="pphhyy_QuadrupedAnimal_Demigryph"]/corePart/parts/li[10]/parts/li[1]/parts/li[6]/groups/li[.="CoveredByNaturalArmor"]</xpath>
+      <value>
+        <li>CoveredByNaturalArmor</li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/BodyDef[defName="pphhyy_QuadrupedAnimal_Demigryph"]/corePart/parts/li[10]/parts/li[1]/parts/li[6]/groups</xpath>
+      <value>
+        <li>CoveredByNaturalArmor</li>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/BodyDef[defName="pphhyy_QuadrupedAnimal_Demigryph"]/corePart/parts/li[11]/groups</xpath>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/BodyDef[defName="pphhyy_QuadrupedAnimal_Demigryph"]/corePart/parts/li[11]</xpath>
+      <value>
+        <groups />
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/BodyDef[defName="pphhyy_QuadrupedAnimal_Demigryph"]/corePart/parts/li[11]/groups/li[.="CoveredByNaturalArmor"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/BodyDef[defName="pphhyy_QuadrupedAnimal_Demigryph"]/corePart/parts/li[11]/groups/li[.="CoveredByNaturalArmor"]</xpath>
+      <value>
+        <li>CoveredByNaturalArmor</li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/BodyDef[defName="pphhyy_QuadrupedAnimal_Demigryph"]/corePart/parts/li[11]/groups</xpath>
+      <value>
+        <li>CoveredByNaturalArmor</li>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/BodyDef[defName="pphhyy_QuadrupedAnimal_Demigryph"]/corePart/parts/li[11]/parts/li[1]/groups</xpath>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/BodyDef[defName="pphhyy_QuadrupedAnimal_Demigryph"]/corePart/parts/li[11]/parts/li[1]</xpath>
+      <value>
+        <groups />
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/BodyDef[defName="pphhyy_QuadrupedAnimal_Demigryph"]/corePart/parts/li[11]/parts/li[1]/groups/li[.="CoveredByNaturalArmor"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/BodyDef[defName="pphhyy_QuadrupedAnimal_Demigryph"]/corePart/parts/li[11]/parts/li[1]/groups/li[.="CoveredByNaturalArmor"]</xpath>
+      <value>
+        <li>CoveredByNaturalArmor</li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/BodyDef[defName="pphhyy_QuadrupedAnimal_Demigryph"]/corePart/parts/li[11]/parts/li[1]/groups</xpath>
+      <value>
+        <li>CoveredByNaturalArmor</li>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/BodyDef[defName="pphhyy_QuadrupedAnimal_Demigryph"]/corePart/parts/li[12]/groups</xpath>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/BodyDef[defName="pphhyy_QuadrupedAnimal_Demigryph"]/corePart/parts/li[12]</xpath>
+      <value>
+        <groups />
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/BodyDef[defName="pphhyy_QuadrupedAnimal_Demigryph"]/corePart/parts/li[12]/groups/li[.="CoveredByNaturalArmor"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/BodyDef[defName="pphhyy_QuadrupedAnimal_Demigryph"]/corePart/parts/li[12]/groups/li[.="CoveredByNaturalArmor"]</xpath>
+      <value>
+        <li>CoveredByNaturalArmor</li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/BodyDef[defName="pphhyy_QuadrupedAnimal_Demigryph"]/corePart/parts/li[12]/groups</xpath>
+      <value>
+        <li>CoveredByNaturalArmor</li>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/BodyDef[defName="pphhyy_QuadrupedAnimal_Demigryph"]/corePart/parts/li[12]/parts/li[1]/groups</xpath>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/BodyDef[defName="pphhyy_QuadrupedAnimal_Demigryph"]/corePart/parts/li[12]/parts/li[1]</xpath>
+      <value>
+        <groups />
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/BodyDef[defName="pphhyy_QuadrupedAnimal_Demigryph"]/corePart/parts/li[12]/parts/li[1]/groups/li[.="CoveredByNaturalArmor"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/BodyDef[defName="pphhyy_QuadrupedAnimal_Demigryph"]/corePart/parts/li[12]/parts/li[1]/groups/li[.="CoveredByNaturalArmor"]</xpath>
+      <value>
+        <li>CoveredByNaturalArmor</li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/BodyDef[defName="pphhyy_QuadrupedAnimal_Demigryph"]/corePart/parts/li[12]/parts/li[1]/groups</xpath>
+      <value>
+        <li>CoveredByNaturalArmor</li>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/BodyDef[defName="pphhyy_QuadrupedAnimal_Demigryph"]/corePart/parts/li[13]/groups</xpath>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/BodyDef[defName="pphhyy_QuadrupedAnimal_Demigryph"]/corePart/parts/li[13]</xpath>
+      <value>
+        <groups />
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/BodyDef[defName="pphhyy_QuadrupedAnimal_Demigryph"]/corePart/parts/li[13]/groups/li[.="CoveredByNaturalArmor"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/BodyDef[defName="pphhyy_QuadrupedAnimal_Demigryph"]/corePart/parts/li[13]/groups/li[.="CoveredByNaturalArmor"]</xpath>
+      <value>
+        <li>CoveredByNaturalArmor</li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/BodyDef[defName="pphhyy_QuadrupedAnimal_Demigryph"]/corePart/parts/li[13]/groups</xpath>
+      <value>
+        <li>CoveredByNaturalArmor</li>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/BodyDef[defName="pphhyy_QuadrupedAnimal_Demigryph"]/corePart/parts/li[13]/parts/li[1]/groups</xpath>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/BodyDef[defName="pphhyy_QuadrupedAnimal_Demigryph"]/corePart/parts/li[13]/parts/li[1]</xpath>
+      <value>
+        <groups />
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/BodyDef[defName="pphhyy_QuadrupedAnimal_Demigryph"]/corePart/parts/li[13]/parts/li[1]/groups/li[.="CoveredByNaturalArmor"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/BodyDef[defName="pphhyy_QuadrupedAnimal_Demigryph"]/corePart/parts/li[13]/parts/li[1]/groups/li[.="CoveredByNaturalArmor"]</xpath>
+      <value>
+        <li>CoveredByNaturalArmor</li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/BodyDef[defName="pphhyy_QuadrupedAnimal_Demigryph"]/corePart/parts/li[13]/parts/li[1]/groups</xpath>
+      <value>
+        <li>CoveredByNaturalArmor</li>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/BodyDef[defName="pphhyy_QuadrupedAnimal_Demigryph"]/corePart/parts/li[14]/groups</xpath>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/BodyDef[defName="pphhyy_QuadrupedAnimal_Demigryph"]/corePart/parts/li[14]</xpath>
+      <value>
+        <groups />
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/BodyDef[defName="pphhyy_QuadrupedAnimal_Demigryph"]/corePart/parts/li[14]/groups/li[.="CoveredByNaturalArmor"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/BodyDef[defName="pphhyy_QuadrupedAnimal_Demigryph"]/corePart/parts/li[14]/groups/li[.="CoveredByNaturalArmor"]</xpath>
+      <value>
+        <li>CoveredByNaturalArmor</li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/BodyDef[defName="pphhyy_QuadrupedAnimal_Demigryph"]/corePart/parts/li[14]/groups</xpath>
+      <value>
+        <li>CoveredByNaturalArmor</li>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/BodyDef[defName="pphhyy_QuadrupedAnimal_Demigryph"]/corePart/parts/li[14]/parts/li[1]/groups</xpath>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/BodyDef[defName="pphhyy_QuadrupedAnimal_Demigryph"]/corePart/parts/li[14]/parts/li[1]</xpath>
+      <value>
+        <groups />
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/BodyDef[defName="pphhyy_QuadrupedAnimal_Demigryph"]/corePart/parts/li[14]/parts/li[1]/groups/li[.="CoveredByNaturalArmor"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/BodyDef[defName="pphhyy_QuadrupedAnimal_Demigryph"]/corePart/parts/li[14]/parts/li[1]/groups/li[.="CoveredByNaturalArmor"]</xpath>
+      <value>
+        <li>CoveredByNaturalArmor</li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/BodyDef[defName="pphhyy_QuadrupedAnimal_Demigryph"]/corePart/parts/li[14]/parts/li[1]/groups</xpath>
+      <value>
+        <li>CoveredByNaturalArmor</li>
+      </value>
+    </nomatch>
+  </Operation>
+</Patch>

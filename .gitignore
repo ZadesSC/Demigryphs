@@ -4,3 +4,6 @@ __pycache__/
 
 /.rimworld-ci/
 /release-notes.txt
+/tests/ce/Runtime/Assemblies/
+/tests/ce/Runtime/Source/bin/
+/tests/ce/Runtime/Source/obj/
