@@ -151,6 +151,9 @@
       <predator>true</predator>
       <petness>0.6</petness>
       <trainability>Advanced</trainability>
+      <specialTrainables>
+        <li MayRequire="Ludeon.RimWorld.Odyssey">AttackTarget</li>
+      </specialTrainables>
       <manhunterOnTameFailChance>0.8</manhunterOnTameFailChance>
       <manhunterOnDamageChance>1</manhunterOnDamageChance>
       <meatLabel>Demigryph meat</meatLabel>
@@ -388,6 +391,9 @@
       
       <predator>true</predator>
       <trainability>Advanced</trainability>
+      <specialTrainables>
+        <li MayRequire="Ludeon.RimWorld.Odyssey">AttackTarget</li>
+      </specialTrainables>
       <manhunterOnTameFailChance>1</manhunterOnTameFailChance>
       <manhunterOnDamageChance>1</manhunterOnDamageChance>
       <useMeatFrom>pphhyy_Demigryph</useMeatFrom>
@@ -624,6 +630,9 @@
       <predator>true</predator>
       <petness>0.6</petness>
       <trainability>Advanced</trainability>
+      <specialTrainables>
+        <li MayRequire="Ludeon.RimWorld.Odyssey">AttackTarget</li>
+      </specialTrainables>
       <manhunterOnTameFailChance>0.7</manhunterOnTameFailChance>
       <manhunterOnDamageChance>1</manhunterOnDamageChance>
       <useMeatFrom>pphhyy_Demigryph</useMeatFrom>
@@ -859,6 +868,9 @@
       <predator>true</predator>
       <petness>0.6</petness>
       <trainability>Advanced</trainability>
+      <specialTrainables>
+        <li MayRequire="Ludeon.RimWorld.Odyssey">AttackTarget</li>
+      </specialTrainables>
       <manhunterOnTameFailChance>0.8</manhunterOnTameFailChance>
       <manhunterOnDamageChance>1</manhunterOnDamageChance>
       <useMeatFrom>pphhyy_Demigryph</useMeatFrom>
@@ -1095,6 +1107,9 @@
       <predator>true</predator>
       <petness>0.6</petness>
       <trainability>Advanced</trainability>
+      <specialTrainables>
+        <li MayRequire="Ludeon.RimWorld.Odyssey">AttackTarget</li>
+      </specialTrainables>
       <manhunterOnTameFailChance>0.8</manhunterOnTameFailChance>
       <manhunterOnDamageChance>1</manhunterOnDamageChance>
       <useMeatFrom>pphhyy_Demigryph</useMeatFrom>
@@ -1332,6 +1347,9 @@
       <predator>true</predator>
       <petness>0.6</petness>
       <trainability>Advanced</trainability>
+      <specialTrainables>
+        <li MayRequire="Ludeon.RimWorld.Odyssey">AttackTarget</li>
+      </specialTrainables>
       <manhunterOnTameFailChance>0.8</manhunterOnTameFailChance>
       <manhunterOnDamageChance>1</manhunterOnDamageChance>
       <useMeatFrom>pphhyy_Demigryph</useMeatFrom>
@@ -1570,6 +1588,9 @@
       <predator>true</predator>
       <petness>0.6</petness>
       <trainability>Advanced</trainability>
+      <specialTrainables>
+        <li MayRequire="Ludeon.RimWorld.Odyssey">AttackTarget</li>
+      </specialTrainables>
       <manhunterOnTameFailChance>0.8</manhunterOnTameFailChance>
       <manhunterOnDamageChance>1</manhunterOnDamageChance>
       <useMeatFrom>pphhyy_Demigryph</useMeatFrom>
@@ -1807,6 +1828,9 @@
       <predator>true</predator>
       <petness>0.6</petness>
       <trainability>Advanced</trainability>
+      <specialTrainables>
+        <li MayRequire="Ludeon.RimWorld.Odyssey">AttackTarget</li>
+      </specialTrainables>
       <manhunterOnTameFailChance>0.9</manhunterOnTameFailChance>
       <manhunterOnDamageChance>1</manhunterOnDamageChance>
       <useMeatFrom>pphhyy_Demigryph</useMeatFrom>
@@ -2045,6 +2069,9 @@
       <predator>true</predator>
       <petness>0.6</petness>
       <trainability>Advanced</trainability>
+      <specialTrainables>
+        <li MayRequire="Ludeon.RimWorld.Odyssey">AttackTarget</li>
+      </specialTrainables>
       <manhunterOnTameFailChance>0.9</manhunterOnTameFailChance>
       <manhunterOnDamageChance>1</manhunterOnDamageChance>
       <useMeatFrom>pphhyy_Demigryph</useMeatFrom>
