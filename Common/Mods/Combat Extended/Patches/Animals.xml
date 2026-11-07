@@ -1801,4 +1801,410 @@
       </value>
     </nomatch>
   </Operation>
+  <!--Natural hide armor is separate from CE body-part resistance. Values use base CE balance.-->
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="pphhyy_Demigryph"]/statBases/ArmorRating_Sharp</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="pphhyy_Demigryph"]/statBases/ArmorRating_Sharp</xpath>
+      <value>
+        <ArmorRating_Sharp>0.10</ArmorRating_Sharp>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="pphhyy_Demigryph"]/statBases</xpath>
+      <value>
+        <ArmorRating_Sharp>0.10</ArmorRating_Sharp>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="pphhyy_Demigryph"]/statBases/ArmorRating_Blunt</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="pphhyy_Demigryph"]/statBases/ArmorRating_Blunt</xpath>
+      <value>
+        <ArmorRating_Blunt>0.15</ArmorRating_Blunt>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="pphhyy_Demigryph"]/statBases</xpath>
+      <value>
+        <ArmorRating_Blunt>0.15</ArmorRating_Blunt>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="pphhyy_Demigryph"]/statBases/ArmorRating_Heat</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="pphhyy_Demigryph"]/statBases/ArmorRating_Heat</xpath>
+      <value>
+        <ArmorRating_Heat>0</ArmorRating_Heat>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="pphhyy_Demigryph"]/statBases</xpath>
+      <value>
+        <ArmorRating_Heat>0</ArmorRating_Heat>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="pphhyy_CrimsonDemigryph"]/statBases/ArmorRating_Sharp</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="pphhyy_CrimsonDemigryph"]/statBases/ArmorRating_Sharp</xpath>
+      <value>
+        <ArmorRating_Sharp>0.12</ArmorRating_Sharp>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="pphhyy_CrimsonDemigryph"]/statBases</xpath>
+      <value>
+        <ArmorRating_Sharp>0.12</ArmorRating_Sharp>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="pphhyy_CrimsonDemigryph"]/statBases/ArmorRating_Blunt</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="pphhyy_CrimsonDemigryph"]/statBases/ArmorRating_Blunt</xpath>
+      <value>
+        <ArmorRating_Blunt>0.18</ArmorRating_Blunt>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="pphhyy_CrimsonDemigryph"]/statBases</xpath>
+      <value>
+        <ArmorRating_Blunt>0.18</ArmorRating_Blunt>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="pphhyy_CrimsonDemigryph"]/statBases/ArmorRating_Heat</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="pphhyy_CrimsonDemigryph"]/statBases/ArmorRating_Heat</xpath>
+      <value>
+        <ArmorRating_Heat>0</ArmorRating_Heat>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="pphhyy_CrimsonDemigryph"]/statBases</xpath>
+      <value>
+        <ArmorRating_Heat>0</ArmorRating_Heat>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="pphhyy_CheetahDemigryph"]/statBases/ArmorRating_Sharp</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="pphhyy_CheetahDemigryph"]/statBases/ArmorRating_Sharp</xpath>
+      <value>
+        <ArmorRating_Sharp>0.05</ArmorRating_Sharp>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="pphhyy_CheetahDemigryph"]/statBases</xpath>
+      <value>
+        <ArmorRating_Sharp>0.05</ArmorRating_Sharp>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="pphhyy_CheetahDemigryph"]/statBases/ArmorRating_Blunt</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="pphhyy_CheetahDemigryph"]/statBases/ArmorRating_Blunt</xpath>
+      <value>
+        <ArmorRating_Blunt>0.075</ArmorRating_Blunt>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="pphhyy_CheetahDemigryph"]/statBases</xpath>
+      <value>
+        <ArmorRating_Blunt>0.075</ArmorRating_Blunt>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="pphhyy_CheetahDemigryph"]/statBases/ArmorRating_Heat</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="pphhyy_CheetahDemigryph"]/statBases/ArmorRating_Heat</xpath>
+      <value>
+        <ArmorRating_Heat>0</ArmorRating_Heat>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="pphhyy_CheetahDemigryph"]/statBases</xpath>
+      <value>
+        <ArmorRating_Heat>0</ArmorRating_Heat>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="pphhyy_VultureDemigryph"]/statBases/ArmorRating_Sharp</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="pphhyy_VultureDemigryph"]/statBases/ArmorRating_Sharp</xpath>
+      <value>
+        <ArmorRating_Sharp>0.08</ArmorRating_Sharp>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="pphhyy_VultureDemigryph"]/statBases</xpath>
+      <value>
+        <ArmorRating_Sharp>0.08</ArmorRating_Sharp>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="pphhyy_VultureDemigryph"]/statBases/ArmorRating_Blunt</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="pphhyy_VultureDemigryph"]/statBases/ArmorRating_Blunt</xpath>
+      <value>
+        <ArmorRating_Blunt>0.12</ArmorRating_Blunt>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="pphhyy_VultureDemigryph"]/statBases</xpath>
+      <value>
+        <ArmorRating_Blunt>0.12</ArmorRating_Blunt>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="pphhyy_VultureDemigryph"]/statBases/ArmorRating_Heat</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="pphhyy_VultureDemigryph"]/statBases/ArmorRating_Heat</xpath>
+      <value>
+        <ArmorRating_Heat>0</ArmorRating_Heat>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="pphhyy_VultureDemigryph"]/statBases</xpath>
+      <value>
+        <ArmorRating_Heat>0</ArmorRating_Heat>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="pphhyy_LeopardDemigryph"]/statBases/ArmorRating_Sharp</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="pphhyy_LeopardDemigryph"]/statBases/ArmorRating_Sharp</xpath>
+      <value>
+        <ArmorRating_Sharp>0.10</ArmorRating_Sharp>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="pphhyy_LeopardDemigryph"]/statBases</xpath>
+      <value>
+        <ArmorRating_Sharp>0.10</ArmorRating_Sharp>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="pphhyy_LeopardDemigryph"]/statBases/ArmorRating_Blunt</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="pphhyy_LeopardDemigryph"]/statBases/ArmorRating_Blunt</xpath>
+      <value>
+        <ArmorRating_Blunt>0.15</ArmorRating_Blunt>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="pphhyy_LeopardDemigryph"]/statBases</xpath>
+      <value>
+        <ArmorRating_Blunt>0.15</ArmorRating_Blunt>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="pphhyy_LeopardDemigryph"]/statBases/ArmorRating_Heat</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="pphhyy_LeopardDemigryph"]/statBases/ArmorRating_Heat</xpath>
+      <value>
+        <ArmorRating_Heat>0</ArmorRating_Heat>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="pphhyy_LeopardDemigryph"]/statBases</xpath>
+      <value>
+        <ArmorRating_Heat>0</ArmorRating_Heat>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="pphhyy_PantherDemigryph"]/statBases/ArmorRating_Sharp</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="pphhyy_PantherDemigryph"]/statBases/ArmorRating_Sharp</xpath>
+      <value>
+        <ArmorRating_Sharp>0.10</ArmorRating_Sharp>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="pphhyy_PantherDemigryph"]/statBases</xpath>
+      <value>
+        <ArmorRating_Sharp>0.10</ArmorRating_Sharp>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="pphhyy_PantherDemigryph"]/statBases/ArmorRating_Blunt</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="pphhyy_PantherDemigryph"]/statBases/ArmorRating_Blunt</xpath>
+      <value>
+        <ArmorRating_Blunt>0.15</ArmorRating_Blunt>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="pphhyy_PantherDemigryph"]/statBases</xpath>
+      <value>
+        <ArmorRating_Blunt>0.15</ArmorRating_Blunt>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="pphhyy_PantherDemigryph"]/statBases/ArmorRating_Heat</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="pphhyy_PantherDemigryph"]/statBases/ArmorRating_Heat</xpath>
+      <value>
+        <ArmorRating_Heat>0</ArmorRating_Heat>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="pphhyy_PantherDemigryph"]/statBases</xpath>
+      <value>
+        <ArmorRating_Heat>0</ArmorRating_Heat>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="pphhyy_TigerDemigryph"]/statBases/ArmorRating_Sharp</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="pphhyy_TigerDemigryph"]/statBases/ArmorRating_Sharp</xpath>
+      <value>
+        <ArmorRating_Sharp>0.15</ArmorRating_Sharp>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="pphhyy_TigerDemigryph"]/statBases</xpath>
+      <value>
+        <ArmorRating_Sharp>0.15</ArmorRating_Sharp>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="pphhyy_TigerDemigryph"]/statBases/ArmorRating_Blunt</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="pphhyy_TigerDemigryph"]/statBases/ArmorRating_Blunt</xpath>
+      <value>
+        <ArmorRating_Blunt>0.225</ArmorRating_Blunt>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="pphhyy_TigerDemigryph"]/statBases</xpath>
+      <value>
+        <ArmorRating_Blunt>0.225</ArmorRating_Blunt>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="pphhyy_TigerDemigryph"]/statBases/ArmorRating_Heat</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="pphhyy_TigerDemigryph"]/statBases/ArmorRating_Heat</xpath>
+      <value>
+        <ArmorRating_Heat>0</ArmorRating_Heat>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="pphhyy_TigerDemigryph"]/statBases</xpath>
+      <value>
+        <ArmorRating_Heat>0</ArmorRating_Heat>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="pphhyy_Daermigryph"]/statBases/ArmorRating_Sharp</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="pphhyy_Daermigryph"]/statBases/ArmorRating_Sharp</xpath>
+      <value>
+        <ArmorRating_Sharp>0.20</ArmorRating_Sharp>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="pphhyy_Daermigryph"]/statBases</xpath>
+      <value>
+        <ArmorRating_Sharp>0.20</ArmorRating_Sharp>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="pphhyy_Daermigryph"]/statBases/ArmorRating_Blunt</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="pphhyy_Daermigryph"]/statBases/ArmorRating_Blunt</xpath>
+      <value>
+        <ArmorRating_Blunt>0.30</ArmorRating_Blunt>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="pphhyy_Daermigryph"]/statBases</xpath>
+      <value>
+        <ArmorRating_Blunt>0.30</ArmorRating_Blunt>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="pphhyy_Daermigryph"]/statBases/ArmorRating_Heat</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="pphhyy_Daermigryph"]/statBases/ArmorRating_Heat</xpath>
+      <value>
+        <ArmorRating_Heat>0</ArmorRating_Heat>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="pphhyy_Daermigryph"]/statBases</xpath>
+      <value>
+        <ArmorRating_Heat>0</ArmorRating_Heat>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="pphhyy_JadeDemigryph"]/statBases/ArmorRating_Sharp</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="pphhyy_JadeDemigryph"]/statBases/ArmorRating_Sharp</xpath>
+      <value>
+        <ArmorRating_Sharp>0.15</ArmorRating_Sharp>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="pphhyy_JadeDemigryph"]/statBases</xpath>
+      <value>
+        <ArmorRating_Sharp>0.15</ArmorRating_Sharp>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="pphhyy_JadeDemigryph"]/statBases/ArmorRating_Blunt</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="pphhyy_JadeDemigryph"]/statBases/ArmorRating_Blunt</xpath>
+      <value>
+        <ArmorRating_Blunt>0.225</ArmorRating_Blunt>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="pphhyy_JadeDemigryph"]/statBases</xpath>
+      <value>
+        <ArmorRating_Blunt>0.225</ArmorRating_Blunt>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="pphhyy_JadeDemigryph"]/statBases/ArmorRating_Heat</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="pphhyy_JadeDemigryph"]/statBases/ArmorRating_Heat</xpath>
+      <value>
+        <ArmorRating_Heat>0</ArmorRating_Heat>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="pphhyy_JadeDemigryph"]/statBases</xpath>
+      <value>
+        <ArmorRating_Heat>0</ArmorRating_Heat>
+      </value>
+    </nomatch>
+  </Operation>
 </Patch>

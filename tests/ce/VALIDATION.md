@@ -14,3 +14,11 @@ At normal quality, steel helmets resolved to sharp armor 3–3.75 and blunt armo
 The development packager passed XML and both supported-version load-map validation. Its ZIP contains all six CE patch files and excludes the test harness.
 
 RimWorld 1.7 was not tested in-game: installed/current CE declares support only for 1.6. Both versions select the same compatibility folder. These smoke checks do not establish long-term gameplay balance, projectile flight behavior or player menu/recipe interactions.
+
+## Natural armor update — 2026-11-07
+
+Merged the current `dev` branch before adding breed-specific natural hide armor. The exact ratings are documented in the compatibility README; heat armor is zero for all nine breeds.
+
+Static XML replay passed 114 assertions across missing, existing and mixed armor-stat inputs: exact values for every breed, unique stats, unchanged movement/health values, and identical output after a second application. This replay used Python ElementTree to interpret the conditional/add/replace operations, not Verse. Shared 1.6/1.7 XML/load-map validation and development packaging passed.
+
+The game runs recorded above predate these natural armor ratings. No new in-game run or gameplay balance test was performed for this update.
