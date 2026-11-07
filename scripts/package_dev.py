@@ -30,6 +30,7 @@ def package(root, output, build_id):
             "IfModActive": "Dylan.AnimalGear", "IfModNotActive": "ingendum.animalapparelframework"}),
         ("Common/Mods/VEF", {
             "IfModActive": "oskarpotocki.vanillafactionsexpanded.core_steam,oskarpotocki.vanillafactionsexpanded.core"}),
+        ("Common/Mods/Combat Extended", {"IfModActive": "CETeam.CombatExtended"}),
     ]
     if [node.tag for node in mappings] != ["v1.6", "v1.7"]:
         raise ValueError("Expected explicit load mappings for 1.6 and 1.7")

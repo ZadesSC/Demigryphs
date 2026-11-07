@@ -30,4 +30,4 @@ To create the same package locally with Python 3, run `python3 scripts/package_d
 ## Notes
 
 - Animal Apparel: Framework and Animal Gear are supported as alternative compatibility paths, not as simultaneous active frameworks.
-- Combat Extended currently provides its own built-in compatibility patch for this mod.
+- Combat Extended compatibility is included in `Common/Mods/Combat Extended`, including all breeds, materials, helmets, animal armor, VEF shields and banners. Load this mod after CE; its built-in Demigryph patch can remain enabled. See that folder’s README for balance, attribution and testing details.
