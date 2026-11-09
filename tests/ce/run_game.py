@@ -95,7 +95,7 @@ def main():
         text = report.read_text() if report.exists() else ''
         print(text, flush=True)
         game_log = (result / 'Player.log').read_text(errors='replace')
-        errors = re.findall(r'^.*(?:Exception|XML error|Could not resolve|Patch operation.*failed|Config error).*$' , game_log, re.MULTILINE)
+        errors = re.findall(r'^.*(?:CE returning BodyType Undefined|Exception|XML error|Could not resolve|Patch operation.*failed|Config error).*$' , game_log, re.MULTILINE)
         if errors:
             print('Game errors:', '\n'.join(errors), flush=True)
         if process.returncode != 0 or errors or 'FAIL ' in text or 'COMPLETE' not in text:

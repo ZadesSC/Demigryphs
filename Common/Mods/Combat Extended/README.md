@@ -2,7 +2,7 @@
 
 Loaded only with `CETeam.CombatExtended`, after CE, from the shared `Common` content for RimWorld 1.6 and 1.7. No extra patch mod is needed. Leave CE's built-in Demigryph patch enabled: these patches check each target and replace existing values or add missing values.
 
-Coverage includes all nine breeds and their melee tools, natural armor body groups, all three leathers, all five human helmets, all eight animal armor pieces through either Animal Apparel: Framework or Animal Gear, and all five shields and five banners through Vanilla Expanded Framework. Eggs, trophies, scenarios and factions do not add combat mechanics requiring CE conversion.
+Coverage includes all nine breeds, their quadruped collision shapes and melee tools, natural armor body groups, all three leathers, all five human helmets, all eight animal armor pieces through either Animal Apparel: Framework or Animal Gear, and all five shields and five banners through Vanilla Expanded Framework. Eggs, trophies, scenarios and factions do not add combat mechanics requiring CE conversion.
 
 ## Values
 

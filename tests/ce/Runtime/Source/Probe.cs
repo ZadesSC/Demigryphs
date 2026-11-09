@@ -33,6 +33,8 @@ public static class CeProbe
                     if (list != null) Check(!list.GroupBy(s => s.stat).Any(g => g.Count() > 1), d.defName + " unique stats");
                 if (d.race != null)
                 {
+                    Check(d.modExtensions.Count(e => e is RacePropertiesExtensionCE) == 1, d.defName + " one CE race extension");
+                    Check(d.GetModExtension<RacePropertiesExtensionCE>().bodyShape == DefDatabase<BodyShapeDef>.GetNamed("Quadruped"), d.defName + " quadruped collision shape");
                     Check(d.tools.Count == 4 && d.tools.All(t => t is ToolCE), d.defName + " four CE tools");
                     Check(d.tools.Cast<ToolCE>().All(t => t.armorPenetrationBlunt > 0), d.defName + " penetration");
                     foreach (var p in d.race.body.AllParts.Where(p => p.depth == BodyPartDepth.Outside))
@@ -133,6 +135,23 @@ public sealed class CeScene : GameComponent
                     melee.ApplyMeleeDamageToTarget(target);
                 }
                 CeProbe.Check(target.Dead || target.health.summaryHealth.SummaryHealthPercent < before, pawn.def.defName + " actual melee damage");
+                var standing = CE_Utility.GetCollisionBodyFactors(pawn);
+                var shape = pawn.def.GetModExtension<RacePropertiesExtensionCE>().bodyShape;
+                pawn.jobs.posture = PawnPosture.LayingOnGroundNormal;
+                var resting = CE_Utility.GetCollisionBodyFactors(pawn);
+                CeProbe.Check(Math.Abs(resting.x - standing.x * shape.widthLaying / shape.width) < .0001f
+                    && Math.Abs(resting.y - standing.y * shape.heightLaying / shape.height) < .0001f,
+                    pawn.def.defName + " resting collision factors");
+                pawn.jobs.posture = PawnPosture.Standing;
+                HealthUtility.DamageUntilDowned(pawn, false);
+                CeProbe.Check(pawn.Downed && !pawn.Dead, pawn.def.defName + " downed collision fixture");
+                var downed = CE_Utility.GetCollisionBodyFactors(pawn);
+                CeProbe.Check(Math.Abs(downed.x - resting.x) < .0001f
+                    && Math.Abs(downed.y - resting.y * shape.heightLaying) < .0001f,
+                    pawn.def.defName + " downed collision factors");
+                var bounds = CE_Utility.GetBoundsFor(pawn);
+                CeProbe.Check(bounds.size.x > 0 && bounds.size.y > 0 && bounds.size.z > 0,
+                    pawn.def.defName + " downed collision bounds");
             }
             foreach (var d in DefDatabase<ThingDef>.AllDefsListForReading.Where(d => d.defName.StartsWith("pphhyy_") && d.IsApparel))
             {

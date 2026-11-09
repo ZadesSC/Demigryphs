@@ -16,6 +16,7 @@ Each run writes `report.txt`, `Player.log` and `stdout.log` into a printed tempo
 - Actual selected load folders and every breed's resolved CE tools, penetration, stats and body armor groups.
 - Real Verse XML patch replay with and without upstream operations, including a second application to check idempotence and unique stat entries.
 - Spawned adult demigryphs using CE's melee damage calculation against live pawns.
+- A unique CE quadruped race extension for every breed, with resting/downed collision factors and downed bounds; the runner also rejects the BodyType Undefined error.
 - Equipping every available armor piece, resolving material-derived sharp/blunt armor and bulk.
 - Every shield/banner's CE class, coverage, extension, render node, info card and removal of VEF's shield comp/weapon tools.
 - CE sharp deflection on a covered hand, with metal shields absorbing the resulting impact and fabric banners allowing blunt impact through, followed by game frames with the test pawns in view.

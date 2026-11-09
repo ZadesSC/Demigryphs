@@ -22,3 +22,11 @@ Merged the current `dev` branch before adding breed-specific natural hide armor.
 Static XML replay passed 114 assertions across missing, existing and mixed armor-stat inputs: exact values for every breed, unique stats, unchanged movement/health values, and identical output after a second application. This replay used Python ElementTree to interpret the conditional/add/replace operations, not Verse. Shared 1.6/1.7 XML/load-map validation and development packaging passed.
 
 The game runs recorded above predate these natural armor ratings. No new in-game run or gameplay balance test was performed for this update.
+
+## Collision body shapes — 2026-11-09
+
+Added the missing CE `RacePropertiesExtensionCE.bodyShape = Quadruped` for all nine breeds in the shared content. The patch preserves other extension fields and handles absent or existing extensions and body shapes.
+
+The regression harness now checks unique race extensions and resolved quadruped shapes, then exercises CE collision factors for resting and downed adults and collision bounds for downed adults. The game-log check explicitly rejects `CE returning BodyType Undefined`.
+
+PASS: Real macOS RimWorld 1.6.4871 with CE, without VEF or animal apparel frameworks, with CE's bundled Demigryph patch enabled (1006 assertions) and disabled (1006 assertions). Both runs completed with no detected game-log errors, including no BodyType Undefined error. Verse XML replay also passed repeated application with and without the bundled patch. Shared 1.6/1.7 load-map validation and development packaging passed. RimWorld 1.7 was not run.
