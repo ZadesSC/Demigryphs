@@ -5,11 +5,13 @@
 		<li IfModActive="ingendum.animalapparelframework" IfModNotActive="Dylan.AnimalGear">Common/Mods/Animal Armor Framework</li>
 		<li IfModActive="Dylan.AnimalGear" IfModNotActive="ingendum.animalapparelframework">Common/Mods/Animal Gear</li>
 		<li IfModActive="oskarpotocki.vanillafactionsexpanded.core_steam,oskarpotocki.vanillafactionsexpanded.core">Common/Mods/VEF</li>
+		<li IfModActive="CETeam.CombatExtended">Common/Mods/Combat Extended</li>
 	</v1.6>
 	<v1.7>
 		<li>Common</li>
 		<li IfModActive="ingendum.animalapparelframework" IfModNotActive="Dylan.AnimalGear">Common/Mods/Animal Armor Framework</li>
 		<li IfModActive="Dylan.AnimalGear" IfModNotActive="ingendum.animalapparelframework">Common/Mods/Animal Gear</li>
 		<li IfModActive="oskarpotocki.vanillafactionsexpanded.core_steam,oskarpotocki.vanillafactionsexpanded.core">Common/Mods/VEF</li>
+		<li IfModActive="CETeam.CombatExtended">Common/Mods/Combat Extended</li>
 	</v1.7>
 </loadFolders>

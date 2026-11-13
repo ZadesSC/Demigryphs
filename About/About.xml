@@ -22,6 +22,7 @@
       </li>
     </modDependencies> -->
     <loadAfter>
+        <li>CETeam.CombatExtended</li>
         <li>brrainz.harmony</li>
         <li>Ludeon.RimWorld</li>
         <li>Ludeon.RimWorld.Ideology</li>

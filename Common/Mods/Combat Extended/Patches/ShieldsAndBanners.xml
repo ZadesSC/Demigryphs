@@ -1,0 +1,2327 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Patch>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[@Name="pphhyy_Demigryph_ShieldBase"]</xpath>
+    <match Class="PatchOperationSequence">
+      <operations>
+        <li Class="PatchOperationAttributeSet">
+          <xpath>Defs/ThingDef[@Name="pphhyy_Demigryph_ShieldBase"]</xpath>
+          <attribute>ParentName</attribute>
+          <value>ArmorSmithableBase</value>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[@Name="pphhyy_Demigryph_ShieldBase"]/stuffCategories</xpath>
+          <match Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[@Name="pphhyy_Demigryph_ShieldBase"]/stuffCategories</xpath>
+            <value>
+              <stuffCategories Inherit="False">
+                <li>Metallic</li>
+              </stuffCategories>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[@Name="pphhyy_Demigryph_ShieldBase"]</xpath>
+            <value>
+              <stuffCategories Inherit="False">
+                <li>Metallic</li>
+              </stuffCategories>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[@Name="pphhyy_Demigryph_ShieldBase"]/thingClass</xpath>
+          <match Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[@Name="pphhyy_Demigryph_ShieldBase"]/thingClass</xpath>
+            <value>
+              <thingClass>CombatExtended.Apparel_Shield</thingClass>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[@Name="pphhyy_Demigryph_ShieldBase"]</xpath>
+            <value>
+              <thingClass>CombatExtended.Apparel_Shield</thingClass>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[@Name="pphhyy_Demigryph_ShieldBase"]/equipmentType</xpath>
+          <match Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[@Name="pphhyy_Demigryph_ShieldBase"]/equipmentType</xpath>
+            <value>
+              <equipmentType>None</equipmentType>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[@Name="pphhyy_Demigryph_ShieldBase"]</xpath>
+            <value>
+              <equipmentType>None</equipmentType>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[@Name="pphhyy_Demigryph_ShieldBase"]/storedConceptLearnOpportunity</xpath>
+          <match Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[@Name="pphhyy_Demigryph_ShieldBase"]/storedConceptLearnOpportunity</xpath>
+            <value>
+              <storedConceptLearnOpportunity>CE_Shields</storedConceptLearnOpportunity>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[@Name="pphhyy_Demigryph_ShieldBase"]</xpath>
+            <value>
+              <storedConceptLearnOpportunity>CE_Shields</storedConceptLearnOpportunity>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[@Name="pphhyy_Demigryph_ShieldBase"]/thingCategories</xpath>
+          <match Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[@Name="pphhyy_Demigryph_ShieldBase"]/thingCategories</xpath>
+            <value>
+              <thingCategories Inherit="False">
+                <li>Shields</li>
+              </thingCategories>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[@Name="pphhyy_Demigryph_ShieldBase"]</xpath>
+            <value>
+              <thingCategories Inherit="False">
+                <li>Shields</li>
+              </thingCategories>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[@Name="pphhyy_Demigryph_ShieldBase"]/tradeTags</xpath>
+          <match Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[@Name="pphhyy_Demigryph_ShieldBase"]/tradeTags</xpath>
+            <value>
+              <tradeTags Inherit="False">
+                <li>Armor</li>
+              </tradeTags>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[@Name="pphhyy_Demigryph_ShieldBase"]</xpath>
+            <value>
+              <tradeTags Inherit="False">
+                <li>Armor</li>
+              </tradeTags>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[@Name="pphhyy_Demigryph_ShieldBase"]/tools</xpath>
+          <match Class="PatchOperationRemove">
+            <xpath>Defs/ThingDef[@Name="pphhyy_Demigryph_ShieldBase"]/tools</xpath>
+          </match>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[@Name="pphhyy_Demigryph_ShieldBase"]/weaponTags</xpath>
+          <match Class="PatchOperationRemove">
+            <xpath>Defs/ThingDef[@Name="pphhyy_Demigryph_ShieldBase"]/weaponTags</xpath>
+          </match>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[@Name="pphhyy_Demigryph_ShieldBase"]/equippedAngleOffset</xpath>
+          <match Class="PatchOperationRemove">
+            <xpath>Defs/ThingDef[@Name="pphhyy_Demigryph_ShieldBase"]/equippedAngleOffset</xpath>
+          </match>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[@Name="pphhyy_Demigryph_ShieldBase"]/apparel</xpath>
+          <match Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[@Name="pphhyy_Demigryph_ShieldBase"]/apparel</xpath>
+            <value>
+              <apparel Inherit="False">
+                <countsAsClothingForNudity>false</countsAsClothingForNudity>
+                <careIfWornByCorpse>false</careIfWornByCorpse>
+                <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+                <bodyPartGroups>
+                  <li>LeftShoulder</li>
+                </bodyPartGroups>
+                <layers>
+                  <li>Shield</li>
+                </layers>
+              </apparel>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[@Name="pphhyy_Demigryph_ShieldBase"]</xpath>
+            <value>
+              <apparel Inherit="False">
+                <countsAsClothingForNudity>false</countsAsClothingForNudity>
+                <careIfWornByCorpse>false</careIfWornByCorpse>
+                <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+                <bodyPartGroups>
+                  <li>LeftShoulder</li>
+                </bodyPartGroups>
+                <layers>
+                  <li>Shield</li>
+                </layers>
+              </apparel>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[@Name="pphhyy_Demigryph_ShieldBase"]/equippedStatOffsets</xpath>
+          <match Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[@Name="pphhyy_Demigryph_ShieldBase"]/equippedStatOffsets</xpath>
+            <value>
+              <equippedStatOffsets Inherit="False">
+                <ReloadSpeed>-0.2</ReloadSpeed>
+                <MeleeHitChance>-1</MeleeHitChance>
+                <ShootingAccuracyPawn>-0.15</ShootingAccuracyPawn>
+                <AimingAccuracy>-0.08</AimingAccuracy>
+                <MeleeCritChance>-0.05</MeleeCritChance>
+                <Suppressability>-0.25</Suppressability>
+                <MeleeParryChance>1</MeleeParryChance>
+                <MoveSpeed>-0.6</MoveSpeed>
+              </equippedStatOffsets>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[@Name="pphhyy_Demigryph_ShieldBase"]</xpath>
+            <value>
+              <equippedStatOffsets Inherit="False">
+                <ReloadSpeed>-0.2</ReloadSpeed>
+                <MeleeHitChance>-1</MeleeHitChance>
+                <ShootingAccuracyPawn>-0.15</ShootingAccuracyPawn>
+                <AimingAccuracy>-0.08</AimingAccuracy>
+                <MeleeCritChance>-0.05</MeleeCritChance>
+                <Suppressability>-0.25</Suppressability>
+                <MeleeParryChance>1</MeleeParryChance>
+                <MoveSpeed>-0.6</MoveSpeed>
+              </equippedStatOffsets>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[@Name="pphhyy_Demigryph_ShieldBase"]/statBases</xpath>
+          <match Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[@Name="pphhyy_Demigryph_ShieldBase"]/statBases</xpath>
+            <value>
+              <statBases Inherit="False">
+                <Flammability>0</Flammability>
+                <ArmorRating_Heat>0.9</ArmorRating_Heat>
+              </statBases>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[@Name="pphhyy_Demigryph_ShieldBase"]</xpath>
+            <value>
+              <statBases Inherit="False">
+                <Flammability>0</Flammability>
+                <ArmorRating_Heat>0.9</ArmorRating_Heat>
+              </statBases>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationAttributeSet">
+          <xpath>Defs/ThingDef[@Name="pphhyy_Demigryph_BannerBase"]</xpath>
+          <attribute>ParentName</attribute>
+          <value>ArmorSmithableBase</value>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[@Name="pphhyy_Demigryph_BannerBase"]/thingClass</xpath>
+          <match Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[@Name="pphhyy_Demigryph_BannerBase"]/thingClass</xpath>
+            <value>
+              <thingClass>CombatExtended.Apparel_Shield</thingClass>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[@Name="pphhyy_Demigryph_BannerBase"]</xpath>
+            <value>
+              <thingClass>CombatExtended.Apparel_Shield</thingClass>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[@Name="pphhyy_Demigryph_BannerBase"]/equipmentType</xpath>
+          <match Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[@Name="pphhyy_Demigryph_BannerBase"]/equipmentType</xpath>
+            <value>
+              <equipmentType>None</equipmentType>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[@Name="pphhyy_Demigryph_BannerBase"]</xpath>
+            <value>
+              <equipmentType>None</equipmentType>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[@Name="pphhyy_Demigryph_BannerBase"]/storedConceptLearnOpportunity</xpath>
+          <match Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[@Name="pphhyy_Demigryph_BannerBase"]/storedConceptLearnOpportunity</xpath>
+            <value>
+              <storedConceptLearnOpportunity>CE_Shields</storedConceptLearnOpportunity>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[@Name="pphhyy_Demigryph_BannerBase"]</xpath>
+            <value>
+              <storedConceptLearnOpportunity>CE_Shields</storedConceptLearnOpportunity>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[@Name="pphhyy_Demigryph_BannerBase"]/thingCategories</xpath>
+          <match Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[@Name="pphhyy_Demigryph_BannerBase"]/thingCategories</xpath>
+            <value>
+              <thingCategories Inherit="False">
+                <li>Shields</li>
+              </thingCategories>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[@Name="pphhyy_Demigryph_BannerBase"]</xpath>
+            <value>
+              <thingCategories Inherit="False">
+                <li>Shields</li>
+              </thingCategories>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[@Name="pphhyy_Demigryph_BannerBase"]/tradeTags</xpath>
+          <match Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[@Name="pphhyy_Demigryph_BannerBase"]/tradeTags</xpath>
+            <value>
+              <tradeTags Inherit="False">
+                <li>Armor</li>
+              </tradeTags>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[@Name="pphhyy_Demigryph_BannerBase"]</xpath>
+            <value>
+              <tradeTags Inherit="False">
+                <li>Armor</li>
+              </tradeTags>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[@Name="pphhyy_Demigryph_BannerBase"]/tools</xpath>
+          <match Class="PatchOperationRemove">
+            <xpath>Defs/ThingDef[@Name="pphhyy_Demigryph_BannerBase"]/tools</xpath>
+          </match>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[@Name="pphhyy_Demigryph_BannerBase"]/weaponTags</xpath>
+          <match Class="PatchOperationRemove">
+            <xpath>Defs/ThingDef[@Name="pphhyy_Demigryph_BannerBase"]/weaponTags</xpath>
+          </match>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[@Name="pphhyy_Demigryph_BannerBase"]/equippedAngleOffset</xpath>
+          <match Class="PatchOperationRemove">
+            <xpath>Defs/ThingDef[@Name="pphhyy_Demigryph_BannerBase"]/equippedAngleOffset</xpath>
+          </match>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[@Name="pphhyy_Demigryph_BannerBase"]/apparel</xpath>
+          <match Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[@Name="pphhyy_Demigryph_BannerBase"]/apparel</xpath>
+            <value>
+              <apparel Inherit="False">
+                <countsAsClothingForNudity>false</countsAsClothingForNudity>
+                <careIfWornByCorpse>false</careIfWornByCorpse>
+                <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+                <bodyPartGroups>
+                  <li>LeftShoulder</li>
+                </bodyPartGroups>
+                <layers>
+                  <li>Shield</li>
+                </layers>
+              </apparel>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[@Name="pphhyy_Demigryph_BannerBase"]</xpath>
+            <value>
+              <apparel Inherit="False">
+                <countsAsClothingForNudity>false</countsAsClothingForNudity>
+                <careIfWornByCorpse>false</careIfWornByCorpse>
+                <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+                <bodyPartGroups>
+                  <li>LeftShoulder</li>
+                </bodyPartGroups>
+                <layers>
+                  <li>Shield</li>
+                </layers>
+              </apparel>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[@Name="pphhyy_Demigryph_BannerBase"]/equippedStatOffsets</xpath>
+          <match Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[@Name="pphhyy_Demigryph_BannerBase"]/equippedStatOffsets</xpath>
+            <value>
+              <equippedStatOffsets Inherit="False">
+                <ReloadSpeed>-0.15</ReloadSpeed>
+                <MeleeHitChance>-0.85</MeleeHitChance>
+                <ShootingAccuracyPawn>-0.1</ShootingAccuracyPawn>
+                <AimingAccuracy>-0.06</AimingAccuracy>
+                <MeleeCritChance>-0.03</MeleeCritChance>
+                <PainShockThreshold>0.1</PainShockThreshold>
+              </equippedStatOffsets>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[@Name="pphhyy_Demigryph_BannerBase"]</xpath>
+            <value>
+              <equippedStatOffsets Inherit="False">
+                <ReloadSpeed>-0.15</ReloadSpeed>
+                <MeleeHitChance>-0.85</MeleeHitChance>
+                <ShootingAccuracyPawn>-0.1</ShootingAccuracyPawn>
+                <AimingAccuracy>-0.06</AimingAccuracy>
+                <MeleeCritChance>-0.03</MeleeCritChance>
+                <PainShockThreshold>0.1</PainShockThreshold>
+              </equippedStatOffsets>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[@Name="pphhyy_Demigryph_BannerBase"]/statBases</xpath>
+          <match Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[@Name="pphhyy_Demigryph_BannerBase"]/statBases</xpath>
+            <value>
+              <statBases Inherit="False">
+                <Flammability>0</Flammability>
+                <ArmorRating_Heat>0.9</ArmorRating_Heat>
+              </statBases>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[@Name="pphhyy_Demigryph_BannerBase"]</xpath>
+            <value>
+              <statBases Inherit="False">
+                <Flammability>0</Flammability>
+                <ArmorRating_Heat>0.9</ArmorRating_Heat>
+              </statBases>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphShield"]/comps/li[@Class="VEF.Apparels.CompProperties_Shield"]</xpath>
+          <match Class="PatchOperationRemove">
+            <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphShield"]/comps/li[@Class="VEF.Apparels.CompProperties_Shield"]</xpath>
+          </match>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphShield"]/modExtensions</xpath>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphShield"]</xpath>
+            <value>
+              <modExtensions />
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphShield"]/modExtensions/li[@Class="CombatExtended.ShieldDefExtension"]</xpath>
+          <match Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphShield"]/modExtensions/li[@Class="CombatExtended.ShieldDefExtension"]</xpath>
+            <value>
+              <li Class="CombatExtended.ShieldDefExtension">
+                <shieldCoverage>
+                  <li>Hands</li>
+                  <li>Arms</li>
+                  <li>Shoulders</li>
+                  <li>Torso</li>
+                  <li>Neck</li>
+                </shieldCoverage>
+              </li>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphShield"]/modExtensions</xpath>
+            <value>
+              <li Class="CombatExtended.ShieldDefExtension">
+                <shieldCoverage>
+                  <li>Hands</li>
+                  <li>Arms</li>
+                  <li>Shoulders</li>
+                  <li>Torso</li>
+                  <li>Neck</li>
+                </shieldCoverage>
+              </li>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphShield"]/statBases/Mass</xpath>
+          <match Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphShield"]/statBases/Mass</xpath>
+            <value>
+              <Mass>2</Mass>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphShield"]/statBases</xpath>
+            <value>
+              <Mass>2</Mass>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphShield"]/statBases/StuffEffectMultiplierArmor</xpath>
+          <match Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphShield"]/statBases/StuffEffectMultiplierArmor</xpath>
+            <value>
+              <StuffEffectMultiplierArmor>7</StuffEffectMultiplierArmor>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphShield"]/statBases</xpath>
+            <value>
+              <StuffEffectMultiplierArmor>7</StuffEffectMultiplierArmor>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphShield"]/statBases/Bulk</xpath>
+          <match Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphShield"]/statBases/Bulk</xpath>
+            <value>
+              <Bulk>12</Bulk>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphShield"]/statBases</xpath>
+            <value>
+              <Bulk>12</Bulk>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphShield"]/statBases/WornBulk</xpath>
+          <match Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphShield"]/statBases/WornBulk</xpath>
+            <value>
+              <WornBulk>8</WornBulk>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphShield"]/statBases</xpath>
+            <value>
+              <WornBulk>8</WornBulk>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphShield"]/apparel</xpath>
+          <match Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphShield"]/apparel</xpath>
+            <value>
+              <apparel>
+                <tags>
+                  <li>pphhyy_DemigyryphShield</li>
+                  <li>DemigyryphShield</li>
+                </tags>
+                <renderNodeProperties Inherit="False">
+                  <li>
+                    <nodeClass>CombatExtended.PawnRenderNode_Apparel</nodeClass>
+                    <workerClass>CombatExtended.PawnRenderNodeWorker_Drafted</workerClass>
+                    <texPath>Weapons/DemigyryphShield/DemigyryphShield</texPath>
+                    <shaderTypeDef>CutoutComplex</shaderTypeDef>
+                    <parentTagDef>ApparelBody</parentTagDef>
+                    <drawData>
+                      <scale>0.6</scale>
+                      <defaultData>
+                        <layer>85</layer>
+                      </defaultData>
+                      <dataEast>
+                        <layer>-5</layer>
+                        <offset>(0, 0, -0.1)</offset>
+                        <rotationOffset>30</rotationOffset>
+                      </dataEast>
+                      <dataWest>
+                        <rotationOffset>-30</rotationOffset>
+                      </dataWest>
+                      <dataNorth>
+                        <layer>-5</layer>
+                        <offset>(0.15, 0, -0.15)</offset>
+                      </dataNorth>
+                      <dataSouth>
+                        <offset>(0.15, 0, -0.15)</offset>
+                      </dataSouth>
+                    </drawData>
+                  </li>
+                </renderNodeProperties>
+              </apparel>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphShield"]</xpath>
+            <value>
+              <apparel>
+                <tags>
+                  <li>pphhyy_DemigyryphShield</li>
+                  <li>DemigyryphShield</li>
+                </tags>
+                <renderNodeProperties Inherit="False">
+                  <li>
+                    <nodeClass>CombatExtended.PawnRenderNode_Apparel</nodeClass>
+                    <workerClass>CombatExtended.PawnRenderNodeWorker_Drafted</workerClass>
+                    <texPath>Weapons/DemigyryphShield/DemigyryphShield</texPath>
+                    <shaderTypeDef>CutoutComplex</shaderTypeDef>
+                    <parentTagDef>ApparelBody</parentTagDef>
+                    <drawData>
+                      <scale>0.6</scale>
+                      <defaultData>
+                        <layer>85</layer>
+                      </defaultData>
+                      <dataEast>
+                        <layer>-5</layer>
+                        <offset>(0, 0, -0.1)</offset>
+                        <rotationOffset>30</rotationOffset>
+                      </dataEast>
+                      <dataWest>
+                        <rotationOffset>-30</rotationOffset>
+                      </dataWest>
+                      <dataNorth>
+                        <layer>-5</layer>
+                        <offset>(0.15, 0, -0.15)</offset>
+                      </dataNorth>
+                      <dataSouth>
+                        <offset>(0.15, 0, -0.15)</offset>
+                      </dataSouth>
+                    </drawData>
+                  </li>
+                </renderNodeProperties>
+              </apparel>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphRaiderShield"]/comps/li[@Class="VEF.Apparels.CompProperties_Shield"]</xpath>
+          <match Class="PatchOperationRemove">
+            <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphRaiderShield"]/comps/li[@Class="VEF.Apparels.CompProperties_Shield"]</xpath>
+          </match>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphRaiderShield"]/modExtensions</xpath>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphRaiderShield"]</xpath>
+            <value>
+              <modExtensions />
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphRaiderShield"]/modExtensions/li[@Class="CombatExtended.ShieldDefExtension"]</xpath>
+          <match Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphRaiderShield"]/modExtensions/li[@Class="CombatExtended.ShieldDefExtension"]</xpath>
+            <value>
+              <li Class="CombatExtended.ShieldDefExtension">
+                <shieldCoverage>
+                  <li>Hands</li>
+                  <li>Arms</li>
+                  <li>Shoulders</li>
+                  <li>Torso</li>
+                  <li>Neck</li>
+                </shieldCoverage>
+              </li>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphRaiderShield"]/modExtensions</xpath>
+            <value>
+              <li Class="CombatExtended.ShieldDefExtension">
+                <shieldCoverage>
+                  <li>Hands</li>
+                  <li>Arms</li>
+                  <li>Shoulders</li>
+                  <li>Torso</li>
+                  <li>Neck</li>
+                </shieldCoverage>
+              </li>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphRaiderShield"]/statBases/Mass</xpath>
+          <match Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphRaiderShield"]/statBases/Mass</xpath>
+            <value>
+              <Mass>3</Mass>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphRaiderShield"]/statBases</xpath>
+            <value>
+              <Mass>3</Mass>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphRaiderShield"]/statBases/StuffEffectMultiplierArmor</xpath>
+          <match Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphRaiderShield"]/statBases/StuffEffectMultiplierArmor</xpath>
+            <value>
+              <StuffEffectMultiplierArmor>8</StuffEffectMultiplierArmor>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphRaiderShield"]/statBases</xpath>
+            <value>
+              <StuffEffectMultiplierArmor>8</StuffEffectMultiplierArmor>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphRaiderShield"]/statBases/Bulk</xpath>
+          <match Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphRaiderShield"]/statBases/Bulk</xpath>
+            <value>
+              <Bulk>12</Bulk>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphRaiderShield"]/statBases</xpath>
+            <value>
+              <Bulk>12</Bulk>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphRaiderShield"]/statBases/WornBulk</xpath>
+          <match Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphRaiderShield"]/statBases/WornBulk</xpath>
+            <value>
+              <WornBulk>8</WornBulk>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphRaiderShield"]/statBases</xpath>
+            <value>
+              <WornBulk>8</WornBulk>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphRaiderShield"]/apparel</xpath>
+          <match Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphRaiderShield"]/apparel</xpath>
+            <value>
+              <apparel>
+                <tags>
+                  <li>pphhyy_DemigyryphShield</li>
+                  <li>DemigyryphRaiderShield</li>
+                </tags>
+                <renderNodeProperties Inherit="False">
+                  <li>
+                    <nodeClass>CombatExtended.PawnRenderNode_Apparel</nodeClass>
+                    <workerClass>CombatExtended.PawnRenderNodeWorker_Drafted</workerClass>
+                    <texPath>Weapons/DemigyryphRaiderShield/DemigyryphRaiderShield</texPath>
+                    <shaderTypeDef>CutoutComplex</shaderTypeDef>
+                    <parentTagDef>ApparelBody</parentTagDef>
+                    <drawData>
+                      <scale>0.6</scale>
+                      <defaultData>
+                        <layer>85</layer>
+                      </defaultData>
+                      <dataEast>
+                        <layer>-5</layer>
+                        <offset>(0, 0, -0.1)</offset>
+                        <rotationOffset>30</rotationOffset>
+                      </dataEast>
+                      <dataWest>
+                        <rotationOffset>-30</rotationOffset>
+                      </dataWest>
+                      <dataNorth>
+                        <layer>-5</layer>
+                        <offset>(0.15, 0, -0.15)</offset>
+                      </dataNorth>
+                      <dataSouth>
+                        <offset>(0.15, 0, -0.15)</offset>
+                      </dataSouth>
+                    </drawData>
+                  </li>
+                </renderNodeProperties>
+              </apparel>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphRaiderShield"]</xpath>
+            <value>
+              <apparel>
+                <tags>
+                  <li>pphhyy_DemigyryphShield</li>
+                  <li>DemigyryphRaiderShield</li>
+                </tags>
+                <renderNodeProperties Inherit="False">
+                  <li>
+                    <nodeClass>CombatExtended.PawnRenderNode_Apparel</nodeClass>
+                    <workerClass>CombatExtended.PawnRenderNodeWorker_Drafted</workerClass>
+                    <texPath>Weapons/DemigyryphRaiderShield/DemigyryphRaiderShield</texPath>
+                    <shaderTypeDef>CutoutComplex</shaderTypeDef>
+                    <parentTagDef>ApparelBody</parentTagDef>
+                    <drawData>
+                      <scale>0.6</scale>
+                      <defaultData>
+                        <layer>85</layer>
+                      </defaultData>
+                      <dataEast>
+                        <layer>-5</layer>
+                        <offset>(0, 0, -0.1)</offset>
+                        <rotationOffset>30</rotationOffset>
+                      </dataEast>
+                      <dataWest>
+                        <rotationOffset>-30</rotationOffset>
+                      </dataWest>
+                      <dataNorth>
+                        <layer>-5</layer>
+                        <offset>(0.15, 0, -0.15)</offset>
+                      </dataNorth>
+                      <dataSouth>
+                        <offset>(0.15, 0, -0.15)</offset>
+                      </dataSouth>
+                    </drawData>
+                  </li>
+                </renderNodeProperties>
+              </apparel>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphGildedShield"]/comps/li[@Class="VEF.Apparels.CompProperties_Shield"]</xpath>
+          <match Class="PatchOperationRemove">
+            <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphGildedShield"]/comps/li[@Class="VEF.Apparels.CompProperties_Shield"]</xpath>
+          </match>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphGildedShield"]/modExtensions</xpath>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphGildedShield"]</xpath>
+            <value>
+              <modExtensions />
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphGildedShield"]/modExtensions/li[@Class="CombatExtended.ShieldDefExtension"]</xpath>
+          <match Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphGildedShield"]/modExtensions/li[@Class="CombatExtended.ShieldDefExtension"]</xpath>
+            <value>
+              <li Class="CombatExtended.ShieldDefExtension">
+                <shieldCoverage>
+                  <li>Hands</li>
+                  <li>Arms</li>
+                  <li>Shoulders</li>
+                  <li>Torso</li>
+                  <li>Neck</li>
+                </shieldCoverage>
+              </li>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphGildedShield"]/modExtensions</xpath>
+            <value>
+              <li Class="CombatExtended.ShieldDefExtension">
+                <shieldCoverage>
+                  <li>Hands</li>
+                  <li>Arms</li>
+                  <li>Shoulders</li>
+                  <li>Torso</li>
+                  <li>Neck</li>
+                </shieldCoverage>
+              </li>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphGildedShield"]/statBases/Mass</xpath>
+          <match Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphGildedShield"]/statBases/Mass</xpath>
+            <value>
+              <Mass>3</Mass>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphGildedShield"]/statBases</xpath>
+            <value>
+              <Mass>3</Mass>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphGildedShield"]/statBases/StuffEffectMultiplierArmor</xpath>
+          <match Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphGildedShield"]/statBases/StuffEffectMultiplierArmor</xpath>
+            <value>
+              <StuffEffectMultiplierArmor>8</StuffEffectMultiplierArmor>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphGildedShield"]/statBases</xpath>
+            <value>
+              <StuffEffectMultiplierArmor>8</StuffEffectMultiplierArmor>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphGildedShield"]/statBases/Bulk</xpath>
+          <match Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphGildedShield"]/statBases/Bulk</xpath>
+            <value>
+              <Bulk>12</Bulk>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphGildedShield"]/statBases</xpath>
+            <value>
+              <Bulk>12</Bulk>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphGildedShield"]/statBases/WornBulk</xpath>
+          <match Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphGildedShield"]/statBases/WornBulk</xpath>
+            <value>
+              <WornBulk>8</WornBulk>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphGildedShield"]/statBases</xpath>
+            <value>
+              <WornBulk>8</WornBulk>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphGildedShield"]/apparel</xpath>
+          <match Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphGildedShield"]/apparel</xpath>
+            <value>
+              <apparel>
+                <tags>
+                  <li>pphhyy_DemigyryphShield</li>
+                  <li>DemigyryphGildedShield</li>
+                </tags>
+                <renderNodeProperties Inherit="False">
+                  <li>
+                    <nodeClass>CombatExtended.PawnRenderNode_Apparel</nodeClass>
+                    <workerClass>CombatExtended.PawnRenderNodeWorker_Drafted</workerClass>
+                    <texPath>Weapons/DemigyryphGildedShield/DemigyryphGildedShield</texPath>
+                    <shaderTypeDef>CutoutComplex</shaderTypeDef>
+                    <parentTagDef>ApparelBody</parentTagDef>
+                    <drawData>
+                      <scale>0.6</scale>
+                      <defaultData>
+                        <layer>85</layer>
+                      </defaultData>
+                      <dataEast>
+                        <layer>-5</layer>
+                        <offset>(0, 0, -0.1)</offset>
+                        <rotationOffset>30</rotationOffset>
+                      </dataEast>
+                      <dataWest>
+                        <rotationOffset>-30</rotationOffset>
+                      </dataWest>
+                      <dataNorth>
+                        <layer>-5</layer>
+                        <offset>(0.15, 0, -0.15)</offset>
+                      </dataNorth>
+                      <dataSouth>
+                        <offset>(0.15, 0, -0.15)</offset>
+                      </dataSouth>
+                    </drawData>
+                  </li>
+                </renderNodeProperties>
+              </apparel>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphGildedShield"]</xpath>
+            <value>
+              <apparel>
+                <tags>
+                  <li>pphhyy_DemigyryphShield</li>
+                  <li>DemigyryphGildedShield</li>
+                </tags>
+                <renderNodeProperties Inherit="False">
+                  <li>
+                    <nodeClass>CombatExtended.PawnRenderNode_Apparel</nodeClass>
+                    <workerClass>CombatExtended.PawnRenderNodeWorker_Drafted</workerClass>
+                    <texPath>Weapons/DemigyryphGildedShield/DemigyryphGildedShield</texPath>
+                    <shaderTypeDef>CutoutComplex</shaderTypeDef>
+                    <parentTagDef>ApparelBody</parentTagDef>
+                    <drawData>
+                      <scale>0.6</scale>
+                      <defaultData>
+                        <layer>85</layer>
+                      </defaultData>
+                      <dataEast>
+                        <layer>-5</layer>
+                        <offset>(0, 0, -0.1)</offset>
+                        <rotationOffset>30</rotationOffset>
+                      </dataEast>
+                      <dataWest>
+                        <rotationOffset>-30</rotationOffset>
+                      </dataWest>
+                      <dataNorth>
+                        <layer>-5</layer>
+                        <offset>(0.15, 0, -0.15)</offset>
+                      </dataNorth>
+                      <dataSouth>
+                        <offset>(0.15, 0, -0.15)</offset>
+                      </dataSouth>
+                    </drawData>
+                  </li>
+                </renderNodeProperties>
+              </apparel>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphHunterShield"]/comps/li[@Class="VEF.Apparels.CompProperties_Shield"]</xpath>
+          <match Class="PatchOperationRemove">
+            <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphHunterShield"]/comps/li[@Class="VEF.Apparels.CompProperties_Shield"]</xpath>
+          </match>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphHunterShield"]/modExtensions</xpath>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphHunterShield"]</xpath>
+            <value>
+              <modExtensions />
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphHunterShield"]/modExtensions/li[@Class="CombatExtended.ShieldDefExtension"]</xpath>
+          <match Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphHunterShield"]/modExtensions/li[@Class="CombatExtended.ShieldDefExtension"]</xpath>
+            <value>
+              <li Class="CombatExtended.ShieldDefExtension">
+                <shieldCoverage>
+                  <li>Hands</li>
+                  <li>Arms</li>
+                  <li>Shoulders</li>
+                  <li>Torso</li>
+                  <li>Neck</li>
+                </shieldCoverage>
+              </li>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphHunterShield"]/modExtensions</xpath>
+            <value>
+              <li Class="CombatExtended.ShieldDefExtension">
+                <shieldCoverage>
+                  <li>Hands</li>
+                  <li>Arms</li>
+                  <li>Shoulders</li>
+                  <li>Torso</li>
+                  <li>Neck</li>
+                </shieldCoverage>
+              </li>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphHunterShield"]/statBases/Mass</xpath>
+          <match Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphHunterShield"]/statBases/Mass</xpath>
+            <value>
+              <Mass>3</Mass>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphHunterShield"]/statBases</xpath>
+            <value>
+              <Mass>3</Mass>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphHunterShield"]/statBases/StuffEffectMultiplierArmor</xpath>
+          <match Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphHunterShield"]/statBases/StuffEffectMultiplierArmor</xpath>
+            <value>
+              <StuffEffectMultiplierArmor>8</StuffEffectMultiplierArmor>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphHunterShield"]/statBases</xpath>
+            <value>
+              <StuffEffectMultiplierArmor>8</StuffEffectMultiplierArmor>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphHunterShield"]/statBases/Bulk</xpath>
+          <match Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphHunterShield"]/statBases/Bulk</xpath>
+            <value>
+              <Bulk>12</Bulk>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphHunterShield"]/statBases</xpath>
+            <value>
+              <Bulk>12</Bulk>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphHunterShield"]/statBases/WornBulk</xpath>
+          <match Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphHunterShield"]/statBases/WornBulk</xpath>
+            <value>
+              <WornBulk>8</WornBulk>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphHunterShield"]/statBases</xpath>
+            <value>
+              <WornBulk>8</WornBulk>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphHunterShield"]/apparel</xpath>
+          <match Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphHunterShield"]/apparel</xpath>
+            <value>
+              <apparel>
+                <tags>
+                  <li>pphhyy_DemigyryphShield</li>
+                  <li>DemigyryphHunterShield</li>
+                </tags>
+                <renderNodeProperties Inherit="False">
+                  <li>
+                    <nodeClass>CombatExtended.PawnRenderNode_Apparel</nodeClass>
+                    <workerClass>CombatExtended.PawnRenderNodeWorker_Drafted</workerClass>
+                    <texPath>Weapons/DemigyryphHunterShield/DemigyryphHunterShield</texPath>
+                    <shaderTypeDef>CutoutComplex</shaderTypeDef>
+                    <parentTagDef>ApparelBody</parentTagDef>
+                    <drawData>
+                      <scale>0.6</scale>
+                      <defaultData>
+                        <layer>85</layer>
+                      </defaultData>
+                      <dataEast>
+                        <layer>-5</layer>
+                        <offset>(0, 0, -0.1)</offset>
+                        <rotationOffset>30</rotationOffset>
+                      </dataEast>
+                      <dataWest>
+                        <rotationOffset>-30</rotationOffset>
+                      </dataWest>
+                      <dataNorth>
+                        <layer>-5</layer>
+                        <offset>(0.15, 0, -0.15)</offset>
+                      </dataNorth>
+                      <dataSouth>
+                        <offset>(0.15, 0, -0.15)</offset>
+                      </dataSouth>
+                    </drawData>
+                  </li>
+                </renderNodeProperties>
+              </apparel>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphHunterShield"]</xpath>
+            <value>
+              <apparel>
+                <tags>
+                  <li>pphhyy_DemigyryphShield</li>
+                  <li>DemigyryphHunterShield</li>
+                </tags>
+                <renderNodeProperties Inherit="False">
+                  <li>
+                    <nodeClass>CombatExtended.PawnRenderNode_Apparel</nodeClass>
+                    <workerClass>CombatExtended.PawnRenderNodeWorker_Drafted</workerClass>
+                    <texPath>Weapons/DemigyryphHunterShield/DemigyryphHunterShield</texPath>
+                    <shaderTypeDef>CutoutComplex</shaderTypeDef>
+                    <parentTagDef>ApparelBody</parentTagDef>
+                    <drawData>
+                      <scale>0.6</scale>
+                      <defaultData>
+                        <layer>85</layer>
+                      </defaultData>
+                      <dataEast>
+                        <layer>-5</layer>
+                        <offset>(0, 0, -0.1)</offset>
+                        <rotationOffset>30</rotationOffset>
+                      </dataEast>
+                      <dataWest>
+                        <rotationOffset>-30</rotationOffset>
+                      </dataWest>
+                      <dataNorth>
+                        <layer>-5</layer>
+                        <offset>(0.15, 0, -0.15)</offset>
+                      </dataNorth>
+                      <dataSouth>
+                        <offset>(0.15, 0, -0.15)</offset>
+                      </dataSouth>
+                    </drawData>
+                  </li>
+                </renderNodeProperties>
+              </apparel>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphChampionShield"]/comps/li[@Class="VEF.Apparels.CompProperties_Shield"]</xpath>
+          <match Class="PatchOperationRemove">
+            <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphChampionShield"]/comps/li[@Class="VEF.Apparels.CompProperties_Shield"]</xpath>
+          </match>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphChampionShield"]/modExtensions</xpath>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphChampionShield"]</xpath>
+            <value>
+              <modExtensions />
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphChampionShield"]/modExtensions/li[@Class="CombatExtended.ShieldDefExtension"]</xpath>
+          <match Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphChampionShield"]/modExtensions/li[@Class="CombatExtended.ShieldDefExtension"]</xpath>
+            <value>
+              <li Class="CombatExtended.ShieldDefExtension">
+                <shieldCoverage>
+                  <li>Hands</li>
+                  <li>Arms</li>
+                  <li>Shoulders</li>
+                  <li>Torso</li>
+                  <li>Neck</li>
+                </shieldCoverage>
+              </li>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphChampionShield"]/modExtensions</xpath>
+            <value>
+              <li Class="CombatExtended.ShieldDefExtension">
+                <shieldCoverage>
+                  <li>Hands</li>
+                  <li>Arms</li>
+                  <li>Shoulders</li>
+                  <li>Torso</li>
+                  <li>Neck</li>
+                </shieldCoverage>
+              </li>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphChampionShield"]/statBases/Mass</xpath>
+          <match Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphChampionShield"]/statBases/Mass</xpath>
+            <value>
+              <Mass>3.5</Mass>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphChampionShield"]/statBases</xpath>
+            <value>
+              <Mass>3.5</Mass>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphChampionShield"]/statBases/StuffEffectMultiplierArmor</xpath>
+          <match Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphChampionShield"]/statBases/StuffEffectMultiplierArmor</xpath>
+            <value>
+              <StuffEffectMultiplierArmor>8</StuffEffectMultiplierArmor>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphChampionShield"]/statBases</xpath>
+            <value>
+              <StuffEffectMultiplierArmor>8</StuffEffectMultiplierArmor>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphChampionShield"]/statBases/Bulk</xpath>
+          <match Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphChampionShield"]/statBases/Bulk</xpath>
+            <value>
+              <Bulk>12</Bulk>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphChampionShield"]/statBases</xpath>
+            <value>
+              <Bulk>12</Bulk>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphChampionShield"]/statBases/WornBulk</xpath>
+          <match Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphChampionShield"]/statBases/WornBulk</xpath>
+            <value>
+              <WornBulk>8</WornBulk>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphChampionShield"]/statBases</xpath>
+            <value>
+              <WornBulk>8</WornBulk>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphChampionShield"]/apparel</xpath>
+          <match Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphChampionShield"]/apparel</xpath>
+            <value>
+              <apparel>
+                <tags>
+                  <li>pphhyy_DemigyryphShield</li>
+                  <li>DemigyryphChampionShield</li>
+                </tags>
+                <renderNodeProperties Inherit="False">
+                  <li>
+                    <nodeClass>CombatExtended.PawnRenderNode_Apparel</nodeClass>
+                    <workerClass>CombatExtended.PawnRenderNodeWorker_Drafted</workerClass>
+                    <texPath>Weapons/DemigyryphChampionShield/DemigyryphChampionShield</texPath>
+                    <shaderTypeDef>CutoutComplex</shaderTypeDef>
+                    <parentTagDef>ApparelBody</parentTagDef>
+                    <drawData>
+                      <scale>0.6</scale>
+                      <defaultData>
+                        <layer>85</layer>
+                      </defaultData>
+                      <dataEast>
+                        <layer>-5</layer>
+                        <offset>(0, 0, -0.1)</offset>
+                        <rotationOffset>30</rotationOffset>
+                      </dataEast>
+                      <dataWest>
+                        <rotationOffset>-30</rotationOffset>
+                      </dataWest>
+                      <dataNorth>
+                        <layer>-5</layer>
+                        <offset>(0.15, 0, -0.15)</offset>
+                      </dataNorth>
+                      <dataSouth>
+                        <offset>(0.15, 0, -0.15)</offset>
+                      </dataSouth>
+                    </drawData>
+                  </li>
+                </renderNodeProperties>
+              </apparel>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphChampionShield"]</xpath>
+            <value>
+              <apparel>
+                <tags>
+                  <li>pphhyy_DemigyryphShield</li>
+                  <li>DemigyryphChampionShield</li>
+                </tags>
+                <renderNodeProperties Inherit="False">
+                  <li>
+                    <nodeClass>CombatExtended.PawnRenderNode_Apparel</nodeClass>
+                    <workerClass>CombatExtended.PawnRenderNodeWorker_Drafted</workerClass>
+                    <texPath>Weapons/DemigyryphChampionShield/DemigyryphChampionShield</texPath>
+                    <shaderTypeDef>CutoutComplex</shaderTypeDef>
+                    <parentTagDef>ApparelBody</parentTagDef>
+                    <drawData>
+                      <scale>0.6</scale>
+                      <defaultData>
+                        <layer>85</layer>
+                      </defaultData>
+                      <dataEast>
+                        <layer>-5</layer>
+                        <offset>(0, 0, -0.1)</offset>
+                        <rotationOffset>30</rotationOffset>
+                      </dataEast>
+                      <dataWest>
+                        <rotationOffset>-30</rotationOffset>
+                      </dataWest>
+                      <dataNorth>
+                        <layer>-5</layer>
+                        <offset>(0.15, 0, -0.15)</offset>
+                      </dataNorth>
+                      <dataSouth>
+                        <offset>(0.15, 0, -0.15)</offset>
+                      </dataSouth>
+                    </drawData>
+                  </li>
+                </renderNodeProperties>
+              </apparel>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphBanner"]/comps/li[@Class="VEF.Apparels.CompProperties_Shield"]</xpath>
+          <match Class="PatchOperationRemove">
+            <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphBanner"]/comps/li[@Class="VEF.Apparels.CompProperties_Shield"]</xpath>
+          </match>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphBanner"]/modExtensions</xpath>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphBanner"]</xpath>
+            <value>
+              <modExtensions />
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphBanner"]/modExtensions/li[@Class="CombatExtended.ShieldDefExtension"]</xpath>
+          <match Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphBanner"]/modExtensions/li[@Class="CombatExtended.ShieldDefExtension"]</xpath>
+            <value>
+              <li Class="CombatExtended.ShieldDefExtension">
+                <shieldCoverage>
+                  <li>Hands</li>
+                </shieldCoverage>
+              </li>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphBanner"]/modExtensions</xpath>
+            <value>
+              <li Class="CombatExtended.ShieldDefExtension">
+                <shieldCoverage>
+                  <li>Hands</li>
+                </shieldCoverage>
+              </li>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphBanner"]/statBases/Mass</xpath>
+          <match Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphBanner"]/statBases/Mass</xpath>
+            <value>
+              <Mass>2</Mass>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphBanner"]/statBases</xpath>
+            <value>
+              <Mass>2</Mass>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphBanner"]/statBases/StuffEffectMultiplierArmor</xpath>
+          <match Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphBanner"]/statBases/StuffEffectMultiplierArmor</xpath>
+            <value>
+              <StuffEffectMultiplierArmor>1</StuffEffectMultiplierArmor>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphBanner"]/statBases</xpath>
+            <value>
+              <StuffEffectMultiplierArmor>1</StuffEffectMultiplierArmor>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphBanner"]/statBases/Bulk</xpath>
+          <match Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphBanner"]/statBases/Bulk</xpath>
+            <value>
+              <Bulk>10</Bulk>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphBanner"]/statBases</xpath>
+            <value>
+              <Bulk>10</Bulk>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphBanner"]/statBases/WornBulk</xpath>
+          <match Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphBanner"]/statBases/WornBulk</xpath>
+            <value>
+              <WornBulk>4</WornBulk>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphBanner"]/statBases</xpath>
+            <value>
+              <WornBulk>4</WornBulk>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphBanner"]/apparel</xpath>
+          <match Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphBanner"]/apparel</xpath>
+            <value>
+              <apparel>
+                <tags>
+                  <li>TribalShield</li>
+                </tags>
+                <renderNodeProperties Inherit="False">
+                  <li>
+                    <nodeClass>CombatExtended.PawnRenderNode_Apparel</nodeClass>
+                    <workerClass>CombatExtended.PawnRenderNodeWorker_Drafted</workerClass>
+                    <texPath>Weapons/DemigyryphBanner/DemigyryphBanner</texPath>
+                    <shaderTypeDef>CutoutComplex</shaderTypeDef>
+                    <parentTagDef>ApparelBody</parentTagDef>
+                    <drawData>
+                      <scale>1.3</scale>
+                      <defaultData>
+                        <layer>85</layer>
+                      </defaultData>
+                      <dataEast>
+                        <layer>-5</layer>
+                        <offset>(0.35, 0, 0.2)</offset>
+                        <rotationOffset>30</rotationOffset>
+                      </dataEast>
+                      <dataWest>
+                        <rotationOffset>-30</rotationOffset>
+                        <offset>(-0.35, 0, 0.2)</offset>
+                      </dataWest>
+                      <dataNorth>
+                        <layer>-5</layer>
+                        <offset>(0.15, 0, 0.2)</offset>
+                      </dataNorth>
+                      <dataSouth>
+                        <offset>(0.2, 0, 0.2)</offset>
+                      </dataSouth>
+                    </drawData>
+                  </li>
+                </renderNodeProperties>
+              </apparel>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphBanner"]</xpath>
+            <value>
+              <apparel>
+                <tags>
+                  <li>TribalShield</li>
+                </tags>
+                <renderNodeProperties Inherit="False">
+                  <li>
+                    <nodeClass>CombatExtended.PawnRenderNode_Apparel</nodeClass>
+                    <workerClass>CombatExtended.PawnRenderNodeWorker_Drafted</workerClass>
+                    <texPath>Weapons/DemigyryphBanner/DemigyryphBanner</texPath>
+                    <shaderTypeDef>CutoutComplex</shaderTypeDef>
+                    <parentTagDef>ApparelBody</parentTagDef>
+                    <drawData>
+                      <scale>1.3</scale>
+                      <defaultData>
+                        <layer>85</layer>
+                      </defaultData>
+                      <dataEast>
+                        <layer>-5</layer>
+                        <offset>(0.35, 0, 0.2)</offset>
+                        <rotationOffset>30</rotationOffset>
+                      </dataEast>
+                      <dataWest>
+                        <rotationOffset>-30</rotationOffset>
+                        <offset>(-0.35, 0, 0.2)</offset>
+                      </dataWest>
+                      <dataNorth>
+                        <layer>-5</layer>
+                        <offset>(0.15, 0, 0.2)</offset>
+                      </dataNorth>
+                      <dataSouth>
+                        <offset>(0.2, 0, 0.2)</offset>
+                      </dataSouth>
+                    </drawData>
+                  </li>
+                </renderNodeProperties>
+              </apparel>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphHunterBanner"]/comps/li[@Class="VEF.Apparels.CompProperties_Shield"]</xpath>
+          <match Class="PatchOperationRemove">
+            <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphHunterBanner"]/comps/li[@Class="VEF.Apparels.CompProperties_Shield"]</xpath>
+          </match>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphHunterBanner"]/modExtensions</xpath>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphHunterBanner"]</xpath>
+            <value>
+              <modExtensions />
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphHunterBanner"]/modExtensions/li[@Class="CombatExtended.ShieldDefExtension"]</xpath>
+          <match Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphHunterBanner"]/modExtensions/li[@Class="CombatExtended.ShieldDefExtension"]</xpath>
+            <value>
+              <li Class="CombatExtended.ShieldDefExtension">
+                <shieldCoverage>
+                  <li>Hands</li>
+                </shieldCoverage>
+              </li>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphHunterBanner"]/modExtensions</xpath>
+            <value>
+              <li Class="CombatExtended.ShieldDefExtension">
+                <shieldCoverage>
+                  <li>Hands</li>
+                </shieldCoverage>
+              </li>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphHunterBanner"]/statBases/Mass</xpath>
+          <match Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphHunterBanner"]/statBases/Mass</xpath>
+            <value>
+              <Mass>2</Mass>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphHunterBanner"]/statBases</xpath>
+            <value>
+              <Mass>2</Mass>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphHunterBanner"]/statBases/StuffEffectMultiplierArmor</xpath>
+          <match Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphHunterBanner"]/statBases/StuffEffectMultiplierArmor</xpath>
+            <value>
+              <StuffEffectMultiplierArmor>1</StuffEffectMultiplierArmor>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphHunterBanner"]/statBases</xpath>
+            <value>
+              <StuffEffectMultiplierArmor>1</StuffEffectMultiplierArmor>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphHunterBanner"]/statBases/Bulk</xpath>
+          <match Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphHunterBanner"]/statBases/Bulk</xpath>
+            <value>
+              <Bulk>10</Bulk>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphHunterBanner"]/statBases</xpath>
+            <value>
+              <Bulk>10</Bulk>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphHunterBanner"]/statBases/WornBulk</xpath>
+          <match Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphHunterBanner"]/statBases/WornBulk</xpath>
+            <value>
+              <WornBulk>4</WornBulk>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphHunterBanner"]/statBases</xpath>
+            <value>
+              <WornBulk>4</WornBulk>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphHunterBanner"]/apparel</xpath>
+          <match Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphHunterBanner"]/apparel</xpath>
+            <value>
+              <apparel>
+                <tags>
+                  <li>TribalShield</li>
+                </tags>
+                <renderNodeProperties Inherit="False">
+                  <li>
+                    <nodeClass>CombatExtended.PawnRenderNode_Apparel</nodeClass>
+                    <workerClass>CombatExtended.PawnRenderNodeWorker_Drafted</workerClass>
+                    <texPath>Weapons/DemigyryphHunterBanner/DemigyryphHunterBanner</texPath>
+                    <shaderTypeDef>CutoutComplex</shaderTypeDef>
+                    <parentTagDef>ApparelBody</parentTagDef>
+                    <drawData>
+                      <scale>1.3</scale>
+                      <defaultData>
+                        <layer>85</layer>
+                      </defaultData>
+                      <dataEast>
+                        <layer>-5</layer>
+                        <offset>(0.35, 0, 0.2)</offset>
+                        <rotationOffset>30</rotationOffset>
+                      </dataEast>
+                      <dataWest>
+                        <rotationOffset>-30</rotationOffset>
+                        <offset>(-0.35, 0, 0.2)</offset>
+                      </dataWest>
+                      <dataNorth>
+                        <layer>-5</layer>
+                        <offset>(0.15, 0, 0.2)</offset>
+                      </dataNorth>
+                      <dataSouth>
+                        <offset>(0.2, 0, 0.2)</offset>
+                      </dataSouth>
+                    </drawData>
+                  </li>
+                </renderNodeProperties>
+              </apparel>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphHunterBanner"]</xpath>
+            <value>
+              <apparel>
+                <tags>
+                  <li>TribalShield</li>
+                </tags>
+                <renderNodeProperties Inherit="False">
+                  <li>
+                    <nodeClass>CombatExtended.PawnRenderNode_Apparel</nodeClass>
+                    <workerClass>CombatExtended.PawnRenderNodeWorker_Drafted</workerClass>
+                    <texPath>Weapons/DemigyryphHunterBanner/DemigyryphHunterBanner</texPath>
+                    <shaderTypeDef>CutoutComplex</shaderTypeDef>
+                    <parentTagDef>ApparelBody</parentTagDef>
+                    <drawData>
+                      <scale>1.3</scale>
+                      <defaultData>
+                        <layer>85</layer>
+                      </defaultData>
+                      <dataEast>
+                        <layer>-5</layer>
+                        <offset>(0.35, 0, 0.2)</offset>
+                        <rotationOffset>30</rotationOffset>
+                      </dataEast>
+                      <dataWest>
+                        <rotationOffset>-30</rotationOffset>
+                        <offset>(-0.35, 0, 0.2)</offset>
+                      </dataWest>
+                      <dataNorth>
+                        <layer>-5</layer>
+                        <offset>(0.15, 0, 0.2)</offset>
+                      </dataNorth>
+                      <dataSouth>
+                        <offset>(0.2, 0, 0.2)</offset>
+                      </dataSouth>
+                    </drawData>
+                  </li>
+                </renderNodeProperties>
+              </apparel>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphRaiderBanner"]/comps/li[@Class="VEF.Apparels.CompProperties_Shield"]</xpath>
+          <match Class="PatchOperationRemove">
+            <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphRaiderBanner"]/comps/li[@Class="VEF.Apparels.CompProperties_Shield"]</xpath>
+          </match>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphRaiderBanner"]/modExtensions</xpath>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphRaiderBanner"]</xpath>
+            <value>
+              <modExtensions />
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphRaiderBanner"]/modExtensions/li[@Class="CombatExtended.ShieldDefExtension"]</xpath>
+          <match Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphRaiderBanner"]/modExtensions/li[@Class="CombatExtended.ShieldDefExtension"]</xpath>
+            <value>
+              <li Class="CombatExtended.ShieldDefExtension">
+                <shieldCoverage>
+                  <li>Hands</li>
+                </shieldCoverage>
+              </li>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphRaiderBanner"]/modExtensions</xpath>
+            <value>
+              <li Class="CombatExtended.ShieldDefExtension">
+                <shieldCoverage>
+                  <li>Hands</li>
+                </shieldCoverage>
+              </li>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphRaiderBanner"]/statBases/Mass</xpath>
+          <match Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphRaiderBanner"]/statBases/Mass</xpath>
+            <value>
+              <Mass>2</Mass>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphRaiderBanner"]/statBases</xpath>
+            <value>
+              <Mass>2</Mass>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphRaiderBanner"]/statBases/StuffEffectMultiplierArmor</xpath>
+          <match Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphRaiderBanner"]/statBases/StuffEffectMultiplierArmor</xpath>
+            <value>
+              <StuffEffectMultiplierArmor>1</StuffEffectMultiplierArmor>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphRaiderBanner"]/statBases</xpath>
+            <value>
+              <StuffEffectMultiplierArmor>1</StuffEffectMultiplierArmor>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphRaiderBanner"]/statBases/Bulk</xpath>
+          <match Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphRaiderBanner"]/statBases/Bulk</xpath>
+            <value>
+              <Bulk>10</Bulk>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphRaiderBanner"]/statBases</xpath>
+            <value>
+              <Bulk>10</Bulk>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphRaiderBanner"]/statBases/WornBulk</xpath>
+          <match Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphRaiderBanner"]/statBases/WornBulk</xpath>
+            <value>
+              <WornBulk>4</WornBulk>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphRaiderBanner"]/statBases</xpath>
+            <value>
+              <WornBulk>4</WornBulk>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphRaiderBanner"]/apparel</xpath>
+          <match Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphRaiderBanner"]/apparel</xpath>
+            <value>
+              <apparel>
+                <tags>
+                  <li>TribalShield</li>
+                </tags>
+                <renderNodeProperties Inherit="False">
+                  <li>
+                    <nodeClass>CombatExtended.PawnRenderNode_Apparel</nodeClass>
+                    <workerClass>CombatExtended.PawnRenderNodeWorker_Drafted</workerClass>
+                    <texPath>Weapons/DemigyryphRaiderBanner/DemigyryphRaiderBanner</texPath>
+                    <shaderTypeDef>CutoutComplex</shaderTypeDef>
+                    <parentTagDef>ApparelBody</parentTagDef>
+                    <drawData>
+                      <scale>1.3</scale>
+                      <defaultData>
+                        <layer>85</layer>
+                      </defaultData>
+                      <dataEast>
+                        <layer>-5</layer>
+                        <offset>(0.35, 0, 0.2)</offset>
+                        <rotationOffset>30</rotationOffset>
+                      </dataEast>
+                      <dataWest>
+                        <rotationOffset>-30</rotationOffset>
+                        <offset>(-0.35, 0, 0.2)</offset>
+                      </dataWest>
+                      <dataNorth>
+                        <layer>-5</layer>
+                        <offset>(0.15, 0, 0.2)</offset>
+                      </dataNorth>
+                      <dataSouth>
+                        <offset>(0.2, 0, 0.2)</offset>
+                      </dataSouth>
+                    </drawData>
+                  </li>
+                </renderNodeProperties>
+              </apparel>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphRaiderBanner"]</xpath>
+            <value>
+              <apparel>
+                <tags>
+                  <li>TribalShield</li>
+                </tags>
+                <renderNodeProperties Inherit="False">
+                  <li>
+                    <nodeClass>CombatExtended.PawnRenderNode_Apparel</nodeClass>
+                    <workerClass>CombatExtended.PawnRenderNodeWorker_Drafted</workerClass>
+                    <texPath>Weapons/DemigyryphRaiderBanner/DemigyryphRaiderBanner</texPath>
+                    <shaderTypeDef>CutoutComplex</shaderTypeDef>
+                    <parentTagDef>ApparelBody</parentTagDef>
+                    <drawData>
+                      <scale>1.3</scale>
+                      <defaultData>
+                        <layer>85</layer>
+                      </defaultData>
+                      <dataEast>
+                        <layer>-5</layer>
+                        <offset>(0.35, 0, 0.2)</offset>
+                        <rotationOffset>30</rotationOffset>
+                      </dataEast>
+                      <dataWest>
+                        <rotationOffset>-30</rotationOffset>
+                        <offset>(-0.35, 0, 0.2)</offset>
+                      </dataWest>
+                      <dataNorth>
+                        <layer>-5</layer>
+                        <offset>(0.15, 0, 0.2)</offset>
+                      </dataNorth>
+                      <dataSouth>
+                        <offset>(0.2, 0, 0.2)</offset>
+                      </dataSouth>
+                    </drawData>
+                  </li>
+                </renderNodeProperties>
+              </apparel>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphGildedBanner"]/comps/li[@Class="VEF.Apparels.CompProperties_Shield"]</xpath>
+          <match Class="PatchOperationRemove">
+            <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphGildedBanner"]/comps/li[@Class="VEF.Apparels.CompProperties_Shield"]</xpath>
+          </match>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphGildedBanner"]/modExtensions</xpath>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphGildedBanner"]</xpath>
+            <value>
+              <modExtensions />
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphGildedBanner"]/modExtensions/li[@Class="CombatExtended.ShieldDefExtension"]</xpath>
+          <match Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphGildedBanner"]/modExtensions/li[@Class="CombatExtended.ShieldDefExtension"]</xpath>
+            <value>
+              <li Class="CombatExtended.ShieldDefExtension">
+                <shieldCoverage>
+                  <li>Hands</li>
+                </shieldCoverage>
+              </li>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphGildedBanner"]/modExtensions</xpath>
+            <value>
+              <li Class="CombatExtended.ShieldDefExtension">
+                <shieldCoverage>
+                  <li>Hands</li>
+                </shieldCoverage>
+              </li>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphGildedBanner"]/statBases/Mass</xpath>
+          <match Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphGildedBanner"]/statBases/Mass</xpath>
+            <value>
+              <Mass>2</Mass>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphGildedBanner"]/statBases</xpath>
+            <value>
+              <Mass>2</Mass>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphGildedBanner"]/statBases/StuffEffectMultiplierArmor</xpath>
+          <match Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphGildedBanner"]/statBases/StuffEffectMultiplierArmor</xpath>
+            <value>
+              <StuffEffectMultiplierArmor>1</StuffEffectMultiplierArmor>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphGildedBanner"]/statBases</xpath>
+            <value>
+              <StuffEffectMultiplierArmor>1</StuffEffectMultiplierArmor>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphGildedBanner"]/statBases/Bulk</xpath>
+          <match Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphGildedBanner"]/statBases/Bulk</xpath>
+            <value>
+              <Bulk>10</Bulk>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphGildedBanner"]/statBases</xpath>
+            <value>
+              <Bulk>10</Bulk>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphGildedBanner"]/statBases/WornBulk</xpath>
+          <match Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphGildedBanner"]/statBases/WornBulk</xpath>
+            <value>
+              <WornBulk>4</WornBulk>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphGildedBanner"]/statBases</xpath>
+            <value>
+              <WornBulk>4</WornBulk>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphGildedBanner"]/apparel</xpath>
+          <match Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphGildedBanner"]/apparel</xpath>
+            <value>
+              <apparel>
+                <tags>
+                  <li>TribalShield</li>
+                </tags>
+                <renderNodeProperties Inherit="False">
+                  <li>
+                    <nodeClass>CombatExtended.PawnRenderNode_Apparel</nodeClass>
+                    <workerClass>CombatExtended.PawnRenderNodeWorker_Drafted</workerClass>
+                    <texPath>Weapons/DemigyryphGildedBanner/DemigyryphGildedBanner</texPath>
+                    <shaderTypeDef>CutoutComplex</shaderTypeDef>
+                    <parentTagDef>ApparelBody</parentTagDef>
+                    <drawData>
+                      <scale>1.3</scale>
+                      <defaultData>
+                        <layer>85</layer>
+                      </defaultData>
+                      <dataEast>
+                        <layer>-5</layer>
+                        <offset>(0.35, 0, 0.2)</offset>
+                        <rotationOffset>30</rotationOffset>
+                      </dataEast>
+                      <dataWest>
+                        <rotationOffset>-30</rotationOffset>
+                        <offset>(-0.35, 0, 0.2)</offset>
+                      </dataWest>
+                      <dataNorth>
+                        <layer>-5</layer>
+                        <offset>(0.15, 0, 0.2)</offset>
+                      </dataNorth>
+                      <dataSouth>
+                        <offset>(0.2, 0, 0.2)</offset>
+                      </dataSouth>
+                    </drawData>
+                  </li>
+                </renderNodeProperties>
+              </apparel>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphGildedBanner"]</xpath>
+            <value>
+              <apparel>
+                <tags>
+                  <li>TribalShield</li>
+                </tags>
+                <renderNodeProperties Inherit="False">
+                  <li>
+                    <nodeClass>CombatExtended.PawnRenderNode_Apparel</nodeClass>
+                    <workerClass>CombatExtended.PawnRenderNodeWorker_Drafted</workerClass>
+                    <texPath>Weapons/DemigyryphGildedBanner/DemigyryphGildedBanner</texPath>
+                    <shaderTypeDef>CutoutComplex</shaderTypeDef>
+                    <parentTagDef>ApparelBody</parentTagDef>
+                    <drawData>
+                      <scale>1.3</scale>
+                      <defaultData>
+                        <layer>85</layer>
+                      </defaultData>
+                      <dataEast>
+                        <layer>-5</layer>
+                        <offset>(0.35, 0, 0.2)</offset>
+                        <rotationOffset>30</rotationOffset>
+                      </dataEast>
+                      <dataWest>
+                        <rotationOffset>-30</rotationOffset>
+                        <offset>(-0.35, 0, 0.2)</offset>
+                      </dataWest>
+                      <dataNorth>
+                        <layer>-5</layer>
+                        <offset>(0.15, 0, 0.2)</offset>
+                      </dataNorth>
+                      <dataSouth>
+                        <offset>(0.2, 0, 0.2)</offset>
+                      </dataSouth>
+                    </drawData>
+                  </li>
+                </renderNodeProperties>
+              </apparel>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphChampionBanner"]/comps/li[@Class="VEF.Apparels.CompProperties_Shield"]</xpath>
+          <match Class="PatchOperationRemove">
+            <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphChampionBanner"]/comps/li[@Class="VEF.Apparels.CompProperties_Shield"]</xpath>
+          </match>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphChampionBanner"]/modExtensions</xpath>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphChampionBanner"]</xpath>
+            <value>
+              <modExtensions />
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphChampionBanner"]/modExtensions/li[@Class="CombatExtended.ShieldDefExtension"]</xpath>
+          <match Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphChampionBanner"]/modExtensions/li[@Class="CombatExtended.ShieldDefExtension"]</xpath>
+            <value>
+              <li Class="CombatExtended.ShieldDefExtension">
+                <shieldCoverage>
+                  <li>Hands</li>
+                </shieldCoverage>
+              </li>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphChampionBanner"]/modExtensions</xpath>
+            <value>
+              <li Class="CombatExtended.ShieldDefExtension">
+                <shieldCoverage>
+                  <li>Hands</li>
+                </shieldCoverage>
+              </li>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphChampionBanner"]/statBases/Mass</xpath>
+          <match Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphChampionBanner"]/statBases/Mass</xpath>
+            <value>
+              <Mass>2</Mass>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphChampionBanner"]/statBases</xpath>
+            <value>
+              <Mass>2</Mass>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphChampionBanner"]/statBases/StuffEffectMultiplierArmor</xpath>
+          <match Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphChampionBanner"]/statBases/StuffEffectMultiplierArmor</xpath>
+            <value>
+              <StuffEffectMultiplierArmor>1</StuffEffectMultiplierArmor>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphChampionBanner"]/statBases</xpath>
+            <value>
+              <StuffEffectMultiplierArmor>1</StuffEffectMultiplierArmor>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphChampionBanner"]/statBases/Bulk</xpath>
+          <match Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphChampionBanner"]/statBases/Bulk</xpath>
+            <value>
+              <Bulk>10</Bulk>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphChampionBanner"]/statBases</xpath>
+            <value>
+              <Bulk>10</Bulk>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphChampionBanner"]/statBases/WornBulk</xpath>
+          <match Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphChampionBanner"]/statBases/WornBulk</xpath>
+            <value>
+              <WornBulk>4</WornBulk>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphChampionBanner"]/statBases</xpath>
+            <value>
+              <WornBulk>4</WornBulk>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphChampionBanner"]/apparel</xpath>
+          <match Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphChampionBanner"]/apparel</xpath>
+            <value>
+              <apparel>
+                <tags>
+                  <li>TribalShield</li>
+                </tags>
+                <renderNodeProperties Inherit="False">
+                  <li>
+                    <nodeClass>CombatExtended.PawnRenderNode_Apparel</nodeClass>
+                    <workerClass>CombatExtended.PawnRenderNodeWorker_Drafted</workerClass>
+                    <texPath>Weapons/DemigyryphChampionBanner/DemigyryphChampionBanner</texPath>
+                    <shaderTypeDef>CutoutComplex</shaderTypeDef>
+                    <parentTagDef>ApparelBody</parentTagDef>
+                    <drawData>
+                      <scale>1.3</scale>
+                      <defaultData>
+                        <layer>85</layer>
+                      </defaultData>
+                      <dataEast>
+                        <layer>-5</layer>
+                        <offset>(0.35, 0, 0.2)</offset>
+                        <rotationOffset>30</rotationOffset>
+                      </dataEast>
+                      <dataWest>
+                        <rotationOffset>-30</rotationOffset>
+                        <offset>(-0.35, 0, 0.2)</offset>
+                      </dataWest>
+                      <dataNorth>
+                        <layer>-5</layer>
+                        <offset>(0.15, 0, 0.2)</offset>
+                      </dataNorth>
+                      <dataSouth>
+                        <offset>(0.2, 0, 0.2)</offset>
+                      </dataSouth>
+                    </drawData>
+                  </li>
+                </renderNodeProperties>
+              </apparel>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphChampionBanner"]</xpath>
+            <value>
+              <apparel>
+                <tags>
+                  <li>TribalShield</li>
+                </tags>
+                <renderNodeProperties Inherit="False">
+                  <li>
+                    <nodeClass>CombatExtended.PawnRenderNode_Apparel</nodeClass>
+                    <workerClass>CombatExtended.PawnRenderNodeWorker_Drafted</workerClass>
+                    <texPath>Weapons/DemigyryphChampionBanner/DemigyryphChampionBanner</texPath>
+                    <shaderTypeDef>CutoutComplex</shaderTypeDef>
+                    <parentTagDef>ApparelBody</parentTagDef>
+                    <drawData>
+                      <scale>1.3</scale>
+                      <defaultData>
+                        <layer>85</layer>
+                      </defaultData>
+                      <dataEast>
+                        <layer>-5</layer>
+                        <offset>(0.35, 0, 0.2)</offset>
+                        <rotationOffset>30</rotationOffset>
+                      </dataEast>
+                      <dataWest>
+                        <rotationOffset>-30</rotationOffset>
+                        <offset>(-0.35, 0, 0.2)</offset>
+                      </dataWest>
+                      <dataNorth>
+                        <layer>-5</layer>
+                        <offset>(0.15, 0, 0.2)</offset>
+                      </dataNorth>
+                      <dataSouth>
+                        <offset>(0.2, 0, 0.2)</offset>
+                      </dataSouth>
+                    </drawData>
+                  </li>
+                </renderNodeProperties>
+              </apparel>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[starts-with(@Name,"pphhyy_Demigryph_") or starts-with(defName,"pphhyy_Human_Demigyryph")]/thingCategories[position()&gt;1]</xpath>
+          <match Class="PatchOperationRemove">
+            <xpath>Defs/ThingDef[starts-with(@Name,"pphhyy_Demigryph_") or starts-with(defName,"pphhyy_Human_Demigyryph")]/thingCategories[position()&gt;1]</xpath>
+          </match>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[starts-with(@Name,"pphhyy_Demigryph_") or starts-with(defName,"pphhyy_Human_Demigyryph")]/apparel[position()&gt;1]</xpath>
+          <match Class="PatchOperationRemove">
+            <xpath>Defs/ThingDef[starts-with(@Name,"pphhyy_Demigryph_") or starts-with(defName,"pphhyy_Human_Demigyryph")]/apparel[position()&gt;1]</xpath>
+          </match>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[starts-with(@Name,"pphhyy_Demigryph_") or starts-with(defName,"pphhyy_Human_Demigyryph")]/thingClass[position()&gt;1]</xpath>
+          <match Class="PatchOperationRemove">
+            <xpath>Defs/ThingDef[starts-with(@Name,"pphhyy_Demigryph_") or starts-with(defName,"pphhyy_Human_Demigyryph")]/thingClass[position()&gt;1]</xpath>
+          </match>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[starts-with(@Name,"pphhyy_Demigryph_") or starts-with(defName,"pphhyy_Human_Demigyryph")]/tradeTags[position()&gt;1]</xpath>
+          <match Class="PatchOperationRemove">
+            <xpath>Defs/ThingDef[starts-with(@Name,"pphhyy_Demigryph_") or starts-with(defName,"pphhyy_Human_Demigyryph")]/tradeTags[position()&gt;1]</xpath>
+          </match>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[starts-with(@Name,"pphhyy_Demigryph_") or starts-with(defName,"pphhyy_Human_Demigyryph")]/storedConceptLearnOpportunity[position()&gt;1]</xpath>
+          <match Class="PatchOperationRemove">
+            <xpath>Defs/ThingDef[starts-with(@Name,"pphhyy_Demigryph_") or starts-with(defName,"pphhyy_Human_Demigyryph")]/storedConceptLearnOpportunity[position()&gt;1]</xpath>
+          </match>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[starts-with(@Name,"pphhyy_Demigryph_") or starts-with(defName,"pphhyy_Human_Demigyryph")]/statBases[position()&gt;1]</xpath>
+          <match Class="PatchOperationRemove">
+            <xpath>Defs/ThingDef[starts-with(@Name,"pphhyy_Demigryph_") or starts-with(defName,"pphhyy_Human_Demigyryph")]/statBases[position()&gt;1]</xpath>
+          </match>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[starts-with(@Name,"pphhyy_Demigryph_") or starts-with(defName,"pphhyy_Human_Demigyryph")]/equippedStatOffsets[position()&gt;1]</xpath>
+          <match Class="PatchOperationRemove">
+            <xpath>Defs/ThingDef[starts-with(@Name,"pphhyy_Demigryph_") or starts-with(defName,"pphhyy_Human_Demigyryph")]/equippedStatOffsets[position()&gt;1]</xpath>
+          </match>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

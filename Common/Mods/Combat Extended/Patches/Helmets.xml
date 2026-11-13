@@ -1,0 +1,708 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Patch>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphHelm"]/statBases/Mass</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphHelm"]/statBases/Mass</xpath>
+      <value>
+        <Mass>3</Mass>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphHelm"]/statBases</xpath>
+      <value>
+        <Mass>3</Mass>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphHelm"]/statBases/StuffEffectMultiplierArmor</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphHelm"]/statBases/StuffEffectMultiplierArmor</xpath>
+      <value>
+        <StuffEffectMultiplierArmor>3</StuffEffectMultiplierArmor>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphHelm"]/statBases</xpath>
+      <value>
+        <StuffEffectMultiplierArmor>3</StuffEffectMultiplierArmor>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphHelm"]/statBases/Bulk</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphHelm"]/statBases/Bulk</xpath>
+      <value>
+        <Bulk>6</Bulk>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphHelm"]/statBases</xpath>
+      <value>
+        <Bulk>6</Bulk>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphHelm"]/statBases/WornBulk</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphHelm"]/statBases/WornBulk</xpath>
+      <value>
+        <WornBulk>1</WornBulk>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphHelm"]/statBases</xpath>
+      <value>
+        <WornBulk>1</WornBulk>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphHelm"]/costStuffCount</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphHelm"]/costStuffCount</xpath>
+      <value>
+        <costStuffCount>80</costStuffCount>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphHelm"]</xpath>
+      <value>
+        <costStuffCount>80</costStuffCount>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphHelm"]/recipeMaker/researchPrerequisite</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphHelm"]/recipeMaker/researchPrerequisite</xpath>
+      <value>
+        <researchPrerequisite>PlateArmor</researchPrerequisite>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphHelm"]/recipeMaker</xpath>
+      <value>
+        <researchPrerequisite>PlateArmor</researchPrerequisite>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphHelm"]/equippedStatOffsets/ShootingAccuracyPawn</xpath>
+    <match Class="PatchOperationRemove">
+      <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphHelm"]/equippedStatOffsets/ShootingAccuracyPawn</xpath>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphHelm"]/equippedStatOffsets/AimingAccuracy</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphHelm"]/equippedStatOffsets/AimingAccuracy</xpath>
+      <value>
+        <AimingAccuracy>-0.4</AimingAccuracy>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphHelm"]/equippedStatOffsets</xpath>
+      <value>
+        <AimingAccuracy>-0.4</AimingAccuracy>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphHelm"]/equippedStatOffsets/MeleeHitChance</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphHelm"]/equippedStatOffsets/MeleeHitChance</xpath>
+      <value>
+        <MeleeHitChance>-2</MeleeHitChance>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphHelm"]/equippedStatOffsets</xpath>
+      <value>
+        <MeleeHitChance>-2</MeleeHitChance>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphHelm"]/equippedStatOffsets/Suppressability</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphHelm"]/equippedStatOffsets/Suppressability</xpath>
+      <value>
+        <Suppressability>-0.2</Suppressability>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphHelm"]/equippedStatOffsets</xpath>
+      <value>
+        <Suppressability>-0.2</Suppressability>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphChampionHelm"]/statBases/Mass</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphChampionHelm"]/statBases/Mass</xpath>
+      <value>
+        <Mass>3.5</Mass>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphChampionHelm"]/statBases</xpath>
+      <value>
+        <Mass>3.5</Mass>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphChampionHelm"]/statBases/StuffEffectMultiplierArmor</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphChampionHelm"]/statBases/StuffEffectMultiplierArmor</xpath>
+      <value>
+        <StuffEffectMultiplierArmor>3.5</StuffEffectMultiplierArmor>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphChampionHelm"]/statBases</xpath>
+      <value>
+        <StuffEffectMultiplierArmor>3.5</StuffEffectMultiplierArmor>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphChampionHelm"]/statBases/Bulk</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphChampionHelm"]/statBases/Bulk</xpath>
+      <value>
+        <Bulk>6</Bulk>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphChampionHelm"]/statBases</xpath>
+      <value>
+        <Bulk>6</Bulk>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphChampionHelm"]/statBases/WornBulk</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphChampionHelm"]/statBases/WornBulk</xpath>
+      <value>
+        <WornBulk>1</WornBulk>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphChampionHelm"]/statBases</xpath>
+      <value>
+        <WornBulk>1</WornBulk>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphChampionHelm"]/costStuffCount</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphChampionHelm"]/costStuffCount</xpath>
+      <value>
+        <costStuffCount>90</costStuffCount>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphChampionHelm"]</xpath>
+      <value>
+        <costStuffCount>90</costStuffCount>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphChampionHelm"]/recipeMaker/researchPrerequisite</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphChampionHelm"]/recipeMaker/researchPrerequisite</xpath>
+      <value>
+        <researchPrerequisite>PlateArmor</researchPrerequisite>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphChampionHelm"]/recipeMaker</xpath>
+      <value>
+        <researchPrerequisite>PlateArmor</researchPrerequisite>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphChampionHelm"]/equippedStatOffsets/ShootingAccuracyPawn</xpath>
+    <match Class="PatchOperationRemove">
+      <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphChampionHelm"]/equippedStatOffsets/ShootingAccuracyPawn</xpath>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphChampionHelm"]/equippedStatOffsets/AimingAccuracy</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphChampionHelm"]/equippedStatOffsets/AimingAccuracy</xpath>
+      <value>
+        <AimingAccuracy>-0.4</AimingAccuracy>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphChampionHelm"]/equippedStatOffsets</xpath>
+      <value>
+        <AimingAccuracy>-0.4</AimingAccuracy>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphChampionHelm"]/equippedStatOffsets/MeleeHitChance</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphChampionHelm"]/equippedStatOffsets/MeleeHitChance</xpath>
+      <value>
+        <MeleeHitChance>-2</MeleeHitChance>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphChampionHelm"]/equippedStatOffsets</xpath>
+      <value>
+        <MeleeHitChance>-2</MeleeHitChance>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphChampionHelm"]/equippedStatOffsets/Suppressability</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphChampionHelm"]/equippedStatOffsets/Suppressability</xpath>
+      <value>
+        <Suppressability>-0.2</Suppressability>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphChampionHelm"]/equippedStatOffsets</xpath>
+      <value>
+        <Suppressability>-0.2</Suppressability>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphGildedHelm"]/statBases/Mass</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphGildedHelm"]/statBases/Mass</xpath>
+      <value>
+        <Mass>3.5</Mass>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphGildedHelm"]/statBases</xpath>
+      <value>
+        <Mass>3.5</Mass>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphGildedHelm"]/statBases/StuffEffectMultiplierArmor</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphGildedHelm"]/statBases/StuffEffectMultiplierArmor</xpath>
+      <value>
+        <StuffEffectMultiplierArmor>3.5</StuffEffectMultiplierArmor>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphGildedHelm"]/statBases</xpath>
+      <value>
+        <StuffEffectMultiplierArmor>3.5</StuffEffectMultiplierArmor>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphGildedHelm"]/statBases/Bulk</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphGildedHelm"]/statBases/Bulk</xpath>
+      <value>
+        <Bulk>6</Bulk>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphGildedHelm"]/statBases</xpath>
+      <value>
+        <Bulk>6</Bulk>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphGildedHelm"]/statBases/WornBulk</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphGildedHelm"]/statBases/WornBulk</xpath>
+      <value>
+        <WornBulk>1</WornBulk>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphGildedHelm"]/statBases</xpath>
+      <value>
+        <WornBulk>1</WornBulk>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphGildedHelm"]/costStuffCount</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphGildedHelm"]/costStuffCount</xpath>
+      <value>
+        <costStuffCount>100</costStuffCount>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphGildedHelm"]</xpath>
+      <value>
+        <costStuffCount>100</costStuffCount>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphGildedHelm"]/recipeMaker/researchPrerequisite</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphGildedHelm"]/recipeMaker/researchPrerequisite</xpath>
+      <value>
+        <researchPrerequisite>PlateArmor</researchPrerequisite>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphGildedHelm"]/recipeMaker</xpath>
+      <value>
+        <researchPrerequisite>PlateArmor</researchPrerequisite>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphGildedHelm"]/equippedStatOffsets/ShootingAccuracyPawn</xpath>
+    <match Class="PatchOperationRemove">
+      <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphGildedHelm"]/equippedStatOffsets/ShootingAccuracyPawn</xpath>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphGildedHelm"]/equippedStatOffsets/AimingAccuracy</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphGildedHelm"]/equippedStatOffsets/AimingAccuracy</xpath>
+      <value>
+        <AimingAccuracy>-0.4</AimingAccuracy>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphGildedHelm"]/equippedStatOffsets</xpath>
+      <value>
+        <AimingAccuracy>-0.4</AimingAccuracy>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphGildedHelm"]/equippedStatOffsets/MeleeHitChance</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphGildedHelm"]/equippedStatOffsets/MeleeHitChance</xpath>
+      <value>
+        <MeleeHitChance>-2</MeleeHitChance>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphGildedHelm"]/equippedStatOffsets</xpath>
+      <value>
+        <MeleeHitChance>-2</MeleeHitChance>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphGildedHelm"]/equippedStatOffsets/Suppressability</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphGildedHelm"]/equippedStatOffsets/Suppressability</xpath>
+      <value>
+        <Suppressability>-0.2</Suppressability>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphGildedHelm"]/equippedStatOffsets</xpath>
+      <value>
+        <Suppressability>-0.2</Suppressability>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphRaiderHelm"]/statBases/Mass</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphRaiderHelm"]/statBases/Mass</xpath>
+      <value>
+        <Mass>3.5</Mass>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphRaiderHelm"]/statBases</xpath>
+      <value>
+        <Mass>3.5</Mass>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphRaiderHelm"]/statBases/StuffEffectMultiplierArmor</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphRaiderHelm"]/statBases/StuffEffectMultiplierArmor</xpath>
+      <value>
+        <StuffEffectMultiplierArmor>3.5</StuffEffectMultiplierArmor>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphRaiderHelm"]/statBases</xpath>
+      <value>
+        <StuffEffectMultiplierArmor>3.5</StuffEffectMultiplierArmor>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphRaiderHelm"]/statBases/Bulk</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphRaiderHelm"]/statBases/Bulk</xpath>
+      <value>
+        <Bulk>6</Bulk>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphRaiderHelm"]/statBases</xpath>
+      <value>
+        <Bulk>6</Bulk>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphRaiderHelm"]/statBases/WornBulk</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphRaiderHelm"]/statBases/WornBulk</xpath>
+      <value>
+        <WornBulk>1</WornBulk>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphRaiderHelm"]/statBases</xpath>
+      <value>
+        <WornBulk>1</WornBulk>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphRaiderHelm"]/costStuffCount</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphRaiderHelm"]/costStuffCount</xpath>
+      <value>
+        <costStuffCount>95</costStuffCount>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphRaiderHelm"]</xpath>
+      <value>
+        <costStuffCount>95</costStuffCount>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphRaiderHelm"]/recipeMaker/researchPrerequisite</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphRaiderHelm"]/recipeMaker/researchPrerequisite</xpath>
+      <value>
+        <researchPrerequisite>PlateArmor</researchPrerequisite>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphRaiderHelm"]/recipeMaker</xpath>
+      <value>
+        <researchPrerequisite>PlateArmor</researchPrerequisite>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphRaiderHelm"]/equippedStatOffsets/ShootingAccuracyPawn</xpath>
+    <match Class="PatchOperationRemove">
+      <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphRaiderHelm"]/equippedStatOffsets/ShootingAccuracyPawn</xpath>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphRaiderHelm"]/equippedStatOffsets/AimingAccuracy</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphRaiderHelm"]/equippedStatOffsets/AimingAccuracy</xpath>
+      <value>
+        <AimingAccuracy>-0.4</AimingAccuracy>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphRaiderHelm"]/equippedStatOffsets</xpath>
+      <value>
+        <AimingAccuracy>-0.4</AimingAccuracy>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphRaiderHelm"]/equippedStatOffsets/MeleeHitChance</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphRaiderHelm"]/equippedStatOffsets/MeleeHitChance</xpath>
+      <value>
+        <MeleeHitChance>-2</MeleeHitChance>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphRaiderHelm"]/equippedStatOffsets</xpath>
+      <value>
+        <MeleeHitChance>-2</MeleeHitChance>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphRaiderHelm"]/equippedStatOffsets/Suppressability</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphRaiderHelm"]/equippedStatOffsets/Suppressability</xpath>
+      <value>
+        <Suppressability>-0.2</Suppressability>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphRaiderHelm"]/equippedStatOffsets</xpath>
+      <value>
+        <Suppressability>-0.2</Suppressability>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphHunterHelm"]/statBases/Mass</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphHunterHelm"]/statBases/Mass</xpath>
+      <value>
+        <Mass>4</Mass>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphHunterHelm"]/statBases</xpath>
+      <value>
+        <Mass>4</Mass>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphHunterHelm"]/statBases/StuffEffectMultiplierArmor</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphHunterHelm"]/statBases/StuffEffectMultiplierArmor</xpath>
+      <value>
+        <StuffEffectMultiplierArmor>3.75</StuffEffectMultiplierArmor>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphHunterHelm"]/statBases</xpath>
+      <value>
+        <StuffEffectMultiplierArmor>3.75</StuffEffectMultiplierArmor>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphHunterHelm"]/statBases/Bulk</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphHunterHelm"]/statBases/Bulk</xpath>
+      <value>
+        <Bulk>6</Bulk>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphHunterHelm"]/statBases</xpath>
+      <value>
+        <Bulk>6</Bulk>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphHunterHelm"]/statBases/WornBulk</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphHunterHelm"]/statBases/WornBulk</xpath>
+      <value>
+        <WornBulk>1</WornBulk>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphHunterHelm"]/statBases</xpath>
+      <value>
+        <WornBulk>1</WornBulk>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphHunterHelm"]/costStuffCount</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphHunterHelm"]/costStuffCount</xpath>
+      <value>
+        <costStuffCount>100</costStuffCount>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphHunterHelm"]</xpath>
+      <value>
+        <costStuffCount>100</costStuffCount>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphHunterHelm"]/recipeMaker/researchPrerequisite</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphHunterHelm"]/recipeMaker/researchPrerequisite</xpath>
+      <value>
+        <researchPrerequisite>PlateArmor</researchPrerequisite>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphHunterHelm"]/recipeMaker</xpath>
+      <value>
+        <researchPrerequisite>PlateArmor</researchPrerequisite>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphHunterHelm"]/equippedStatOffsets/ShootingAccuracyPawn</xpath>
+    <match Class="PatchOperationRemove">
+      <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphHunterHelm"]/equippedStatOffsets/ShootingAccuracyPawn</xpath>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphHunterHelm"]/equippedStatOffsets/AimingAccuracy</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphHunterHelm"]/equippedStatOffsets/AimingAccuracy</xpath>
+      <value>
+        <AimingAccuracy>-0.4</AimingAccuracy>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphHunterHelm"]/equippedStatOffsets</xpath>
+      <value>
+        <AimingAccuracy>-0.4</AimingAccuracy>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphHunterHelm"]/equippedStatOffsets/MeleeHitChance</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphHunterHelm"]/equippedStatOffsets/MeleeHitChance</xpath>
+      <value>
+        <MeleeHitChance>-2</MeleeHitChance>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphHunterHelm"]/equippedStatOffsets</xpath>
+      <value>
+        <MeleeHitChance>-2</MeleeHitChance>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphHunterHelm"]/equippedStatOffsets/Suppressability</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphHunterHelm"]/equippedStatOffsets/Suppressability</xpath>
+      <value>
+        <Suppressability>-0.2</Suppressability>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="pphhyy_Human_DemigyryphHunterHelm"]/equippedStatOffsets</xpath>
+      <value>
+        <Suppressability>-0.2</Suppressability>
+      </value>
+    </nomatch>
+  </Operation>
+</Patch>
