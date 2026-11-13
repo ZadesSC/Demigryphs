@@ -8,21 +8,22 @@ Coverage includes all nine breeds, their quadruped collision shapes and melee to
 
 The starting balance follows CE 16.7.4.0's Demigryph compatibility: breed-specific melee damage, cooldown, penetration and combat chances; leather sharp/blunt stuff power 0.05/0.04; helmet armor multipliers 3–3.75; leather barding multiplier 8; plate barding 4.5–5. Helmets all receive bulk/worn bulk 6/1. Animal armor uses 3/1 for leather and 17.5/3.5 for plate, consistently across both frameworks.
 
-Natural hide armor uses the following base CE balance. Sharp values are mm RHA; blunt values are MPa. Heat armor is zero for every breed. These ratings are separate from CE's calculated body-part resistance and are proposed starting balance, not a gameplay-tested balance result.
+Natural hide armor is balanced as a weaker Medieval Overhaul griffon, with lighter protection for Cheetah and Vulture and heavier protection for Tiger and Daermigryph. Vanilla values are percentages; CE sharp values are mm RHA, blunt values are MPa, and heat values are percentages. These ratings are separate from CE's calculated body-part resistance and are proposed starting balance, not a gameplay-tested balance result.
 
-| Breed | Sharp | Blunt |
-| --- | ---: | ---: |
-| Standard | 0.10 | 0.15 |
-| Crimson | 0.12 | 0.18 |
-| Cheetah | 0.05 | 0.075 |
-| Vulture | 0.08 | 0.12 |
-| Leopard | 0.10 | 0.15 |
-| Panther | 0.10 | 0.15 |
-| Tiger | 0.15 | 0.225 |
-| Daermigryph | 0.20 | 0.30 |
-| Jade | 0.15 | 0.225 |
+| Breed | Vanilla sharp / blunt / heat | CE sharp / blunt / heat |
+| --- | --- | --- |
+| Standard | 30% / 20% / 15% | 3 / 4.5 / 30% |
+| Crimson | 35% / 22% / 15% | 3.5 / 5.25 / 30% |
+| Cheetah | 20% / 12% / 10% | 1.5 / 2.25 / 20% |
+| Vulture | 25% / 16% / 10% | 2 / 3 / 20% |
+| Leopard | 30% / 20% / 15% | 3 / 4.5 / 30% |
+| Panther | 30% / 20% / 15% | 3 / 4.5 / 30% |
+| Tiger | 40% / 26% / 15% | 4 / 6 / 35% |
+| Daermigryph | 45% / 30% / 20% | 4.5 / 6.75 / 40% |
+| Jade | 35% / 24% / 20% | 3.5 / 5.25 / 35% |
+| MO griffon reference | 60% / 40% / 30% | 12 / 18 / 60% |
 
-For reference, CE 16.7.4.0 gives grizzly bears 0.05 sharp / 0.075 blunt and elephants 0.15 sharp / 0.35 blunt. The values above do not target the separate CE Extensive Animal Balance Tweaks mod.
+The reference is Medieval Overhaul's RimWorld 1.6 griffon definition and CE 16.7.4.0's Medieval Overhaul griffon patch. Standard Demigryph natural armor is half that reference in vanilla and one-quarter of its sharp/blunt ratings in CE. This is a substantial buff over the previous ordinary-animal CE balance (standard sharp/blunt 0.10/0.15), and does not imply proportional survivability across the two combat systems. Combat balance with medieval weapons and wearable barding still needs gameplay validation.
 
 Shields use CE's apparel class, Shield layer, coverage extension and drafted render nodes. Their armor comes from CE material scaling (7–8), with bulk/worn bulk 12/8. Banners use multiplier 1 and bulk/worn bulk 10/4, protect the hands, and retain their pain shock threshold bonus. Every visual variant receives its own render node. The VEF shield comp and weapon tools are removed to avoid running both shield systems. VEF's melee pushback maneuver is unused while the banner is CE apparel, as in CE's built-in conversion.
 

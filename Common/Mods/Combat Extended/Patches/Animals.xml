@@ -1801,19 +1801,19 @@
       </value>
     </nomatch>
   </Operation>
-  <!--Natural hide armor is separate from CE body-part resistance. Values use base CE balance.-->
+  <!--Natural hide armor is separate from CE body-part resistance. Values target a lesser Medieval Overhaul griffon.-->
   <Operation Class="PatchOperationConditional">
     <xpath>Defs/ThingDef[defName="pphhyy_Demigryph"]/statBases/ArmorRating_Sharp</xpath>
     <match Class="PatchOperationReplace">
       <xpath>Defs/ThingDef[defName="pphhyy_Demigryph"]/statBases/ArmorRating_Sharp</xpath>
       <value>
-        <ArmorRating_Sharp>0.10</ArmorRating_Sharp>
+        <ArmorRating_Sharp>3</ArmorRating_Sharp>
       </value>
     </match>
     <nomatch Class="PatchOperationAdd">
       <xpath>Defs/ThingDef[defName="pphhyy_Demigryph"]/statBases</xpath>
       <value>
-        <ArmorRating_Sharp>0.10</ArmorRating_Sharp>
+        <ArmorRating_Sharp>3</ArmorRating_Sharp>
       </value>
     </nomatch>
   </Operation>
@@ -1822,13 +1822,13 @@
     <match Class="PatchOperationReplace">
       <xpath>Defs/ThingDef[defName="pphhyy_Demigryph"]/statBases/ArmorRating_Blunt</xpath>
       <value>
-        <ArmorRating_Blunt>0.15</ArmorRating_Blunt>
+        <ArmorRating_Blunt>4.5</ArmorRating_Blunt>
       </value>
     </match>
     <nomatch Class="PatchOperationAdd">
       <xpath>Defs/ThingDef[defName="pphhyy_Demigryph"]/statBases</xpath>
       <value>
-        <ArmorRating_Blunt>0.15</ArmorRating_Blunt>
+        <ArmorRating_Blunt>4.5</ArmorRating_Blunt>
       </value>
     </nomatch>
   </Operation>
@@ -1837,13 +1837,13 @@
     <match Class="PatchOperationReplace">
       <xpath>Defs/ThingDef[defName="pphhyy_Demigryph"]/statBases/ArmorRating_Heat</xpath>
       <value>
-        <ArmorRating_Heat>0</ArmorRating_Heat>
+        <ArmorRating_Heat>0.30</ArmorRating_Heat>
       </value>
     </match>
     <nomatch Class="PatchOperationAdd">
       <xpath>Defs/ThingDef[defName="pphhyy_Demigryph"]/statBases</xpath>
       <value>
-        <ArmorRating_Heat>0</ArmorRating_Heat>
+        <ArmorRating_Heat>0.30</ArmorRating_Heat>
       </value>
     </nomatch>
   </Operation>
@@ -1852,13 +1852,13 @@
     <match Class="PatchOperationReplace">
       <xpath>Defs/ThingDef[defName="pphhyy_CrimsonDemigryph"]/statBases/ArmorRating_Sharp</xpath>
       <value>
-        <ArmorRating_Sharp>0.12</ArmorRating_Sharp>
+        <ArmorRating_Sharp>3.5</ArmorRating_Sharp>
       </value>
     </match>
     <nomatch Class="PatchOperationAdd">
       <xpath>Defs/ThingDef[defName="pphhyy_CrimsonDemigryph"]/statBases</xpath>
       <value>
-        <ArmorRating_Sharp>0.12</ArmorRating_Sharp>
+        <ArmorRating_Sharp>3.5</ArmorRating_Sharp>
       </value>
     </nomatch>
   </Operation>
@@ -1867,13 +1867,13 @@
     <match Class="PatchOperationReplace">
       <xpath>Defs/ThingDef[defName="pphhyy_CrimsonDemigryph"]/statBases/ArmorRating_Blunt</xpath>
       <value>
-        <ArmorRating_Blunt>0.18</ArmorRating_Blunt>
+        <ArmorRating_Blunt>5.25</ArmorRating_Blunt>
       </value>
     </match>
     <nomatch Class="PatchOperationAdd">
       <xpath>Defs/ThingDef[defName="pphhyy_CrimsonDemigryph"]/statBases</xpath>
       <value>
-        <ArmorRating_Blunt>0.18</ArmorRating_Blunt>
+        <ArmorRating_Blunt>5.25</ArmorRating_Blunt>
       </value>
     </nomatch>
   </Operation>
@@ -1882,13 +1882,13 @@
     <match Class="PatchOperationReplace">
       <xpath>Defs/ThingDef[defName="pphhyy_CrimsonDemigryph"]/statBases/ArmorRating_Heat</xpath>
       <value>
-        <ArmorRating_Heat>0</ArmorRating_Heat>
+        <ArmorRating_Heat>0.30</ArmorRating_Heat>
       </value>
     </match>
     <nomatch Class="PatchOperationAdd">
       <xpath>Defs/ThingDef[defName="pphhyy_CrimsonDemigryph"]/statBases</xpath>
       <value>
-        <ArmorRating_Heat>0</ArmorRating_Heat>
+        <ArmorRating_Heat>0.30</ArmorRating_Heat>
       </value>
     </nomatch>
   </Operation>
@@ -1897,13 +1897,13 @@
     <match Class="PatchOperationReplace">
       <xpath>Defs/ThingDef[defName="pphhyy_CheetahDemigryph"]/statBases/ArmorRating_Sharp</xpath>
       <value>
-        <ArmorRating_Sharp>0.05</ArmorRating_Sharp>
+        <ArmorRating_Sharp>1.5</ArmorRating_Sharp>
       </value>
     </match>
     <nomatch Class="PatchOperationAdd">
       <xpath>Defs/ThingDef[defName="pphhyy_CheetahDemigryph"]/statBases</xpath>
       <value>
-        <ArmorRating_Sharp>0.05</ArmorRating_Sharp>
+        <ArmorRating_Sharp>1.5</ArmorRating_Sharp>
       </value>
     </nomatch>
   </Operation>
@@ -1912,13 +1912,13 @@
     <match Class="PatchOperationReplace">
       <xpath>Defs/ThingDef[defName="pphhyy_CheetahDemigryph"]/statBases/ArmorRating_Blunt</xpath>
       <value>
-        <ArmorRating_Blunt>0.075</ArmorRating_Blunt>
+        <ArmorRating_Blunt>2.25</ArmorRating_Blunt>
       </value>
     </match>
     <nomatch Class="PatchOperationAdd">
       <xpath>Defs/ThingDef[defName="pphhyy_CheetahDemigryph"]/statBases</xpath>
       <value>
-        <ArmorRating_Blunt>0.075</ArmorRating_Blunt>
+        <ArmorRating_Blunt>2.25</ArmorRating_Blunt>
       </value>
     </nomatch>
   </Operation>
@@ -1927,13 +1927,13 @@
     <match Class="PatchOperationReplace">
       <xpath>Defs/ThingDef[defName="pphhyy_CheetahDemigryph"]/statBases/ArmorRating_Heat</xpath>
       <value>
-        <ArmorRating_Heat>0</ArmorRating_Heat>
+        <ArmorRating_Heat>0.20</ArmorRating_Heat>
       </value>
     </match>
     <nomatch Class="PatchOperationAdd">
       <xpath>Defs/ThingDef[defName="pphhyy_CheetahDemigryph"]/statBases</xpath>
       <value>
-        <ArmorRating_Heat>0</ArmorRating_Heat>
+        <ArmorRating_Heat>0.20</ArmorRating_Heat>
       </value>
     </nomatch>
   </Operation>
@@ -1942,13 +1942,13 @@
     <match Class="PatchOperationReplace">
       <xpath>Defs/ThingDef[defName="pphhyy_VultureDemigryph"]/statBases/ArmorRating_Sharp</xpath>
       <value>
-        <ArmorRating_Sharp>0.08</ArmorRating_Sharp>
+        <ArmorRating_Sharp>2</ArmorRating_Sharp>
       </value>
     </match>
     <nomatch Class="PatchOperationAdd">
       <xpath>Defs/ThingDef[defName="pphhyy_VultureDemigryph"]/statBases</xpath>
       <value>
-        <ArmorRating_Sharp>0.08</ArmorRating_Sharp>
+        <ArmorRating_Sharp>2</ArmorRating_Sharp>
       </value>
     </nomatch>
   </Operation>
@@ -1957,13 +1957,13 @@
     <match Class="PatchOperationReplace">
       <xpath>Defs/ThingDef[defName="pphhyy_VultureDemigryph"]/statBases/ArmorRating_Blunt</xpath>
       <value>
-        <ArmorRating_Blunt>0.12</ArmorRating_Blunt>
+        <ArmorRating_Blunt>3</ArmorRating_Blunt>
       </value>
     </match>
     <nomatch Class="PatchOperationAdd">
       <xpath>Defs/ThingDef[defName="pphhyy_VultureDemigryph"]/statBases</xpath>
       <value>
-        <ArmorRating_Blunt>0.12</ArmorRating_Blunt>
+        <ArmorRating_Blunt>3</ArmorRating_Blunt>
       </value>
     </nomatch>
   </Operation>
@@ -1972,13 +1972,13 @@
     <match Class="PatchOperationReplace">
       <xpath>Defs/ThingDef[defName="pphhyy_VultureDemigryph"]/statBases/ArmorRating_Heat</xpath>
       <value>
-        <ArmorRating_Heat>0</ArmorRating_Heat>
+        <ArmorRating_Heat>0.20</ArmorRating_Heat>
       </value>
     </match>
     <nomatch Class="PatchOperationAdd">
       <xpath>Defs/ThingDef[defName="pphhyy_VultureDemigryph"]/statBases</xpath>
       <value>
-        <ArmorRating_Heat>0</ArmorRating_Heat>
+        <ArmorRating_Heat>0.20</ArmorRating_Heat>
       </value>
     </nomatch>
   </Operation>
@@ -1987,13 +1987,13 @@
     <match Class="PatchOperationReplace">
       <xpath>Defs/ThingDef[defName="pphhyy_LeopardDemigryph"]/statBases/ArmorRating_Sharp</xpath>
       <value>
-        <ArmorRating_Sharp>0.10</ArmorRating_Sharp>
+        <ArmorRating_Sharp>3</ArmorRating_Sharp>
       </value>
     </match>
     <nomatch Class="PatchOperationAdd">
       <xpath>Defs/ThingDef[defName="pphhyy_LeopardDemigryph"]/statBases</xpath>
       <value>
-        <ArmorRating_Sharp>0.10</ArmorRating_Sharp>
+        <ArmorRating_Sharp>3</ArmorRating_Sharp>
       </value>
     </nomatch>
   </Operation>
@@ -2002,13 +2002,13 @@
     <match Class="PatchOperationReplace">
       <xpath>Defs/ThingDef[defName="pphhyy_LeopardDemigryph"]/statBases/ArmorRating_Blunt</xpath>
       <value>
-        <ArmorRating_Blunt>0.15</ArmorRating_Blunt>
+        <ArmorRating_Blunt>4.5</ArmorRating_Blunt>
       </value>
     </match>
     <nomatch Class="PatchOperationAdd">
       <xpath>Defs/ThingDef[defName="pphhyy_LeopardDemigryph"]/statBases</xpath>
       <value>
-        <ArmorRating_Blunt>0.15</ArmorRating_Blunt>
+        <ArmorRating_Blunt>4.5</ArmorRating_Blunt>
       </value>
     </nomatch>
   </Operation>
@@ -2017,13 +2017,13 @@
     <match Class="PatchOperationReplace">
       <xpath>Defs/ThingDef[defName="pphhyy_LeopardDemigryph"]/statBases/ArmorRating_Heat</xpath>
       <value>
-        <ArmorRating_Heat>0</ArmorRating_Heat>
+        <ArmorRating_Heat>0.30</ArmorRating_Heat>
       </value>
     </match>
     <nomatch Class="PatchOperationAdd">
       <xpath>Defs/ThingDef[defName="pphhyy_LeopardDemigryph"]/statBases</xpath>
       <value>
-        <ArmorRating_Heat>0</ArmorRating_Heat>
+        <ArmorRating_Heat>0.30</ArmorRating_Heat>
       </value>
     </nomatch>
   </Operation>
@@ -2032,13 +2032,13 @@
     <match Class="PatchOperationReplace">
       <xpath>Defs/ThingDef[defName="pphhyy_PantherDemigryph"]/statBases/ArmorRating_Sharp</xpath>
       <value>
-        <ArmorRating_Sharp>0.10</ArmorRating_Sharp>
+        <ArmorRating_Sharp>3</ArmorRating_Sharp>
       </value>
     </match>
     <nomatch Class="PatchOperationAdd">
       <xpath>Defs/ThingDef[defName="pphhyy_PantherDemigryph"]/statBases</xpath>
       <value>
-        <ArmorRating_Sharp>0.10</ArmorRating_Sharp>
+        <ArmorRating_Sharp>3</ArmorRating_Sharp>
       </value>
     </nomatch>
   </Operation>
@@ -2047,13 +2047,13 @@
     <match Class="PatchOperationReplace">
       <xpath>Defs/ThingDef[defName="pphhyy_PantherDemigryph"]/statBases/ArmorRating_Blunt</xpath>
       <value>
-        <ArmorRating_Blunt>0.15</ArmorRating_Blunt>
+        <ArmorRating_Blunt>4.5</ArmorRating_Blunt>
       </value>
     </match>
     <nomatch Class="PatchOperationAdd">
       <xpath>Defs/ThingDef[defName="pphhyy_PantherDemigryph"]/statBases</xpath>
       <value>
-        <ArmorRating_Blunt>0.15</ArmorRating_Blunt>
+        <ArmorRating_Blunt>4.5</ArmorRating_Blunt>
       </value>
     </nomatch>
   </Operation>
@@ -2062,13 +2062,13 @@
     <match Class="PatchOperationReplace">
       <xpath>Defs/ThingDef[defName="pphhyy_PantherDemigryph"]/statBases/ArmorRating_Heat</xpath>
       <value>
-        <ArmorRating_Heat>0</ArmorRating_Heat>
+        <ArmorRating_Heat>0.30</ArmorRating_Heat>
       </value>
     </match>
     <nomatch Class="PatchOperationAdd">
       <xpath>Defs/ThingDef[defName="pphhyy_PantherDemigryph"]/statBases</xpath>
       <value>
-        <ArmorRating_Heat>0</ArmorRating_Heat>
+        <ArmorRating_Heat>0.30</ArmorRating_Heat>
       </value>
     </nomatch>
   </Operation>
@@ -2077,13 +2077,13 @@
     <match Class="PatchOperationReplace">
       <xpath>Defs/ThingDef[defName="pphhyy_TigerDemigryph"]/statBases/ArmorRating_Sharp</xpath>
       <value>
-        <ArmorRating_Sharp>0.15</ArmorRating_Sharp>
+        <ArmorRating_Sharp>4</ArmorRating_Sharp>
       </value>
     </match>
     <nomatch Class="PatchOperationAdd">
       <xpath>Defs/ThingDef[defName="pphhyy_TigerDemigryph"]/statBases</xpath>
       <value>
-        <ArmorRating_Sharp>0.15</ArmorRating_Sharp>
+        <ArmorRating_Sharp>4</ArmorRating_Sharp>
       </value>
     </nomatch>
   </Operation>
@@ -2092,13 +2092,13 @@
     <match Class="PatchOperationReplace">
       <xpath>Defs/ThingDef[defName="pphhyy_TigerDemigryph"]/statBases/ArmorRating_Blunt</xpath>
       <value>
-        <ArmorRating_Blunt>0.225</ArmorRating_Blunt>
+        <ArmorRating_Blunt>6</ArmorRating_Blunt>
       </value>
     </match>
     <nomatch Class="PatchOperationAdd">
       <xpath>Defs/ThingDef[defName="pphhyy_TigerDemigryph"]/statBases</xpath>
       <value>
-        <ArmorRating_Blunt>0.225</ArmorRating_Blunt>
+        <ArmorRating_Blunt>6</ArmorRating_Blunt>
       </value>
     </nomatch>
   </Operation>
@@ -2107,13 +2107,13 @@
     <match Class="PatchOperationReplace">
       <xpath>Defs/ThingDef[defName="pphhyy_TigerDemigryph"]/statBases/ArmorRating_Heat</xpath>
       <value>
-        <ArmorRating_Heat>0</ArmorRating_Heat>
+        <ArmorRating_Heat>0.35</ArmorRating_Heat>
       </value>
     </match>
     <nomatch Class="PatchOperationAdd">
       <xpath>Defs/ThingDef[defName="pphhyy_TigerDemigryph"]/statBases</xpath>
       <value>
-        <ArmorRating_Heat>0</ArmorRating_Heat>
+        <ArmorRating_Heat>0.35</ArmorRating_Heat>
       </value>
     </nomatch>
   </Operation>
@@ -2122,13 +2122,13 @@
     <match Class="PatchOperationReplace">
       <xpath>Defs/ThingDef[defName="pphhyy_Daermigryph"]/statBases/ArmorRating_Sharp</xpath>
       <value>
-        <ArmorRating_Sharp>0.20</ArmorRating_Sharp>
+        <ArmorRating_Sharp>4.5</ArmorRating_Sharp>
       </value>
     </match>
     <nomatch Class="PatchOperationAdd">
       <xpath>Defs/ThingDef[defName="pphhyy_Daermigryph"]/statBases</xpath>
       <value>
-        <ArmorRating_Sharp>0.20</ArmorRating_Sharp>
+        <ArmorRating_Sharp>4.5</ArmorRating_Sharp>
       </value>
     </nomatch>
   </Operation>
@@ -2137,13 +2137,13 @@
     <match Class="PatchOperationReplace">
       <xpath>Defs/ThingDef[defName="pphhyy_Daermigryph"]/statBases/ArmorRating_Blunt</xpath>
       <value>
-        <ArmorRating_Blunt>0.30</ArmorRating_Blunt>
+        <ArmorRating_Blunt>6.75</ArmorRating_Blunt>
       </value>
     </match>
     <nomatch Class="PatchOperationAdd">
       <xpath>Defs/ThingDef[defName="pphhyy_Daermigryph"]/statBases</xpath>
       <value>
-        <ArmorRating_Blunt>0.30</ArmorRating_Blunt>
+        <ArmorRating_Blunt>6.75</ArmorRating_Blunt>
       </value>
     </nomatch>
   </Operation>
@@ -2152,13 +2152,13 @@
     <match Class="PatchOperationReplace">
       <xpath>Defs/ThingDef[defName="pphhyy_Daermigryph"]/statBases/ArmorRating_Heat</xpath>
       <value>
-        <ArmorRating_Heat>0</ArmorRating_Heat>
+        <ArmorRating_Heat>0.40</ArmorRating_Heat>
       </value>
     </match>
     <nomatch Class="PatchOperationAdd">
       <xpath>Defs/ThingDef[defName="pphhyy_Daermigryph"]/statBases</xpath>
       <value>
-        <ArmorRating_Heat>0</ArmorRating_Heat>
+        <ArmorRating_Heat>0.40</ArmorRating_Heat>
       </value>
     </nomatch>
   </Operation>
@@ -2167,13 +2167,13 @@
     <match Class="PatchOperationReplace">
       <xpath>Defs/ThingDef[defName="pphhyy_JadeDemigryph"]/statBases/ArmorRating_Sharp</xpath>
       <value>
-        <ArmorRating_Sharp>0.15</ArmorRating_Sharp>
+        <ArmorRating_Sharp>3.5</ArmorRating_Sharp>
       </value>
     </match>
     <nomatch Class="PatchOperationAdd">
       <xpath>Defs/ThingDef[defName="pphhyy_JadeDemigryph"]/statBases</xpath>
       <value>
-        <ArmorRating_Sharp>0.15</ArmorRating_Sharp>
+        <ArmorRating_Sharp>3.5</ArmorRating_Sharp>
       </value>
     </nomatch>
   </Operation>
@@ -2182,13 +2182,13 @@
     <match Class="PatchOperationReplace">
       <xpath>Defs/ThingDef[defName="pphhyy_JadeDemigryph"]/statBases/ArmorRating_Blunt</xpath>
       <value>
-        <ArmorRating_Blunt>0.225</ArmorRating_Blunt>
+        <ArmorRating_Blunt>5.25</ArmorRating_Blunt>
       </value>
     </match>
     <nomatch Class="PatchOperationAdd">
       <xpath>Defs/ThingDef[defName="pphhyy_JadeDemigryph"]/statBases</xpath>
       <value>
-        <ArmorRating_Blunt>0.225</ArmorRating_Blunt>
+        <ArmorRating_Blunt>5.25</ArmorRating_Blunt>
       </value>
     </nomatch>
   </Operation>
@@ -2197,13 +2197,13 @@
     <match Class="PatchOperationReplace">
       <xpath>Defs/ThingDef[defName="pphhyy_JadeDemigryph"]/statBases/ArmorRating_Heat</xpath>
       <value>
-        <ArmorRating_Heat>0</ArmorRating_Heat>
+        <ArmorRating_Heat>0.35</ArmorRating_Heat>
       </value>
     </match>
     <nomatch Class="PatchOperationAdd">
       <xpath>Defs/ThingDef[defName="pphhyy_JadeDemigryph"]/statBases</xpath>
       <value>
-        <ArmorRating_Heat>0</ArmorRating_Heat>
+        <ArmorRating_Heat>0.35</ArmorRating_Heat>
       </value>
     </nomatch>
   </Operation>
