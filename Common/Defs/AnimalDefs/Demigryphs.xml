@@ -129,6 +129,9 @@
     <devNote>cow-1</devNote>
     <description>A powerful and noble creature the Demigryph was rumored to be made by empire nobles with too much money and time on their hands. Eagle and Lion mixed into a rimworlds deadliest predator, Empire and medieval noble seek them as mounts or trophies while the tribals worship or live in fear of them. This breed of Demigryph lives in prides, hunting as a pack and are the most numerous of the demi breeds.</description>
     <statBases>
+      <ArmorRating_Sharp>0.30</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.20</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.15</ArmorRating_Heat>
       <MoveSpeed>5.8</MoveSpeed>
       <MarketValue>1300</MarketValue>
       <ComfyTemperatureMin>-15</ComfyTemperatureMin>
@@ -151,6 +154,9 @@
       <predator>true</predator>
       <petness>0.6</petness>
       <trainability>Advanced</trainability>
+      <specialTrainables>
+        <li MayRequire="Ludeon.RimWorld.Odyssey">AttackTarget</li>
+      </specialTrainables>
       <manhunterOnTameFailChance>0.8</manhunterOnTameFailChance>
       <manhunterOnDamageChance>1</manhunterOnDamageChance>
       <meatLabel>Demigryph meat</meatLabel>
@@ -366,6 +372,9 @@
     <devNote>cow-1</devNote>
     <description>A powerful and noble creature the Demigryph was rumored to be made by empire nobles with too much money and time on their hands. Eagle and Lion mixed into a rimworlds deadliest predator, Empire and medieval noble seek them as mounts or trophies while the tribals worship or live in fear of them. This breed of Demigryph lives in prides, hunting as a pack and are the most numerous of the demi breeds. Crimson Demigryphs are the most territorial and blood thirsty of the demi breeds, hitting harder and requiring more food.</description>
     <statBases>
+      <ArmorRating_Sharp>0.35</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.22</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.15</ArmorRating_Heat>
       <MoveSpeed>6</MoveSpeed>
       <MarketValue>1500</MarketValue>
       <ComfyTemperatureMin>-20</ComfyTemperatureMin>
@@ -388,6 +397,9 @@
       
       <predator>true</predator>
       <trainability>Advanced</trainability>
+      <specialTrainables>
+        <li MayRequire="Ludeon.RimWorld.Odyssey">AttackTarget</li>
+      </specialTrainables>
       <manhunterOnTameFailChance>1</manhunterOnTameFailChance>
       <manhunterOnDamageChance>1</manhunterOnDamageChance>
       <useMeatFrom>pphhyy_Demigryph</useMeatFrom>
@@ -602,6 +614,9 @@
     <devNote>cow-1</devNote>
     <description>A powerful and noble creature the Demigryph was rumored to be made by empire nobles with too much money and time on their hands. Eagle and Cheetah mixed into a rimworlds deadliest predator, Empire and medieval noble seek them as mounts or trophies while the tribals worship or live in fear of them. This breed of Demigryph lives in solitude, hunting with speed and surprise to take down prey. Slightly smaller and weaker but no less dangerous then normal Demigryphs thanks to their greater speed.</description>
     <statBases>
+      <ArmorRating_Sharp>0.20</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.12</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.10</ArmorRating_Heat>
       <MoveSpeed>6.8</MoveSpeed>
       <MarketValue>1300</MarketValue>
       <ComfyTemperatureMin>-5</ComfyTemperatureMin>
@@ -624,6 +639,9 @@
       <predator>true</predator>
       <petness>0.6</petness>
       <trainability>Advanced</trainability>
+      <specialTrainables>
+        <li MayRequire="Ludeon.RimWorld.Odyssey">AttackTarget</li>
+      </specialTrainables>
       <manhunterOnTameFailChance>0.7</manhunterOnTameFailChance>
       <manhunterOnDamageChance>1</manhunterOnDamageChance>
       <useMeatFrom>pphhyy_Demigryph</useMeatFrom>
@@ -837,6 +855,9 @@
     <devNote>cow-1</devNote>
     <description>A powerful and noble creature the Demigryph was rumored to be made by empire nobles with too much money and time on their hands. Eagle and Cheetah mixed into a rimworlds deadliest predator, Empire and medieval noble seek them as mounts or trophies while the tribals worship or live in fear of them. This breed of Demigryph lives in solitude, relies mostly on scavenging in the harsh deserts it call home. Slightly smaller and weaker but no less dangerous then normal Demigryphs thanks to their greater speed.</description>
     <statBases>
+      <ArmorRating_Sharp>0.25</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.16</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.10</ArmorRating_Heat>
       <MoveSpeed>7</MoveSpeed>
       <MarketValue>1500</MarketValue>
       <ComfyTemperatureMin>-5</ComfyTemperatureMin>
@@ -859,6 +880,9 @@
       <predator>true</predator>
       <petness>0.6</petness>
       <trainability>Advanced</trainability>
+      <specialTrainables>
+        <li MayRequire="Ludeon.RimWorld.Odyssey">AttackTarget</li>
+      </specialTrainables>
       <manhunterOnTameFailChance>0.8</manhunterOnTameFailChance>
       <manhunterOnDamageChance>1</manhunterOnDamageChance>
       <useMeatFrom>pphhyy_Demigryph</useMeatFrom>
@@ -1073,6 +1097,9 @@
     <devNote>cow-1</devNote>
     <description>A powerful and noble creature the Demigryph was rumored to be made by empire nobles with too much money and time on their hands. Eagle and Leopard mixed into a rimworlds deadliest predator, Empire and medieval noble seek them as mounts or trophies while the tribals worship or live in fear of them. This breed of Demigryph lives in solitude, thriving in cold enviroments.</description>
     <statBases>
+      <ArmorRating_Sharp>0.30</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.20</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.15</ArmorRating_Heat>
       <MoveSpeed>5.8</MoveSpeed>
       <MarketValue>1300</MarketValue>
       <ComfyTemperatureMin>-50</ComfyTemperatureMin>
@@ -1095,6 +1122,9 @@
       <predator>true</predator>
       <petness>0.6</petness>
       <trainability>Advanced</trainability>
+      <specialTrainables>
+        <li MayRequire="Ludeon.RimWorld.Odyssey">AttackTarget</li>
+      </specialTrainables>
       <manhunterOnTameFailChance>0.8</manhunterOnTameFailChance>
       <manhunterOnDamageChance>1</manhunterOnDamageChance>
       <useMeatFrom>pphhyy_Demigryph</useMeatFrom>
@@ -1310,6 +1340,9 @@
     <devNote>cow-1</devNote>
     <description>A powerful and noble creature the Demigryph was rumored to be made by empire nobles with too much money and time on their hands. Eagle and Panther mixed into a rimworlds deadliest predator, Empire and medieval noble seek them as mounts or trophies while the tribals worship or live in fear of them. This breed of Demigryph lives in solitude, thriving in Wet enviroments.</description>
     <statBases>
+      <ArmorRating_Sharp>0.30</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.20</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.15</ArmorRating_Heat>
       <MoveSpeed>5.8</MoveSpeed>
       <MarketValue>1300</MarketValue>
       <ComfyTemperatureMin>-15</ComfyTemperatureMin>
@@ -1332,6 +1365,9 @@
       <predator>true</predator>
       <petness>0.6</petness>
       <trainability>Advanced</trainability>
+      <specialTrainables>
+        <li MayRequire="Ludeon.RimWorld.Odyssey">AttackTarget</li>
+      </specialTrainables>
       <manhunterOnTameFailChance>0.8</manhunterOnTameFailChance>
       <manhunterOnDamageChance>1</manhunterOnDamageChance>
       <useMeatFrom>pphhyy_Demigryph</useMeatFrom>
@@ -1548,6 +1584,9 @@
     <devNote>cow-1</devNote>
     <description>A powerful and noble creature the Demigryph was rumored to be made by empire nobles with too much money and time on their hands. Eagle and Tiger mixed into a rimworlds deadliest predator, Empire and medieval noble seek them as mounts or trophies while the tribals worship or live in fear of them. This breed of Demigryph lives in solitude, thriving in Warm enviroments. Larger then the other Demigryphs with a a greater claw length, it often only needs to use its size to hold down most prey before devouring them</description>
     <statBases>
+      <ArmorRating_Sharp>0.40</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.26</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.15</ArmorRating_Heat>
       <MoveSpeed>5.6</MoveSpeed>
       <MarketValue>1300</MarketValue>
       <ComfyTemperatureMin>-5</ComfyTemperatureMin>
@@ -1570,6 +1609,9 @@
       <predator>true</predator>
       <petness>0.6</petness>
       <trainability>Advanced</trainability>
+      <specialTrainables>
+        <li MayRequire="Ludeon.RimWorld.Odyssey">AttackTarget</li>
+      </specialTrainables>
       <manhunterOnTameFailChance>0.8</manhunterOnTameFailChance>
       <manhunterOnDamageChance>1</manhunterOnDamageChance>
       <useMeatFrom>pphhyy_Demigryph</useMeatFrom>
@@ -1785,6 +1827,9 @@
     <devNote>cow-1</devNote>
     <description>A powerful and noble creature the Demigryph was rumored to be made by empire nobles with too much money and time on their hands. Eagle and Tiger mixed into a rimworlds deadliest predator, Empire and medieval noble seek them as mounts or trophies while the tribals worship or live in fear of them. This breed of Demigryph lives in solitude, thriving in Warm enviroments. Larger then the other Demigryphs with a a greater claw length, it often only needs to use its size to hold down most prey before devouring them. Daermigryph have horns thanks to a mad man that put horns on every animal he could, tribals think it makes the animal sacred.</description>
     <statBases>
+      <ArmorRating_Sharp>0.45</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.30</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.20</ArmorRating_Heat>
       <MoveSpeed>5.6</MoveSpeed>
       <MarketValue>1500</MarketValue>
       <ComfyTemperatureMin>-5</ComfyTemperatureMin>
@@ -1807,6 +1852,9 @@
       <predator>true</predator>
       <petness>0.6</petness>
       <trainability>Advanced</trainability>
+      <specialTrainables>
+        <li MayRequire="Ludeon.RimWorld.Odyssey">AttackTarget</li>
+      </specialTrainables>
       <manhunterOnTameFailChance>0.9</manhunterOnTameFailChance>
       <manhunterOnDamageChance>1</manhunterOnDamageChance>
       <useMeatFrom>pphhyy_Demigryph</useMeatFrom>
@@ -2023,6 +2071,9 @@
     <devNote>cow-1</devNote>
     <description>A powerful and noble creature the Demigryph was rumored to be made by empire nobles with too much money and time on their hands. Eagle and Panther mixed into a rimworlds deadliest predator, Empire and medieval noble seek them as mounts or trophies while the tribals worship or live in fear of them. This breed of Demigryph lives in solitude, thriving in Wet enviroments.</description>
     <statBases>
+      <ArmorRating_Sharp>0.35</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.24</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.20</ArmorRating_Heat>
       <MoveSpeed>5.8</MoveSpeed>
       <MarketValue>1300</MarketValue>
       <ComfyTemperatureMin>-15</ComfyTemperatureMin>
@@ -2045,6 +2096,9 @@
       <predator>true</predator>
       <petness>0.6</petness>
       <trainability>Advanced</trainability>
+      <specialTrainables>
+        <li MayRequire="Ludeon.RimWorld.Odyssey">AttackTarget</li>
+      </specialTrainables>
       <manhunterOnTameFailChance>0.9</manhunterOnTameFailChance>
       <manhunterOnDamageChance>1</manhunterOnDamageChance>
       <useMeatFrom>pphhyy_Demigryph</useMeatFrom>
