@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- All nine breeds share this body. Preserve unrelated race extension fields. -->
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[race/body="pphhyy_QuadrupedAnimal_Demigryph"][not(modExtensions)]</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[race/body="pphhyy_QuadrupedAnimal_Demigryph"][not(modExtensions)]</xpath>
+      <value><modExtensions /></value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[race/body="pphhyy_QuadrupedAnimal_Demigryph"]/modExtensions[not(li[@Class="CombatExtended.RacePropertiesExtensionCE"])]</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[race/body="pphhyy_QuadrupedAnimal_Demigryph"]/modExtensions[not(li[@Class="CombatExtended.RacePropertiesExtensionCE"])]</xpath>
+      <value><li Class="CombatExtended.RacePropertiesExtensionCE" /></value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[race/body="pphhyy_QuadrupedAnimal_Demigryph"]/modExtensions/li[@Class="CombatExtended.RacePropertiesExtensionCE"][not(bodyShape)]</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[race/body="pphhyy_QuadrupedAnimal_Demigryph"]/modExtensions/li[@Class="CombatExtended.RacePropertiesExtensionCE"][not(bodyShape)]</xpath>
+      <value><bodyShape>Quadruped</bodyShape></value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[race/body="pphhyy_QuadrupedAnimal_Demigryph"]/modExtensions/li[@Class="CombatExtended.RacePropertiesExtensionCE"]/bodyShape</xpath>
+    <value><bodyShape>Quadruped</bodyShape></value>
+  </Operation>
+</Patch>
